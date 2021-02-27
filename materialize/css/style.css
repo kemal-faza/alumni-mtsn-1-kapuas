@@ -27,3 +27,9 @@
 .card-title {
 	text-shadow: 2px 2px 3px black;
 }
+
+@media ( max-width: 600px ) {
+	.fa-home {
+		padding-top: 10px;
+	}
+}
