@@ -32,4 +32,9 @@
 	.fa-home {
 		padding-top: 10px;
 	}
-};
+}
+
+.modal-close {
+	margin-right: 20px !important;
+	margin-top: -5px !important;
+}
