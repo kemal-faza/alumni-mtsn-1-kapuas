@@ -14,82 +14,6 @@
 	<title>Daftar Staff</title>
 </head>
 <body>
-	<!-- Navbar -->
-	<div class="navbar-fixed">
-		<!-- Dropdown Navbar -->
-		<ul id="dropdown1" class="dropdown-content">
-		  <li><a href="siswa/kelas91.html">kelas 9-1</a></li>
-		  <li><a href="siswa/kelas92.html">kelas 9-2</a></li>
-		  <li><a href="siswa/kelas93.html">kelas 9-3</a></li>
-		  <li><a href="siswa/kelas94.html">kelas 9-4</a></li>
-		  <li><a href="siswa/kelas95.html">kelas 9-5</a></li>
-		  <li><a href="siswa/kelas96.html">kelas 9-6</a></li>
-		  <li><a href="siswa/kelas97.html">kelas 9-7</a></li>
-		  <li><a href="siswa/kelas98.html">kelas 9-8</a></li>
-		</ul>
-		<!-- Dropdown Sidebar -->
-		<ul id="dropdown2" class="dropdown-content">
-		  <li><a href="siswa/kelas91.html">kelas 9-1</a></li>
-		  <li><a href="siswa/kelas92.html">kelas 9-2</a></li>
-		  <li><a href="siswa/kelas93.html">kelas 9-3</a></li>
-		  <li><a href="siswa/kelas94.html">kelas 9-4</a></li>
-		  <li><a href="siswa/kelas95.html">kelas 9-5</a></li>
-		  <li><a href="siswa/kelas96.html">kelas 9-6</a></li>
-		  <li><a href="siswa/kelas97.html">kelas 9-7</a></li>
-		  <li><a href="siswa/kelas98.html">kelas 9-8</a></li>
-		</ul>
-		<!-- Akhir Dropdown -->
-		<nav class="teal">
-			<div class="container">
-				<div class="nav-wrapper">
-					<a href="./" class="brand-logo">
-						<i class="fa fa-home" style="font-size: 35px;" title="Home"></i>
-					</a>
-					<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						<li><a href="guru.html">Guru</a></li>
-						<li><a href="staff.html">Staff</a></li>
-						<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</div>
-	<!-- Akhir Navbar -->
-
-	<!-- Sidebar -->
-	<ul class="sidenav" id="mobile-nav">
-		<li><a href="guru.html">Guru</a></li>
-		<li><a href="staff.html">Staff</a></li>
-		<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>
-	</ul>
-	<!-- Akhir Sidebar -->
-
-	<!-- Daftar Guru -->
-	<div class="container">
-		<h3 class="center-align">Daftar Staff</h3>
-		<div class="divider"></div>
-		<div class="row">
-			
-		</div>
-	</div>
-
-	<!-- Modal -->
-	<div id="modal1" class="modal">
-		<div class="modal-content">
-		  <h4>Detail Siswa</h4>
-		  <ul class="collection">
-			<li class="collection-item"></li>
-			<li class="collection-item"></li>
-			<li class="collection-item"></li>
-			<li class="collection-item"></li>
-		  </ul>
-		  <p></p>
-		</div>
-		<div class="modal-footer">
-		  <button class="modal-close btn waves-effect waves-light">Tutup</button>
-		</div>
-	</div>
 	
 <!-- Compiled and minified JavaScript -->
 <script src="materialize/js/materialize.min.js"></script>
@@ -97,6 +21,7 @@
 <script src="materialize/js/jquery-3.6.0.min.js"></script>
 <script src="materialize/js/template.js"></script>
 <script>
+	displayBody("staff");
 	displayCardSiswa("staff");
 </script>
 <script src="materialize/js/script.js"></script>

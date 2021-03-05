@@ -4,7 +4,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "Awan Winanto",
                 posisi: "Guru Matematika",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "Jln. Tambun Bungai",
                 noTelp: "123456789012",
                 pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
@@ -14,7 +14,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 posisi: "",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -24,7 +24,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "Ahmad Fadlianur",
                 kelas: "9-1",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "Jln. Tandean",
                 noTelp: "085212345678",
                 pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
@@ -32,7 +32,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "Muhamad Kemal Faza",
                 kelas: "9-1",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "Jln. Kapuas",
                 noTelp: "089693048519",
                 pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
@@ -42,7 +42,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "Muhammad Isra",
                 kelas: "9-2",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "Jln. Tambun Bungai",
                 noTelp: "089628174832",
                 pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
@@ -52,7 +52,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 kelas: "9-3",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "img1.jpg",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -62,7 +62,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 kelas: "9-4",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -72,7 +72,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 kelas: "9-5",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -82,7 +82,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 kelas: "9-6",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -92,7 +92,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 kelas: "9-7",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -102,7 +102,7 @@ function displayCardSiswa(kelas) {
             {
                 nama: "",
                 kelas: "9-8",
-                img: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                img: "",
                 alamat: "",
                 noTelp: "",
                 pesanKesan: ""
@@ -149,8 +149,14 @@ function displayCardSiswa(kelas) {
         <div class="col m6 l4 light">
             <div class="card">
                 <div class="card-image">
-                <img src="${daftarSiswa[i].img}" class="materialboxed">
-                <span class="card-title">${daftarSiswa[i].nama}</span>
+                <img src="`
+        if ( kelas == "guru" || kelas == "staff" ) {
+            html += `img/${kelas}/${daftarSiswa[i].img}`;
+        } else {
+            html += `../img/siswa/${kelas}/${daftarSiswa[i].img}`;
+        }
+        html += `" class="materialboxed">
+                <span class="card-title"><b>${daftarSiswa[i].nama}</b></span>
                 </div>
                 <div class="card-content">
                     <button data-target="modal1" class="btn modal-trigger waves-effect waves-light" style="margin-left: 30%;">Detail</button>
@@ -164,7 +170,6 @@ function displayCardSiswa(kelas) {
             const pesan = document.querySelector('.modal-content p');
             pesan.textContent = "";
             $(pesan).html(`<b>\`\`${daftarSiswa[i].pesanKesan}\`\`</b>`);
-            console.log(daftarSiswa[i]);
             list[0].textContent = "";
             list[1].textContent = "";
             list[2].textContent = "";
@@ -179,4 +184,187 @@ function displayCardSiswa(kelas) {
             $(list[3]).html(`<b>No Telp : </b>${daftarSiswa[i].noTelp}`);
         });
     }
+};
+
+function displayCardKegiatan() {
+    const kegiatan = [
+        {
+            judul: "Upacara Hari Kemerdekaan Indonesia",
+            img: ["1.jpg", "2.jpg", "3.jpg"]
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            img: ["1.jpg", "2.jpg", "3.jpg"]
+        }
+    ];
+    for ( let i = 0; i < kegiatan.length; i++ ) {
+        let html = `
+            <h3 class="left-align">${kegiatan[i].judul}</h3>
+            <div class="divider"></div>
+            <div class="row">`;
+        for ( let j = 0; j < kegiatan[i].img.length; j++ ) {
+            html += `
+                <div class="col m6 l4 light">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].img[j]}" class="materialboxed">
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        html += `
+            </div>
+        `;
+        $(".kontainer").append(html);
+    };
+};
+
+function displayBody(kelas) {
+    let html = `
+        <!-- Navbar -->
+	<div class="navbar-fixed">
+		<!-- Dropdown Navbar -->
+		<ul id="dropdown1" class="dropdown-content">
+        `;
+    for ( let i = 1; i < 9; i++ ) {
+        if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
+            html += `<li><a href="siswa/kelas9${i}.html">kelas 9-${i}</a></li>
+            `;
+        } else {
+            html += `<li><a href="kelas9${i}.html">kelas 9-${i}</a></li>
+            `;
+        }
+    };
+	html += `</ul>
+		<!-- Dropdown Sidebar -->
+		<ul id="dropdown2" class="dropdown-content">
+        `
+    for ( let i = 1; i < 9; i++ ) {
+        if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
+            html += `<li><a href="siswa/kelas9${i}.html">kelas 9-${i}</a></li>
+            `;
+        } else {
+            html += `<li><a href="kelas9${i}.html">kelas 9-${i}</a></li>
+            `;
+        }
+    };
+	html += `</ul>
+		<!-- Akhir Dropdown -->
+		<nav class="teal">
+			<div class="container">
+				<div class="nav-wrapper">
+                `;
+	if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
+        html += `<a href="./" class="brand-logo">`;
+    } else {
+        html += `<a href="../" class="brand-logo">`;
+    }
+    html += `<i class="fa fa-home" style="font-size: 35px;" title="Home"></i></a>
+    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">`
+	if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
+        html += `
+        <li><a href="kegiatan.html">Kegiatan</a></li>
+		<li><a href="guru.html">Guru</a></li>
+		<li><a href="staff.html">Staff</a></li>
+		<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+    } else {
+        html += `
+        <li><a href="../kegiatan.html">Kegiatan</a></li>
+		<li><a href="../guru.html">Guru</a></li>
+		<li><a href="../staff.html">Staff</a></li>
+		<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+    }
+    html += `</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- Akhir Navbar -->
+
+    <!-- Sidebar -->
+	<ul class="sidenav" id="mobile-nav">`;
+	if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
+        html += `
+        <li><a href="kegiatan.html">Kegiatan</a></li>
+		<li><a href="guru.html">Guru</a></li>
+		<li><a href="staff.html">Staff</a></li>
+		<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+    } else {
+        html += `
+        <li><a href="../kegiatan.html">Kegiatan</a></li>
+		<li><a href="../guru.html">Guru</a></li>
+		<li><a href="../staff.html">Staff</a></li>
+		<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+    };
+	html += `</ul>
+	<!-- Akhir Sidebar -->
+
+	<!-- Daftar Guru -->`
+    if ( kelas != "kegiatan" ) {
+        switch (kelas) {
+            case "guru":
+                html += `
+                <div class="container">
+                    <h3 class="center-align">Daftar Guru</h3>
+                    <div class="divider"></div>
+                    <div class="row">
+                        
+                    </div>
+                </div>`;
+                break;
+            case "staff":
+                html += `
+                <div class="container">
+                    <h3 class="center-align">Daftar Staff</h3>
+                    <div class="divider"></div>
+                    <div class="row">
+                        
+                    </div>
+                </div>`;
+                break;
+            default:
+                html += `
+                <div class="container">
+                    <h3 class="center-align">Daftar Siswa Kelas ${kelas}</h3>
+                    <div class="divider"></div>
+                    <div class="row">
+                        
+                    </div>
+                </div>`;
+                break;
+        }
+        html += `<!-- Modal -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+            <h4>Detail `
+        if ( kelas == "guru" ) {
+            html += `Guru`;
+        } else if ( kelas == "staff" ) {
+            html += `Staff`;
+        } else {
+            html += `Siswa`;
+        }
+        html += `</h4>
+            <ul class="collection">
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+            </ul>
+            <p></p>
+            </div>
+            <div class="modal-footer">
+            <button class="modal-close btn waves-effect waves-light">Tutup</button>
+            </div>
+        </div>
+        `;
+    } else {
+        html += `
+        <div class="container kontainer">
+		
+	    </div>`;
+    }
+    $('body').append(html);
 }
