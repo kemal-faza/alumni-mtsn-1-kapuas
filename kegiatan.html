@@ -10,6 +10,37 @@
     <link rel="stylesheet" href="materialize/css/materialize.min.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="materialize/css/style.css">
+    <!-- My Style -->
+    <style>
+        .modal-close {
+            margin-right: 10px !important;
+            margin-top: 5px !important;
+        }
+        @media only screen and (min-width: 600px) {
+            .img-modal {
+                width: 40%;
+                float: left;
+            }
+
+            .text-modal::before {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .text-modal {
+                width: 55%;
+                float: right;
+                margin-top: -6px;
+            }
+
+            .text-modal::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+        }
+    </style>
     <title>Halaman Kegiatan</title>
 </head>
 <body>

@@ -190,33 +190,39 @@ function displayCardKegiatan() {
     const kegiatan = [
         {
             judul: "Upacara Hari Kemerdekaan Indonesia",
-            img: ["1.jpg", "2.jpg", "3.jpg"]
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
         },
         {
             judul: "Lomba 17 Agustus",
-            img: ["1.jpg", "2.jpg", "3.jpg"]
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
         }
     ];
     for ( let i = 0; i < kegiatan.length; i++ ) {
         let html = `
-            <h3 class="left-align">${kegiatan[i].judul}</h3>
-            <div class="divider"></div>
-            <div class="row">`;
-        for ( let j = 0; j < kegiatan[i].img.length; j++ ) {
-            html += `
-                <div class="col m6 l4 light">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].img[j]}" class="materialboxed">
-                        </div>
+            <div class="col m6 l4 light">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].imgThumbnail}" class="materialboxed">
+                        <span class="card-title">${kegiatan[i].judul}</span>
+                    </div>
+                    <div class="card-content">
+                        <button data-target="modal1" class="btn modal-trigger wafes-effect waves-light" style="margin-left: 30%;">Detail</button>
                     </div>
                 </div>
-            `;
-        }
-        html += `
             </div>
         `;
-        $(".kontainer").append(html);
+        $(".container .row").append(html);
+        const modalBtn = document.querySelectorAll('.modal-trigger');
+        modalBtn[i].addEventListener('click', function() {
+            const imgModal = document.querySelector('.img-modal');
+            imgModal.src = `img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].imgModal}`;
+            const text = document.querySelector('.text-modal');
+            text.textContent = kegiatan[i].text;
+        });
     };
 };
 
@@ -265,18 +271,13 @@ function displayBody(kelas) {
     <ul class="right hide-on-med-and-down">`
 	if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
         html += `
-        <li><a href="kegiatan.html">Kegiatan</a></li>
-		<li><a href="guru.html">Guru</a></li>
-		<li><a href="staff.html">Staff</a></li>
-		<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+        <li><a href="kegiatan.html">Kegiatan</a></li>`;
     } else {
         html += `
-        <li><a href="../kegiatan.html">Kegiatan</a></li>
-		<li><a href="../guru.html">Guru</a></li>
-		<li><a href="../staff.html">Staff</a></li>
-		<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+        <li><a href="../kegiatan.html">Kegiatan</a></li>`;
     }
-    html += `</ul>
+    html += `<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
 				</div>
 			</div>
 		</nav>
@@ -287,21 +288,16 @@ function displayBody(kelas) {
 	<ul class="sidenav" id="mobile-nav">`;
 	if ( kelas == "guru" || kelas == "staff" || kelas == "kegiatan" ) {
         html += `
-        <li><a href="kegiatan.html">Kegiatan</a></li>
-		<li><a href="guru.html">Guru</a></li>
-		<li><a href="staff.html">Staff</a></li>
-		<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+        <li><a href="kegiatan.html">Kegiatan</a></li>`;
     } else {
         html += `
-        <li><a href="../kegiatan.html">Kegiatan</a></li>
-		<li><a href="../guru.html">Guru</a></li>
-		<li><a href="../staff.html">Staff</a></li>
-		<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>`;
+        <li><a href="../kegiatan.html">Kegiatan</a></li>`;
     };
-	html += `</ul>
+	html += `<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Siswa<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
 	<!-- Akhir Sidebar -->
 
-	<!-- Daftar Guru -->`
+	<!-- Daftar -->`
     if ( kelas != "kegiatan" ) {
         switch (kelas) {
             case "guru":
@@ -347,24 +343,39 @@ function displayBody(kelas) {
             html += `Siswa`;
         }
         html += `</h4>
-            <ul class="collection">
-                <li class="collection-item"></li>
-                <li class="collection-item"></li>
-                <li class="collection-item"></li>
-                <li class="collection-item"></li>
-            </ul>
-            <p></p>
+                <ul class="collection">
+                    <li class="collection-item"></li>
+                    <li class="collection-item"></li>
+                    <li class="collection-item"></li>
+                    <li class="collection-item"></li>
+                </ul>
+                <p></p>
             </div>
             <div class="modal-footer">
-            <button class="modal-close btn waves-effect waves-light">Tutup</button>
+                <button class="modal-close btn waves-effect waves-light">Tutup</button>
             </div>
         </div>
         `;
     } else {
         html += `
-        <div class="container kontainer">
-		
-	    </div>`;
+        <div class="container">
+            <h3 class="center-align">Daftar Kegiatan</h3>
+            <div class="divider"></div>
+            <div class="row">
+                
+            </div>
+        </div>
+        
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Detail Kegiatan</h4>
+                <img src="" width="50%" class="img-modal">
+                <p class="text-modal"></p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-close btn waves-effect waves-light">Tutup</button>
+            </div>
+        </div>`;
     }
     $('body').append(html);
 }

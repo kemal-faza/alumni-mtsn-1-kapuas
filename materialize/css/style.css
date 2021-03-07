@@ -7,8 +7,10 @@
 	padding-top: 3px;
 }
 
-.slider h3, .slider h5, .clients h3 {
-	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+.slider h3,
+.slider h5,
+.clients h3 {
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .about img {
@@ -28,13 +30,21 @@
 	text-shadow: 2px 2px 3px black;
 }
 
-@media only screen and ( max-width: 600px ) {
+@media only screen and (max-width: 600px) {
 	.fa-home {
 		padding-top: 10px;
 	}
 }
 
+.img-modal {
+	width: 100%;
+}
+
 .modal-close {
 	margin-right: 20px !important;
 	margin-top: -5px !important;
+}
+
+.text-modal {
+	text-align: justify;
 }
