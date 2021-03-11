@@ -10,6 +10,7 @@ M.Slider.init(slider, {
 	duration: 1000,
 	interval: 3000
 });
+
 // Inisialisasi dropdown
 const dropdown = document.querySelectorAll('.dropdown-trigger');
 M.Dropdown.init(dropdown, {
@@ -17,9 +18,11 @@ M.Dropdown.init(dropdown, {
 	coverTrigger: false,
 	hover: false
 });
+
 // Inisialisai materialbox
 const materialbox = document.querySelectorAll('.materialboxed');
 M.Materialbox.init(materialbox);
+
 // Inisialisasi modal
 const modal = document.querySelectorAll('.modal');
 M.Modal.init(modal);

@@ -1,4 +1,8 @@
-function displayCardSiswa(kelas) {
+
+// Fungsi untuk membuat kartu siswa atau guru atau staff
+function displayCardSiswa(kelas, dari, sampai) {
+
+    // Daftar guru, staff, dan siswa berbentuk object yang berisi array yang didalamnya ada object
     let daftarSiswa = {
         guru: [
             {
@@ -110,7 +114,7 @@ function displayCardSiswa(kelas) {
         ]
     }
 
-    // Membuat card
+    // Memeriksa kelas yang ada diparamter dan menyesuaikan daftar dengan kelas
     switch (kelas) {
         case "9-1":
             daftarSiswa = daftarSiswa.kelas91;
@@ -143,13 +147,16 @@ function displayCardSiswa(kelas) {
         default:
             daftarSiswa = daftarSiswa.guru;
             break;
-    }
-    for ( let i = 0; i < daftarSiswa.length; i++ ) {
+    };
+
+    // Membuat html card menggunakan for loop
+    for ( let i = dari; i < sampai; i++ ) {
         let html = `
         <div class="col m6 l4 light">
             <div class="card">
                 <div class="card-image">
                 <img src="`
+        // Mengambil gambar sekaligus menentukan jalur filenya
         if ( kelas == "guru" || kelas == "staff" ) {
             html += `img/${kelas}/${daftarSiswa[i].img}`;
         } else {
@@ -163,7 +170,11 @@ function displayCardSiswa(kelas) {
                 </div>
             </div>
         </div>`;
+
+        // Menambahkan html ke dalam div yang class-nya row
         $('.container .row').append(html);
+
+        // Memanipulasi isi didalam modal 
         const modalBtn = document.querySelectorAll('.modal-trigger');
         const list = Array.from(document.querySelectorAll('li.collection-item'));
         modalBtn[i].addEventListener('click', function() {
@@ -183,10 +194,39 @@ function displayCardSiswa(kelas) {
             $(list[2]).html(`<b>Alamat : </b>${daftarSiswa[i].alamat}`);
             $(list[3]).html(`<b>No Telp : </b>${daftarSiswa[i].noTelp}`);
         });
+    };
+
+    // Membuat Pagination
+    const jumlahDataPerHalaman = 10;
+    const jumlahData = daftarSiswa.length;
+    
+    // Menghitung jumlah halaman yang diperlukan sesuai dengan jumlah data yang ada
+    const jumlahHalaman = Math.ceil(jumlahData / jumlahDataPerHalaman);
+
+    // Membuat html yang ke-2 untuk pagination
+     html2 = `
+    <div class="container center">
+            <ul class="pagination">
+                <li class="waves-effect prev"><a href=""><i class="material-icons">chevron_left</i></a></li>`;
+
+    // Menambahkan navigasi sesuai dengan halaman yang dibutuhkan
+    for ( let i = 0; i < jumlahHalaman; i++ ) {
+        let j = i;
+        html2 += `  <li class="waves-effect number"><a href="">${++j}</a></li>`;
     }
+    html2 += `<li class="waves-effect next"><a href=""><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+    `;
+
+    // Menambahkan html yang ke-2 ke dalam body
+    $('body').append(html2);
 };
 
-function displayCardKegiatan() {
+// Fungsi untuk membuat kartu dari halaman kegiatan.html
+function displayCardKegiatan(dari, sampai) {
+
+    // Daftar kegiatan yang berbentuk array yang berisi object
     const kegiatan = [
         {
             judul: "Upacara Hari Kemerdekaan Indonesia",
@@ -199,11 +239,67 @@ function displayCardKegiatan() {
             imgThumbnail: "1.jpg",
             imgModal: "2.jpg",
             text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
+        },
+        {
+            judul: "Lomba 17 Agustus",
+            imgThumbnail: "1.jpg",
+            imgModal: "2.jpg",
+            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, molestiae ut quidem magni debitis officia est non labore et quam sunt excepturi assumenda dolores porro molestias qui at voluptate reiciendis."
         }
     ];
-    for ( let i = 0; i < kegiatan.length; i++ ) {
+
+    // Membuat html card-nya menggunakan for loop
+    for ( let i = dari; i < sampai; i++ ) {
         let html = `
-            <div class="col m6 l4 light">
+            <div class="col m6 l4 light kartu">
                 <div class="card">
                     <div class="card-image">
                         <img src="img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].imgThumbnail}" class="materialboxed">
@@ -215,8 +311,14 @@ function displayCardKegiatan() {
                 </div>
             </div>
         `;
+
+        // Menambahkan html ke dalam div yang class-nya row
         $(".container .row").append(html);
-        const modalBtn = document.querySelectorAll('.modal-trigger');
+    };
+
+    // Mengubah / memanipulasi isi di dalam modal
+    const modalBtn = document.querySelectorAll('.modal-trigger');
+    for ( let i = 0; i < modalBtn.length; i++ ) {
         modalBtn[i].addEventListener('click', function() {
             const imgModal = document.querySelector('.img-modal');
             imgModal.src = `img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].imgModal}`;
@@ -224,9 +326,38 @@ function displayCardKegiatan() {
             text.textContent = kegiatan[i].text;
         });
     };
+
+    // Membuat Pagination
+    const jumlahDataPerHalaman = 10;
+    const jumlahData = kegiatan.length;
+
+    // Menghitung jumlah halaman yang diperlukan sesuai dengan jumlah data yang ada
+    const jumlahHalaman = Math.ceil(jumlahData / jumlahDataPerHalaman);
+
+    // Membuat html yang ke-2 untuk pagination
+    html2 = `
+    <div class="container center">
+            <ul class="pagination">
+                <li class="waves-effect prev"><a href=""><i class="material-icons">chevron_left</i></a></li>`;
+
+    // Menambahkan navigasi sesuai jumlah halaman yang diperlukan
+    for ( let i = 0; i < jumlahHalaman; i++ ) {
+        let j = i;
+        html2 += `  <li class="waves-effect number"><a href="">${++j}</a></li>`;
+    }
+    html2 += `<li class="waves-effect next"><a href=""><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+    `;
+
+    // Menambahkan html yang ke-2 ke dalam body
+    $('body').append(html2);
 };
 
+// Fungsi untuk menambahkan kerangka html di body
 function displayBody(kelas) {
+
+    // Membuat kerangka html yang dasar untuk semua halaman
     let html = `
         <!-- Navbar -->
 	<div class="navbar-fixed">
@@ -376,6 +507,140 @@ function displayBody(kelas) {
                 <button class="modal-close btn waves-effect waves-light">Tutup</button>
             </div>
         </div>`;
-    }
+    };
+
+    // Menambahkan html ke dalam body
     $('body').append(html);
+};
+
+// Fungsi untuk menghapus semua card yang tampil
+function hapusPage() {
+    const page = Array.from(document.querySelectorAll('.number'));
+    for ( let i = 0; i < page.length; i++ ) {
+
+        // Menghilangkan clas active pada navigasi
+        page[i].classList.remove('active');
+    };
+    const card = document.querySelectorAll('.kartu');
+    card.forEach(function(e) {
+
+        // Menghilangkan elemen card
+        e.remove();
+    });
+    const pagination = document.querySelectorAll('.container.center');
+    pagination.forEach(function(e) {
+
+        // Menghilangkan elemen pagination
+        e.remove();
+    })
+}
+
+// Fungsi untuk menampilkan card agar sesuai dengan jumlah data per halamannya
+function tampilPage(kelas, indexHalaman) {
+
+    // Memeriksa apakah kelas yang ada di parameter itu kegiatan atau bukan
+    if ( kelas != "kegiatan" ) {
+
+        // Jika bukan maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card siswa atau staff atau guru
+        switch ( indexHalaman ) {
+            case 0:
+                displayCardSiswa(kelas, 0, 1);
+                break;
+            case 1:
+                displayCardSiswa(kelas, 10, 20);
+                break;
+                case 2:
+                displayCardSiswa(kelas, 20, 30);
+                break;
+            case 3:
+                displayCardSiswa(kelas, 30, 40);
+                break;
+                
+            default:
+                displayCardSiswa(kelas, 40, 50);
+                break;
+        }
+    } else {
+
+        // Jika iya maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card kegiatan
+        switch ( indexHalaman ) {
+            case 0:
+                displayCardKegiatan(0, 10);
+                break;
+            case 1:
+                displayCardKegiatan(10, 11);
+                break;
+
+            default:
+                displayCardKegiatan(20, 30);
+                break;
+        }
+    };
+
+    // Menghilangkan dan memunculkan tombol next dan prev jika halaman berada di index tertentu
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    const navList = Array.from(document.querySelectorAll('.number'));
+    if ( indexHalaman == 0 && indexHalaman != navList.length-1 ) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'inline-block';
+    } else if ( indexHalaman == navList.length-1 && indexHalaman != 0 ) {
+        prevBtn.style.display = 'inline-block';
+        nextBtn.style.display = 'none';
+    } else if ( indexHalaman != 0 && indexHalaman != navList.length-1 ) {
+        prevBtn.style.display = 'inline-block';
+        nextBtn.style.display = 'inline-block';
+    } else {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+    };
+
+    // Menambahkan class pada navigasi dan memberitahu ada di halaman yang mana sekarang 
+    navList[indexHalaman].classList.add('active');
+};
+
+// Fungsi untuk menampilkan halaman secara lengkap berdasarkan kelas
+function tampilHalamanLengkap(kelas) {
+
+    // Membuat variabel index sebagai acuan pada halaman
+    let indexHalaman = 0;
+
+    // Menampilkan body untuk yang pertama
+	displayBody(kelas);
+
+    // Menampilkan card urutan pertama saat halaman di load
+    tampilPage(kelas, indexHalaman);
+
+    // Menghentikan link agar tidak terload
+    const linkPage = Array.from(document.querySelectorAll('.pagination li.waves-effect a'));
+    for ( let i = 0; i < linkPage.length; i++ ) {
+        linkPage[i].addEventListener('click', function(e) {
+            e.preventDefault();
+        });
+    };
+
+    // Menambahkan event saat tombol prev atau next atau navigasi ditekan
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+    const navList = Array.from(document.querySelectorAll('.number'));
+    if ( indexHalaman != 0 ) {
+        prev.addEventListener('click', function() {
+            hapusPage();
+            indexHalaman--;
+            tampilPage(kelas, indexHalaman);
+        });
+    } else if ( indexHalaman != navList.length-1 ) {
+        next.addEventListener('click', function() {
+            hapusPage();
+            indexHalaman++;
+            tampilPage(kelas, indexHalaman);
+        })
+    }
+    for ( let i = 0; i < navList.length; i++ ) {
+        navList[i].addEventListener('click', function() {
+            hapusPage();
+            indexHalaman = navList[i].textContent - 1;
+            tampilPage(kelas, indexHalaman);
+        })
+    }
 }
