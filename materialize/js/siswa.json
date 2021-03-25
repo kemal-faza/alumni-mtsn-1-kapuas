@@ -1,0 +1,166 @@
+{
+    "daftarSiswa": {
+        "guru": [
+            {
+                "nama": "Awan Winanto",
+                "posisi": "Guru Matematika",
+                "img": "",
+                "alamat": "Jln. Tambun Bungai",
+                "noTelp": "123456789012",
+                "pesanKesan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
+            }
+        ],
+        "staff": [
+            {
+                "nama": "",
+                "posisi": "",
+                "img": "",
+                "alamat": "",
+                "noTelp": "",
+                "pesanKesan": ""
+            }
+        ],
+        "kelas91": [
+            {
+                "nama": "Muhamad Kemal Faza",
+                "kelas": "9-1",
+                "ttl": "Kuala Kapuas, 26 Mei 2006",
+                "img": "kemal.jpg",
+                "alamat": "Jl. Kapuas No.09 RT.03 RW.01",
+                "noTelp": "085248258322",
+                "pesanKesan": "Saya memperoleh banyak ilmu dan pengalaman disini. Dan saya berterimakasih kepada guru-guru yang telah memberikan ilmunya tanpa rasa lelah. Semoga para guru dan semua warga sekolah diberi kesehatan selalu."
+            }
+        ],
+        "kelas92": [
+            {
+                "nama": "Destia Ayu Lestari",
+                "kelas": "9-2",
+                "ttl": "13 Desember 2006",
+                "img": "destia.jpg",
+                "alamat": "Jl.perkutut",
+                "noTelp": "083140287637",
+                "pesanKesan": "\"tuntut lah ilmu sampai ke negeri cina tapi karna lagi Corona di cancel dulu aja\" 2021,btw skrg Corona punya anak"
+            },
+            {
+                "nama": "Nazwa Afivah",
+                "kelas": "9-2",
+                "ttl": "Kuala Kapuas, 26-juni-2007",
+                "img": "nazwa.jpg",
+                "alamat": "Jln. Aghatis No. 42A",
+                "noTelp": "081350495042",
+                "pesanKesan": "Hidup itu banyak cobaan klo banyak saweran itu dangdutan"
+            },
+            {
+                "nama": "Miftahurroziqin",
+                "kelas": "9-2",
+                "ttl": "Kuala Kapuas,01 Januari 2007",
+                "img": "roziq.jpg",
+                "alamat": "Jln. Patih Rumbih no.15",
+                "noTelp": "081521934427",
+                "pesanKesan": "Merasa senang dan bangga selama menjadi siswa MTsN 1 Kapuas"
+            },
+            {
+                "nama": "Nor Jannah",
+                "kelas": "9-2",
+                "ttl": "Kuala Kapuas 11 Juni 2006",
+                "img": "jannah.jpg",
+                "alamat": "Jln cilik kriwut",
+                "noTelp": "089691488704",
+                "pesanKesan": "Baik"
+            }
+        ],
+        "kelas93": [
+            {
+                "nama": "",
+                "kelas": "9-3",
+                "ttl": "",
+                "img": "img1.jpg",
+                "alamat": "",
+                "noTelp": "",
+                "pesanKesan": ""
+            }
+        ],
+        "kelas94": [
+            {
+                "nama": "",
+                "kelas": "9-4",
+                "ttl": "",
+                "img": "",
+                "alamat": "",
+                "noTelp": "",
+                "pesanKesan": ""
+            }
+        ],
+        "kelas95": [
+            {
+                "nama": "Ahmad Faisal Ramadhan",
+                "kelas": "9-5",
+                "ttl": "Kapuas, 04 Oktober 2006",
+                "img": "faisal.jpg",
+                "alamat": "Jalan Barito Gang12A No.17",
+                "noTelp": "081375117283",
+                "pesanKesan": "mantap"
+            }
+        ],
+        "kelas96": [
+            {
+                "nama": "Ahmad Hairil",
+                "kelas": "9-6",
+                "ttl": "19 Juli 2007",
+                "img": "hairil.jpg",
+                "alamat": "Jl. Soegiman",
+                "noTelp": "089691016833",
+                "pesanKesan": "Saya sangat bangga menjadı anak MTsN 1 Kapuas"
+            },
+            {
+                "nama": "Rendra Rafa Nugroho",
+                "kelas": "9-6",
+                "ttl": "Kuala Kapuas, 22 November 2006",
+                "img": "rafa.jpg",
+                "alamat": "Jln A.Yani no.87",
+                "noTelp": "089691387169",
+                "pesanKesan": "Menghebat dan menggokil😎👍👍"
+            },
+            {
+                "nama": "Ikhsan Teguh Mustajibul Khoir",
+                "kelas": "9-6",
+                "ttl": "8 JUNI 2006",
+                "img": "ikhsan.jpg",
+                "alamat": "jln Kalimantan gang 07 no 81",
+                "noTelp": "0895421920050",
+                "pesanKesan": "Kesannya susah dijelaskan, yang penting semoga saya lulus, mantap lah pokoknya 💪😎🤙"
+            }
+        ],
+        "kelas97": [
+            {
+                "nama": "Alaika Nida",
+                "kelas": "9-7",
+                "ttl": "Kuala Kapuas 4 Mei 2007",
+                "img": "alaika.png",
+                "alamat": "Jl.barito Gg binawarta",
+                "noTelp": "089691201619",
+                "pesanKesan": "saya pengen conqu, life is not daijobu :("
+            },
+            {
+                "nama": "Aulia Hidayah",
+                "kelas": "9-7",
+                "ttl": "Kuala Kapuas, 13-06-2006",
+                "img": "aulia.jpg",
+                "alamat": "Jl. Cilik Riwut GG. Vb No.28 Rt 016 kecamatan selat",
+                "noTelp": "087830913176",
+                "pesanKesan": "Kesan saya sangat bahagia bisa bersekolah di MTsN 1 Kapuas. Semua Bapak dan Ibu gurunya ramah dan penuh dengan kesabaran walaupun terkadang banyak murid yang mengeluh karena pembelajaran secara daring. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang begitu banyak, saya juga akan ingat selalu pesan dari guru. Kini masa pembelajaran kami di tingkat MTS sudah hampir berakhir dan menuju ke tingkat yang lebih tinggi. Semoga MTsN 1 Kapuas bisa terus berkembang, semakin maju dan semakin banyak murid yang berprestasi dan membanggakan."
+            }
+        ],
+        "kelas98": [
+            {
+                "nama": "",
+                "kelas": "9-8",
+                "ttl": "",
+                "img": "",
+                "alamat": "",
+                "noTelp": "",
+                "pesanKesan": ""
+            }
+        ]
+    }
+}

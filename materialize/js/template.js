@@ -1,118 +1,9 @@
 
 // Fungsi untuk membuat kartu siswa atau guru atau staff
-function displayCardSiswa(kelas, dari, sampai) {
+function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
 
     // Daftar guru, staff, dan siswa berbentuk object yang berisi array yang didalamnya ada object
-    let daftarSiswa = {
-        guru: [
-            {
-                nama: "Awan Winanto",
-                posisi: "Guru Matematika",
-                img: "",
-                alamat: "Jln. Tambun Bungai",
-                noTelp: "123456789012",
-                pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
-            }
-        ],
-        staff: [
-            {
-                nama: "",
-                posisi: "",
-                img: "",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ],
-        kelas91: [
-            {
-                nama: "Ahmad Fadlianur",
-                kelas: "9-1",
-                img: "",
-                alamat: "Jln. Tandean",
-                noTelp: "085212345678",
-                pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
-            },
-            {
-                nama: "Muhamad Kemal Faza",
-                kelas: "9-1",
-                img: "",
-                alamat: "Jln. Kapuas",
-                noTelp: "089693048519",
-                pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
-            }
-        ],
-        kelas92: [
-            {
-                nama: "Muhammad Isra",
-                kelas: "9-2",
-                img: "",
-                alamat: "Jln. Tambun Bungai",
-                noTelp: "089628174832",
-                pesanKesan: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
-            }
-        ],
-        kelas93: [
-            {
-                nama: "",
-                kelas: "9-3",
-                img: "img1.jpg",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ],
-        kelas94: [
-            {
-                nama: "",
-                kelas: "9-4",
-                img: "",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ],
-        kelas95: [
-            {
-                nama: "",
-                kelas: "9-5",
-                img: "",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ],
-        kelas96: [
-            {
-                nama: "",
-                kelas: "9-6",
-                img: "",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ],
-        kelas97: [
-            {
-                nama: "",
-                kelas: "9-7",
-                img: "",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ],
-        kelas98: [
-            {
-                nama: "",
-                kelas: "9-8",
-                img: "",
-                alamat: "",
-                noTelp: "",
-                pesanKesan: ""
-            }
-        ]
-    }
+    
 
     // Memeriksa kelas yang ada diparamter dan menyesuaikan daftar dengan kelas
     switch (kelas) {
@@ -152,7 +43,7 @@ function displayCardSiswa(kelas, dari, sampai) {
     // Membuat html card menggunakan for loop
     for ( let i = dari; i < sampai; i++ ) {
         let html = `
-        <div class="col m6 l4 light">
+        <div class="col m4 l3 light">
             <div class="card">
                 <div class="card-image">
                 <img src="`
@@ -180,19 +71,21 @@ function displayCardSiswa(kelas, dari, sampai) {
         modalBtn[i].addEventListener('click', function() {
             const pesan = document.querySelector('.modal-content p');
             pesan.textContent = "";
-            $(pesan).html(`<b>\`\`${daftarSiswa[i].pesanKesan}\`\`</b>`);
+            $(pesan).html(`Pesan Kesan : <br><b>\`\`${daftarSiswa[i].pesanKesan}\`\`</b>`);
             list[0].textContent = "";
             list[1].textContent = "";
             list[2].textContent = "";
             list[3].textContent = "";
+            list[4].textContent = "";
             $(list[0]).html(`<b>Nama : </b>${daftarSiswa[i].nama}`);
             if (kelas == "guru" || kelas == "staff") {
                 $(list[1]).html(`<b>Posisi : </b>${daftarSiswa[i].posisi}`);
             } else {
                 $(list[1]).html(`<b>Kelas : </b>${daftarSiswa[i].kelas}`);
             }
-            $(list[2]).html(`<b>Alamat : </b>${daftarSiswa[i].alamat}`);
-            $(list[3]).html(`<b>No Telp : </b>${daftarSiswa[i].noTelp}`);
+            $(list[2]).html(`<b>TTL : </b>${daftarSiswa[i].ttl}`);
+            $(list[3]).html(`<b>Alamat : </b>${daftarSiswa[i].alamat}`);
+            $(list[4]).html(`<b>No Telp : </b>${daftarSiswa[i].noTelp}`);
         });
     };
 
@@ -314,18 +207,19 @@ function displayCardKegiatan(dari, sampai) {
 
         // Menambahkan html ke dalam div yang class-nya row
         $(".container .row").append(html);
+
+        // Mengubah / memanipulasi isi di dalam modal
+        const modalBtn = document.querySelectorAll('.modal-trigger');
+        for ( let i = 0; i < modalBtn.length; i++ ) {
+            modalBtn[i].addEventListener('click', function() {
+                const imgModal = document.querySelector('.img-modal');
+                imgModal.src = `img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].imgModal}`;
+                const text = document.querySelector('.text-modal');
+                text.textContent = kegiatan[i].text;
+            });
+        };
     };
 
-    // Mengubah / memanipulasi isi di dalam modal
-    const modalBtn = document.querySelectorAll('.modal-trigger');
-    for ( let i = 0; i < modalBtn.length; i++ ) {
-        modalBtn[i].addEventListener('click', function() {
-            const imgModal = document.querySelector('.img-modal');
-            imgModal.src = `img/kegiatan/${kegiatan[i].judul}/${kegiatan[i].imgModal}`;
-            const text = document.querySelector('.text-modal');
-            text.textContent = kegiatan[i].text;
-        });
-    };
 
     // Membuat Pagination
     const jumlahDataPerHalaman = 10;
@@ -479,6 +373,7 @@ function displayBody(kelas) {
                     <li class="collection-item"></li>
                     <li class="collection-item"></li>
                     <li class="collection-item"></li>
+                    <li class="collection-item"></li>
                 </ul>
                 <p></p>
             </div>
@@ -518,7 +413,7 @@ function hapusPage() {
     const page = Array.from(document.querySelectorAll('.number'));
     for ( let i = 0; i < page.length; i++ ) {
 
-        // Menghilangkan clas active pada navigasi
+        // Menghilangkan class active pada navigasi
         page[i].classList.remove('active');
     };
     const card = document.querySelectorAll('.kartu');
@@ -533,48 +428,15 @@ function hapusPage() {
         // Menghilangkan elemen pagination
         e.remove();
     })
-}
+};
 
-// Fungsi untuk menampilkan card agar sesuai dengan jumlah data per halamannya
-function tampilPage(kelas, indexHalaman) {
-
-    // Memeriksa apakah kelas yang ada di parameter itu kegiatan atau bukan
-    if ( kelas != "kegiatan" ) {
-
-        // Jika bukan maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card siswa atau staff atau guru
-        switch ( indexHalaman ) {
-            case 0:
-                displayCardSiswa(kelas, 0, 1);
-                break;
-            case 1:
-                displayCardSiswa(kelas, 10, 20);
-                break;
-                case 2:
-                displayCardSiswa(kelas, 20, 30);
-                break;
-            case 3:
-                displayCardSiswa(kelas, 30, 40);
-                break;
-                
-            default:
-                displayCardSiswa(kelas, 40, 50);
-                break;
-        }
-    } else {
-
-        // Jika iya maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card kegiatan
-        switch ( indexHalaman ) {
-            case 0:
-                displayCardKegiatan(0, 10);
-                break;
-            case 1:
-                displayCardKegiatan(10, 11);
-                break;
-
-            default:
-                displayCardKegiatan(20, 30);
-                break;
-        }
+function navigasi(indexHalaman) {
+    // Menghentikan link agar tidak terload
+    const linkPage = Array.from(document.querySelectorAll('.pagination li.waves-effect a'));
+    for ( let i = 0; i < linkPage.length; i++ ) {
+        linkPage[i].addEventListener('click', function(e) {
+            e.preventDefault();
+        });
     };
 
     // Menghilangkan dan memunculkan tombol next dan prev jika halaman berada di index tertentu
@@ -597,32 +459,8 @@ function tampilPage(kelas, indexHalaman) {
 
     // Menambahkan class pada navigasi dan memberitahu ada di halaman yang mana sekarang 
     navList[indexHalaman].classList.add('active');
-};
-
-// Fungsi untuk menampilkan halaman secara lengkap berdasarkan kelas
-function tampilHalamanLengkap(kelas) {
-
-    // Membuat variabel index sebagai acuan pada halaman
-    let indexHalaman = 0;
-
-    // Menampilkan body untuk yang pertama
-	displayBody(kelas);
-
-    // Menampilkan card urutan pertama saat halaman di load
-    tampilPage(kelas, indexHalaman);
-
-    // Menghentikan link agar tidak terload
-    const linkPage = Array.from(document.querySelectorAll('.pagination li.waves-effect a'));
-    for ( let i = 0; i < linkPage.length; i++ ) {
-        linkPage[i].addEventListener('click', function(e) {
-            e.preventDefault();
-        });
-    };
 
     // Menambahkan event saat tombol prev atau next atau navigasi ditekan
-    const prev = document.querySelector('.prev');
-    const next = document.querySelector('.next');
-    const navList = Array.from(document.querySelectorAll('.number'));
     if ( indexHalaman != 0 ) {
         prev.addEventListener('click', function() {
             hapusPage();
@@ -642,5 +480,74 @@ function tampilHalamanLengkap(kelas) {
             indexHalaman = navList[i].textContent - 1;
             tampilPage(kelas, indexHalaman);
         })
-    }
+    };
+
+    // Inisialisai materialbox
+	const materialbox = document.querySelectorAll('.materialboxed');
+	M.Materialbox.init(materialbox);
+}
+
+// Fungsi untuk menampilkan card agar sesuai dengan jumlah data per halamannya
+function tampilPage(kelas, indexHalaman) {
+
+    // Memeriksa apakah kelas yang ada di parameter itu kegiatan atau bukan
+    if ( kelas != "kegiatan" ) {
+
+        $.getJSON("../materialize/js/siswa.json", function(data) {
+            let daftarSiswa = data.daftarSiswa;
+
+            // Jika bukan maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card siswa atau staff atau guru
+            switch ( indexHalaman ) {
+                case 0:
+                    displayCardSiswa(kelas, daftarSiswa, 0, 1);
+                    navigasi(indexHalaman);
+                    break;
+                case 1:
+                    displayCardSiswa(kelas, daftarSiswa, 10, 20);
+                    navigasi(indexHalaman);
+                    break;
+                case 2:
+                    displayCardSiswa(kelas, daftarSiswa, 20, 30);
+                    navigasi(indexHalaman);
+                    break;
+                case 3:
+                    displayCardSiswa(kelas, daftarSiswa, 30, 40);
+                    navigasi(indexHalaman);
+                    break;
+                    
+                default:
+                    displayCardSiswa(kelas, daftarSiswa, 40, 50);
+                    navigasi(indexHalaman);
+                    break;
+            }
+        });
+    } else {
+
+        // Jika iya maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card kegiatan
+        switch ( indexHalaman ) {
+            case 0:
+                displayCardKegiatan(0, 10);
+                break;
+            case 1:
+                displayCardKegiatan(10, 11);
+                break;
+
+            default:
+                displayCardKegiatan(20, 30);
+                break;
+        }
+    };
+};
+
+// Fungsi untuk menampilkan halaman secara lengkap berdasarkan kelas
+function tampilHalamanLengkap(kelas) {
+
+    // Membuat variabel index sebagai acuan pada halaman
+    let indexHalaman = 0;
+
+    // Menampilkan body untuk yang pertama
+	displayBody(kelas);
+
+    // Menampilkan card urutan pertama saat halaman di load
+    tampilPage(kelas, indexHalaman);
 }
