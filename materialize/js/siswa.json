@@ -22,6 +22,33 @@
         ],
         "kelas91": [
             {
+                "nama": "Azka Nayla Rahmah",
+                "kelas": "9-1",
+                "ttl": "KUALA KAPUAS,17-JUNI-2006",
+                "img": "azka.jpg",
+                "alamat": "Jl.Mahakam",
+                "noTelp": "0895704804172",
+                "pesanKesan": "Saya senang bersekolah disini"
+            },
+            {
+                "nama": "Muhammad Ansyari",
+                "kelas": "9-1",
+                "ttl": "20 Oktober 2005",
+                "img": "ansyari.jpg",
+                "alamat": "Jl.kasturi.rt.6 kodepos:73551",
+                "noTelp": "085251252681",
+                "pesanKesan": "Bagus karena saya mendapat banyak kebaikan dan saya juga bisa mengharumkan nama baik MTSN 1 KAPUAS di Palangkaraya"
+            },
+            {
+                "nama": "Muhamad Farur Reza",
+                "kelas": "9-1",
+                "ttl": "Kuala Kapuas 9 April 2006",
+                "img": "reza.jpg",
+                "alamat": "Jl.cilik riwut gg.2 / Jl.Bpp No.109",
+                "noTelp": "085822995957",
+                "pesanKesan": "Cara Mengajar Guru-Guru yang Baik Dan Sopan Terhadap Murid."
+            },
+            {
                 "nama": "Muhamad Kemal Faza",
                 "kelas": "9-1",
                 "ttl": "Kuala Kapuas, 26 Mei 2006",
@@ -32,6 +59,15 @@
             }
         ],
         "kelas92": [
+            {
+                "nama": "Tri Afka",
+                "kelas": "9-2",
+                "ttl": "19-oktober-2006",
+                "img": "afka.jpg",
+                "alamat": "Jln cilik riwut gang 5 citra permai",
+                "noTelp": "0895700165773",
+                "pesanKesan": "Saya sangat senang sekolah di mtsn 1 kuala kapuas"
+            },
             {
                 "nama": "Destia Ayu Lestari",
                 "kelas": "9-2",
@@ -132,6 +168,33 @@
             }
         ],
         "kelas97": [
+            {
+                "nama": "Khairunisa",
+                "kelas": "9-7",
+                "ttl": "Kapuas,26,februari,2006",
+                "img": "khairunisa.jpeg",
+                "alamat": "Jln.durian pulau telo baru rt02 no002",
+                "noTelp": "085349934271",
+                "pesanKesan": "Di MTsN saya dapat belajar banyak hal"
+            },
+            {
+                "nama": "Khairunisa",
+                "kelas": "9-7",
+                "ttl": "Kapuas,26,februari,2006",
+                "img": "khairunisa.jpeg",
+                "alamat": "Jln.durian pulau telo baru rt02 no002",
+                "noTelp": "085349934271",
+                "pesanKesan": "Di MTsN saya dapat belajar banyak hal"
+            },
+            {
+                "nama": "Suci Aqillah",
+                "kelas": "9-7",
+                "ttl": "Kuala Kapuas, 04 Mei 2006",
+                "img": "suci.jpg",
+                "alamat": "Jl. Pemuda Gg.02 No. 08",
+                "noTelp": "081347520892",
+                "pesanKesan": "Mengagumimu gaperlu sampe to the Bone, tapi niat belajar harus sampai to the bone"
+            },
             {
                 "nama": "Alaika Nida",
                 "kelas": "9-7",

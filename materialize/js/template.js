@@ -40,31 +40,55 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
             break;
     };
 
-    // Membuat html card menggunakan for loop
-    for ( let i = dari; i < sampai; i++ ) {
-        let html = `
-        <div class="col m4 l3 light">
-            <div class="card">
-                <div class="card-image">
-                <img src="`
-        // Mengambil gambar sekaligus menentukan jalur filenya
-        if ( kelas == "guru" || kelas == "staff" ) {
-            html += `img/${kelas}/${daftarSiswa[i].img}`;
-        } else {
-            html += `../img/siswa/${kelas}/${daftarSiswa[i].img}`;
-        }
-        html += `" class="materialboxed">
-                <span class="card-title"><b>${daftarSiswa[i].nama}</b></span>
-                </div>
-                <div class="card-content">
-                    <button data-target="modal1" class="btn modal-trigger waves-effect waves-light" style="margin-left: 30%;">Detail</button>
-                </div>
-            </div>
-        </div>`;
+    let jumlahDataPagination = sampai;
+    let jumlahBaris = null;
+    let jumlahDataPerBaris = null;
+    if ( window.innerWidth < 992 ) {
+        jumlahDataPerBaris = 3
+        jumlahBaris = Math.ceil(jumlahDataPagination / jumlahDataPerBaris);
+    } else if ( window.innerWidth > 992 ) {
+        jumlahDataPerBaris = 4
+        jumlahBaris = Math.ceil(jumlahDataPagination / jumlahDataPerBaris);
+    }
 
+    let i = dari;
+    for ( let j = 0; j < jumlahBaris; j++  ) {
+        let html = `<div class="row">`;
+        while (  i < jumlahDataPerBaris ) {
+            if ( i == sampai ) {
+                break;
+            }
+            html += `
+            <div class="col m4 l3 light">
+                <div class="card">
+                    <div class="card-image">
+                    <img src="`
+            // Mengambil gambar sekaligus menentukan jalur filenya
+            // console.log(daftarSiswa[i]);
+            if ( kelas == "guru" || kelas == "staff" ) {
+                html += `img/${kelas}/${daftarSiswa[i].img}`;
+            } else {
+                html += `../img/siswa/${kelas}/${daftarSiswa[i].img}`;
+            }
+            html += `" class="materialboxed">
+                    <span class="card-title"><b>${daftarSiswa[i].nama}</b></span>
+                    </div>
+                    <div class="card-content">
+                        <button data-target="modal1" class="btn modal-trigger waves-effect waves-light" style="margin-left: 30%;">Detail</button>
+                    </div>
+                </div>
+            </div>`;
+            i++;
+        };
+        jumlahDataPerBaris *= 2;
+        html += `</div>`;
+        
         // Menambahkan html ke dalam div yang class-nya row
-        $('.container .row').append(html);
+        $('.kontainer').append(html);
+    }
+    
 
+    for ( let i = dari; i < sampai; ++i ) {
         // Memanipulasi isi didalam modal 
         const modalBtn = document.querySelectorAll('.modal-trigger');
         const list = Array.from(document.querySelectorAll('li.collection-item'));
@@ -88,6 +112,8 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
             $(list[4]).html(`<b>No Telp : </b>${daftarSiswa[i].noTelp}`);
         });
     };
+
+    // Membuat html card menggunakan for loop
 
     // Membuat Pagination
     const jumlahDataPerHalaman = 10;
@@ -347,12 +373,9 @@ function displayBody(kelas) {
                 break;
             default:
                 html += `
-                <div class="container">
+                <div class="container kontainer">
                     <h3 class="center-align">Daftar Siswa Kelas ${kelas}</h3>
                     <div class="divider"></div>
-                    <div class="row">
-                        
-                    </div>
                 </div>`;
                 break;
         }
@@ -485,6 +508,43 @@ function navigasi(indexHalaman) {
     // Inisialisai materialbox
 	const materialbox = document.querySelectorAll('.materialboxed');
 	M.Materialbox.init(materialbox);
+};
+
+function menghitungJumlahData(kelas, daftarSiswa) {
+    switch (kelas) {
+        case "9-1":
+            daftarSiswa = daftarSiswa.kelas91;
+            break;
+        case "9-2":
+            daftarSiswa = daftarSiswa.kelas92;
+            break;
+        case "9-3":
+            daftarSiswa = daftarSiswa.kelas93;
+            break;
+        case "9-4":
+            daftarSiswa = daftarSiswa.kelas94;
+            break;
+        case "9-5":
+            daftarSiswa = daftarSiswa.kelas95;
+            break;
+        case "9-6":
+            daftarSiswa = daftarSiswa.kelas96;
+            break;
+        case "9-7":
+            daftarSiswa = daftarSiswa.kelas97;
+            break;
+        case "9-8":
+            daftarSiswa = daftarSiswa.kelas98;
+            break;
+        case "staff":
+            daftarSiswa = daftarSiswa.staff;
+            break;
+    
+        default:
+            daftarSiswa = daftarSiswa.guru;
+            break;
+    };
+    return daftarSiswa.length;
 }
 
 // Fungsi untuk menampilkan card agar sesuai dengan jumlah data per halamannya
@@ -496,27 +556,62 @@ function tampilPage(kelas, indexHalaman) {
         $.getJSON("../materialize/js/siswa.json", function(data) {
             let daftarSiswa = data.daftarSiswa;
 
+            let sampai = menghitungJumlahData(kelas, daftarSiswa);
+
+            let sampaiDengan = null;
+
+            switch ( sampai ) {
+                case sampai < 10:
+                    sampaiDengan = sampai;
+                    break;
+                case sampai == 10:
+                    sampaiDengan = 10;
+                    break;
+                case sampai > 10 && sampai < 20:
+                    sampaiDengan = sampai;
+                    break;
+                case sampai == 20:
+                    sampaiDengan = 20;
+                    break;
+                case sampai > 20 && sampai < 30:
+                    sampaiDengan = sampai;
+                    break;
+                case sampai == 30:
+                    sampaiDengan = 30;
+                    break;
+                case sampai > 30 && sampai < 40:
+                    sampaiDengan = sampai;
+                    break;
+                case sampai == 40:
+                    sampaiDengan = 40;
+                    break;
+            
+                default:
+                    sampaiDengan = sampai;
+                    break;
+            }
+
             // Jika bukan maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card siswa atau staff atau guru
             switch ( indexHalaman ) {
                 case 0:
-                    displayCardSiswa(kelas, daftarSiswa, 0, 1);
+                    displayCardSiswa(kelas, daftarSiswa, 0, sampaiDengan);
                     navigasi(indexHalaman);
                     break;
                 case 1:
-                    displayCardSiswa(kelas, daftarSiswa, 10, 20);
+                    displayCardSiswa(kelas, daftarSiswa, 10, sampaiDengan);
                     navigasi(indexHalaman);
                     break;
                 case 2:
-                    displayCardSiswa(kelas, daftarSiswa, 20, 30);
+                    displayCardSiswa(kelas, daftarSiswa, 20, sampaiDengan);
                     navigasi(indexHalaman);
                     break;
                 case 3:
-                    displayCardSiswa(kelas, daftarSiswa, 30, 40);
+                    displayCardSiswa(kelas, daftarSiswa, 30, sampaiDengan);
                     navigasi(indexHalaman);
                     break;
                     
                 default:
-                    displayCardSiswa(kelas, daftarSiswa, 40, 50);
+                    displayCardSiswa(kelas, daftarSiswa, 40, sampaiDengan);
                     navigasi(indexHalaman);
                     break;
             }
