@@ -1,4 +1,4 @@
-
+let base_url = null;
 // Fungsi untuk membuat kartu siswa atau guru atau staff
 function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
 
@@ -139,7 +139,7 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
     `;
 
     // Menambahkan html yang ke-2 ke dalam body
-    $('body').append(html2);
+    $('.pagination-container').append(html2);
 };
 
 // Fungsi untuk membuat kartu dari halaman kegiatan.html
@@ -232,7 +232,7 @@ function displayCardKegiatan(dari, sampai) {
         `;
 
         // Menambahkan html ke dalam div yang class-nya row
-        $(".container .row").append(html);
+        $(".kontainer .row").append(html);
 
         // Mengubah / memanipulasi isi di dalam modal
         const modalBtn = document.querySelectorAll('.modal-trigger');
@@ -271,7 +271,7 @@ function displayCardKegiatan(dari, sampai) {
     `;
 
     // Menambahkan html yang ke-2 ke dalam body
-    $('body').append(html2);
+    $('.pagination-container').append(html2);
 };
 
 // Fungsi untuk menambahkan kerangka html di body
@@ -407,7 +407,7 @@ function displayBody(kelas) {
         `;
     } else {
         html += `
-        <div class="container">
+        <div class="container kontainer">
             <h3 class="center-align">Daftar Kegiatan</h3>
             <div class="divider"></div>
             <div class="row">
@@ -426,6 +426,49 @@ function displayBody(kelas) {
             </div>
         </div>`;
     };
+
+    html += `
+    <div class="pagination-container"></div>
+    `;
+    
+    if ( kelas == "kegiatan" || kelas == "guru" || kelas == "staff" ) {
+        base_url = `siswa/`;
+    } else {
+        base_url = `./`;
+    }
+
+    html += `
+    <footer class="page-footer blue-grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Alumni MTsN 1 Kapuas</h5>
+                    <p class="grey-text text-lighten-4">Daftar para alumni MTsN 1 Kapuas Tahun 2021 Angkatan ke-24</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Navigasi</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}../">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}../kegiatan.html">Kegiatan</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas91.html">Kelas 9-1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas92.html">Kelas 9-2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas93.html">Kelas 9-3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas94.html">Kelas 9-4</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas95.html">Kelas 9-5</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas96.html">Kelas 9-6</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas97.html">Kelas 9-7</a></li>
+                        <li><a class="grey-text text-lighten-3" href="${base_url}kelas98.html">Kelas 9-8</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright blue-grey darken-4">
+            <div class="container center">
+                Muhamad Kemal Faza ~ Copyright © 2021
+            </div>
+        </div>
+    </footer>
+    `;
 
     // Menambahkan html ke dalam body
     $('body').append(html);
