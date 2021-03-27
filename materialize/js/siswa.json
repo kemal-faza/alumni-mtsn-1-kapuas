@@ -31,6 +31,33 @@
                 "pesanKesan": "Saya senang bersekolah disini"
             },
             {
+                "nama": "Ahmad Yusuf",
+                "kelas": "9-1",
+                "ttl": "Kuala Kapuas",
+                "img": "yusuf.png",
+                "alamat": "Jl.kapuas",
+                "noTelp": "083136503931",
+                "pesanKesan": "Baik"
+            },
+            {
+                "nama": "Aulia Sari",
+                "kelas": "9-1",
+                "ttl": "Nagara, 25-Desember-2005",
+                "img": "aulia.jpg",
+                "alamat": "Jl.Barito no 85 RT.11 RW.03",
+                "noTelp": "0895706217855",
+                "pesanKesan": "Senang, bisa belajar banyak hal."
+            },
+            {
+                "nama": "Kevin Zolva Rahman",
+                "kelas": "9-1",
+                "ttl": "Pulang Pisau 22-06-2006",
+                "img": "kevin.png",
+                "alamat": "jln.cilik riwut perumahan berkat ikhlas permai 2 blok c no 26",
+                "noTelp": "085333235784",
+                "pesanKesan": "Terimakasih sudah membimbing saya, maaf kalau selama ini saya punya salah. Semoga ilmu yang sudah ibu/bapak kasih di balas oleh Allah."
+            },
+            {
                 "nama": "Muhammad Ansyari",
                 "kelas": "9-1",
                 "ttl": "20 Oktober 2005",
@@ -178,13 +205,13 @@
         ],
         "kelas97": [
             {
-                "nama": "Khairunisa",
+                "nama": "Ahmad Nuril Zidny",
                 "kelas": "9-7",
-                "ttl": "Kapuas,26,februari,2006",
-                "img": "khairunisa.jpeg",
-                "alamat": "Jln.durian pulau telo baru rt02 no002",
-                "noTelp": "085349934271",
-                "pesanKesan": "Di MTsN saya dapat belajar banyak hal"
+                "ttl": "Kuala Kapuas, 3 Januari 2006",
+                "img": "nuril.jpg",
+                "alamat": "Jl. Cilik Riwut Gang VIII No. 39 RT 04 Kuala Kapuas",
+                "noTelp": "081345146533",
+                "pesanKesan": "Mendapatkan Banyak teman, Mendapatkan banyak ilmu-ilmu baru dari guru-guru disini"
             },
             {
                 "nama": "Khairunisa",
@@ -194,6 +221,15 @@
                 "alamat": "Jln.durian pulau telo baru rt02 no002",
                 "noTelp": "085349934271",
                 "pesanKesan": "Di MTsN saya dapat belajar banyak hal"
+            },
+            {
+                "nama": "Luna Dewi Azzahra ",
+                "kelas": "9-7",
+                "ttl": "Kuala kapuas, 15-11-2006",
+                "img": "luna.jpeg",
+                "alamat": "Desa Maluen rt.02 kecamatan basarang kabupaten kapuas",
+                "noTelp": "085386113240",
+                "pesanKesan": "Kesan saya adalah saya sangat senang bisa kuliah di MTSN 1 Kapuas.  Semua guru ramah dan penuh kesabaran.  Saya telah belajar banyak hal, selain dari ilmu yang saya miliki, juga banyak teman, saya akan selalu mengingat pesan dari guru.  Sekarang periode pembelajaran kita di level MTS hampir berakhir dan menuju ke level yang lebih tinggi.  Semoga MTSN 1 Kapuas bisa terus berkembang, maju dan semakin banyak lagi siswa yang berprestasi dan membanggakan."
             },
             {
                 "nama": "Suci Aqillah",

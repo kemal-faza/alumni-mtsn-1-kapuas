@@ -443,7 +443,11 @@ function displayBody(kelas) {
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Alumni MTsN 1 Kapuas</h5>
-                    <p class="grey-text text-lighten-4">Daftar para alumni MTsN 1 Kapuas Tahun 2021 Angkatan ke-24</p>
+                    <p class="grey-text text-lighten-4">Daftar para alumni MTsN 1 Kapuas Tahun 2021 Angkatan ke-24</p>     
+                    <p class="grey-text text-lighten-4">Jika ada kesalahan dalam penulisan identitas silahkan hubungi saya dengan mengklik icon dibawah</p>   
+                    <a class="grey-text text-lighten-4" href="https://wa.me/6285248258322" target="_blank">
+                        <img src="${base_url}../img/logo/whatsapp.png" class="responsive-img" width="35">
+                    </a>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Navigasi</h5>
@@ -464,7 +468,7 @@ function displayBody(kelas) {
         </div>
         <div class="footer-copyright blue-grey darken-4">
             <div class="container center">
-                Muhamad Kemal Faza ~ Copyright © 2021
+                Muhamad Kemal Faza ~ Copyright © 2021.
             </div>
         </div>
     </footer>

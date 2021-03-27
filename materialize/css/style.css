@@ -48,3 +48,7 @@
 .text-modal {
 	text-align: justify;
 }
+
+.page-footer a {
+	margin-right: 10px !important;
+}
