@@ -49,6 +49,14 @@
 	text-align: justify;
 }
 
+.page-footer {
+	margin-top: 300px;
+}
+
 .page-footer a {
 	margin-right: 10px !important;
+}
+
+.page-footer li {
+	line-height: 30px;
 }
