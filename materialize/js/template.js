@@ -557,7 +557,10 @@ function navigasi(kelas, indexHalaman) {
 
     // Inisialisai materialbox
 	const materialbox = document.querySelectorAll('.materialboxed');
-	M.Materialbox.init(materialbox);
+	M.Materialbox.init(materialbox, {
+        startingTop: '4%',
+        endingTop: '50%'
+    });
 };
 
 function menghitungJumlahData(kelas, daftarSiswa) {
@@ -689,4 +692,11 @@ function tampilHalamanLengkap(kelas) {
 
     // Menampilkan card urutan pertama saat halaman di load
     tampilPage(kelas, indexHalaman);
+    // // Tangkap elemen yang bersangkutan
+    // const elemenTujuan = $('nav');
+
+    // // Pindahkan scroll
+    // $('html, body').animate({
+    //     scrollTop: elemenTujuan.offset().top
+    // }, 1000, 'easeInOutCirc');
 }
