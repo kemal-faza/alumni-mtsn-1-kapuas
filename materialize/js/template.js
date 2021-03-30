@@ -53,7 +53,7 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
 
     let i = dari;
     for ( let j = 0; j < jumlahBaris; j++  ) {
-        let html = `<div class="row">`;
+        let html = `<div class="row kartu">`;
         while (  i < jumlahDataPerBaris ) {
             if ( i == sampai ) {
                 break;
@@ -64,7 +64,6 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
                     <div class="card-image">
                     <img src="`
             // Mengambil gambar sekaligus menentukan jalur filenya
-            // console.log(daftarSiswa[i]);
             if ( kelas == "guru" || kelas == "staff" ) {
                 html += `img/${kelas}/${daftarSiswa[i].img}`;
             } else {
@@ -85,14 +84,17 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
         
         // Menambahkan html ke dalam div yang class-nya row
         $('.kontainer').append(html);
+        if (i == sampai) {
+            break;
+        }
     }
     
-
+    let j = 0;
     for ( let i = dari; i < sampai; ++i ) {
         // Memanipulasi isi didalam modal 
         const modalBtn = document.querySelectorAll('.modal-trigger');
         const list = Array.from(document.querySelectorAll('li.collection-item'));
-        modalBtn[i].addEventListener('click', function() {
+        modalBtn[j].addEventListener('click', function() {
             const pesan = document.querySelector('.modal-content p');
             pesan.textContent = "";
             $(pesan).html(`Pesan Kesan : <br><b>\`\`${daftarSiswa[i].pesanKesan}\`\`</b>`);
@@ -111,6 +113,7 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
             $(list[3]).html(`<b>Alamat : </b>${daftarSiswa[i].alamat}`);
             $(list[4]).html(`<b>No Telp : </b>${daftarSiswa[i].noTelp}`);
         });
+        j++;
     };
 
     // Membuat html card menggunakan for loop
@@ -500,7 +503,7 @@ function hapusPage() {
     })
 };
 
-function navigasi(indexHalaman) {
+function navigasi(kelas, indexHalaman) {
     // Menghentikan link agar tidak terload
     const linkPage = Array.from(document.querySelectorAll('.pagination li.waves-effect a'));
     for ( let i = 0; i < linkPage.length; i++ ) {
@@ -532,13 +535,13 @@ function navigasi(indexHalaman) {
 
     // Menambahkan event saat tombol prev atau next atau navigasi ditekan
     if ( indexHalaman != 0 ) {
-        prev.addEventListener('click', function() {
+        prevBtn.addEventListener('click', function() {
             hapusPage();
             indexHalaman--;
             tampilPage(kelas, indexHalaman);
         });
     } else if ( indexHalaman != navList.length-1 ) {
-        next.addEventListener('click', function() {
+        nextBtn.addEventListener('click', function() {
             hapusPage();
             indexHalaman++;
             tampilPage(kelas, indexHalaman);
@@ -607,59 +610,53 @@ function tampilPage(kelas, indexHalaman) {
 
             let sampaiDengan = null;
 
-            switch ( sampai ) {
-                case sampai < 10:
-                    sampaiDengan = sampai;
-                    break;
-                case sampai == 10:
-                    sampaiDengan = 10;
-                    break;
-                case sampai > 10 && sampai < 20:
-                    sampaiDengan = sampai;
-                    break;
-                case sampai == 20:
-                    sampaiDengan = 20;
-                    break;
-                case sampai > 20 && sampai < 30:
-                    sampaiDengan = sampai;
-                    break;
-                case sampai == 30:
-                    sampaiDengan = 30;
-                    break;
-                case sampai > 30 && sampai < 40:
-                    sampaiDengan = sampai;
-                    break;
-                case sampai == 40:
-                    sampaiDengan = 40;
-                    break;
-            
-                default:
-                    sampaiDengan = sampai;
-                    break;
-            }
-
             // Jika bukan maka akan diperiksa lagi index ke berapa kah halaman itu, dan akan menampilkan card siswa atau staff atau guru
             switch ( indexHalaman ) {
                 case 0:
+                    if ( sampai == 10 || sampai > 10 ) {
+                        sampaiDengan = 10;
+                    } else if ( sampai < 10 ) {
+                        sampaiDengan = sampai;
+                    }
                     displayCardSiswa(kelas, daftarSiswa, 0, sampaiDengan);
-                    navigasi(indexHalaman);
+                    navigasi(kelas, indexHalaman);
                     break;
                 case 1:
+                    if ( sampai == 20 || sampai > 20 ) {
+                        sampaiDengan = 20;
+                    } else if ( sampai < 20 ) {
+                        sampaiDengan = sampai;
+                    }
                     displayCardSiswa(kelas, daftarSiswa, 10, sampaiDengan);
-                    navigasi(indexHalaman);
+                    navigasi(kelas, indexHalaman);
                     break;
                 case 2:
+                    if ( sampai == 30 || sampai > 30 ) {
+                        sampaiDengan = 30;
+                    } else if ( sampai < 30 ) {
+                        sampaiDengan = sampai;
+                    }
                     displayCardSiswa(kelas, daftarSiswa, 20, sampaiDengan);
-                    navigasi(indexHalaman);
+                    navigasi(kelas, indexHalaman);
                     break;
                 case 3:
+                    if ( sampai == 40 || sampai > 40 ) {
+                        sampaiDengan = 40;
+                    } else if ( sampai < 40 ) {
+                        sampaiDengan = sampai;
+                    }
                     displayCardSiswa(kelas, daftarSiswa, 30, sampaiDengan);
-                    navigasi(indexHalaman);
+                    navigasi(kelas, indexHalaman);
                     break;
                     
                 default:
+                    if ( sampai == 50 || sampai > 50 ) {
+                        sampaiDengan = 50;
+                    } else if ( sampai < 50 ) {
+                        sampaiDengan = sampai;
+                    }
                     displayCardSiswa(kelas, daftarSiswa, 40, sampaiDengan);
-                    navigasi(indexHalaman);
+                    navigasi(kelas, indexHalaman);
                     break;
             }
         });
