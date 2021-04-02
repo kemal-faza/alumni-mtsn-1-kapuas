@@ -97,7 +97,7 @@ function displayCardSiswa(kelas, daftarSiswa, dari, sampai) {
         modalBtn[j].addEventListener('click', function() {
             const pesan = document.querySelector('.modal-content p');
             pesan.textContent = "";
-            $(pesan).html(`Pesan Kesan : <br><b>\`\`${daftarSiswa[i].pesanKesan}\`\`</b>`);
+            $(pesan).html(`Pesan Kesan : <br><b>\`\` ${daftarSiswa[i].pesanKesan} \`\`</b>`);
             list[0].textContent = "";
             list[1].textContent = "";
             list[2].textContent = "";
@@ -539,12 +539,14 @@ function navigasi(kelas, indexHalaman) {
             hapusPage();
             indexHalaman--;
             tampilPage(kelas, indexHalaman);
+            window.scrollTo(0, 0);
         });
     } else if ( indexHalaman != navList.length-1 ) {
         nextBtn.addEventListener('click', function() {
             hapusPage();
             indexHalaman++;
             tampilPage(kelas, indexHalaman);
+            window.scrollTo(0, 0);
         })
     }
     for ( let i = 0; i < navList.length; i++ ) {
@@ -552,6 +554,7 @@ function navigasi(kelas, indexHalaman) {
             hapusPage();
             indexHalaman = navList[i].textContent - 1;
             tampilPage(kelas, indexHalaman);
+            window.scrollTo(0, 0);
         })
     };
 
@@ -692,11 +695,4 @@ function tampilHalamanLengkap(kelas) {
 
     // Menampilkan card urutan pertama saat halaman di load
     tampilPage(kelas, indexHalaman);
-    // // Tangkap elemen yang bersangkutan
-    // const elemenTujuan = $('nav');
-
-    // // Pindahkan scroll
-    // $('html, body').animate({
-    //     scrollTop: elemenTujuan.offset().top
-    // }, 1000, 'easeInOutCirc');
 }
