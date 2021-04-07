@@ -6,24 +6,26 @@ function tampilCard(kelas, keywords, classes) {
             daftarSiswaNew = [];
             for ( let prop in daftarSiswa ) {
                 $.each(daftarSiswa[prop], function(i, data) {
-                    let nama = data.nama.toLowerCase();
-                    let keyword = keywords.toLowerCase();
-                    if ( nama.includes(keyword) ) {
-                        daftarSiswaNew.push(data);
-                        html += `
-                            <div class="col-md-4 mb-4 col-lg-3">
-                                <div class="card">
-                                    <img src="../img/siswa/${data.kelas}/${data.img}" class="card-img-top" alt="${data.nama}">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">${data.nama}</h5>
-                                        <hr>
-                                        <button type="button" class="btn btn-primary modal-trigger" data-toggle="modal" data-target="#modal">
-                                            Detail
-                                        </button>
+                    if ( !data.posisi ) {
+                        let nama = data.nama.toLowerCase();
+                        let keyword = keywords.toLowerCase();
+                        if ( nama.includes(keyword) ) {
+                            daftarSiswaNew.push(data);
+                            html += `
+                                <div class="col-md-4 mb-4 col-lg-3">
+                                    <div class="card">
+                                        <img src="../img/siswa/${data.kelas}/${data.img}" class="card-img-top" alt="${data.nama}">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">${data.nama}</h5>
+                                            <hr>
+                                            <button type="button" class="btn btn-primary modal-trigger" data-toggle="modal" data-target="#modal">
+                                                Detail
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        `;
+                            `;
+                        }
                     }
                 })
                 
@@ -100,7 +102,6 @@ function tampilCard(kelas, keywords, classes) {
 }
 
 function ubahModal(daftarSiswa) {
-    console.log(daftarSiswa.length)
     let j = 0;
     for ( let i = 0; i < daftarSiswa.length; ++i ) {
         // Memanipulasi isi didalam modal 
