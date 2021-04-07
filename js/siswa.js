@@ -187,13 +187,13 @@ function tampilBodySiswa(kelas) {
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalLabel">Detai Siswa</h5>
+                        <h5 class="modal-title" id="modalLabel">Detail Siswa</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <ul class="list-group">
+                        <ul class="list-group mb-3">
                             <li class="list-group-item"></li>
                             <li class="list-group-item"></li>
                             <li class="list-group-item"></li>
@@ -235,6 +235,7 @@ function tampilBodySiswa(kelas) {
     $('body').append(html)
     tampilCard(kelas)
     $('#keyword').on('input', function() {
-        tampilCard(kelas, $(this).val(), false)
+        tampilCard(kelas, $(this).val(), false);
+        window.scrollTo(0, 0);
     });
 };
