@@ -1,24 +1,48 @@
+// Membuat fungsi untuk menampilkan kartu siswa
 function tampilCard(kelas, keywords, classes) {
+
+    // Jika classes bernilai false dan keyword berisi nilai maka jalankan perintah berikut
     if ( !classes && keywords ) {
+
+        // Ambil data JSON
         $.getJSON('../js/siswa.json', function(data) {
+
+            // Ambil data daftarsiswa dari JSON
             let daftarSiswa = data.daftarSiswa;
             let html = ``;
-            daftarSiswaNew = [];
+
+            // Buat daftar siswa baru untuk menampung objek
+            let daftarSiswaNew = [];
+
+            // Looping objek daftarsiswa
             for ( let prop in daftarSiswa ) {
+
+                // Looping array properti objek daftarsiswa
                 $.each(daftarSiswa[prop], function(i, data) {
+
+                    // Jika bukan data guru maka jalankan perintah berikut
                     if ( !data.posisi ) {
+
+                        // Ambil properti nama dari objek data
+                        // Ubah properti nama objek data menjadi huruf kecil dan ubah juga keyword menjadi huruf kecil
                         let nama = data.nama.toLowerCase();
                         let keyword = keywords.toLowerCase();
+
+                        // Jika terdapat karakter keyword didalam properti nama maka jalankan perintah berikut
                         if ( nama.includes(keyword) ) {
+
+                            // Masukkan data ke dalam array daftarSiswaNew
                             daftarSiswaNew.push(data);
+
+                            // Buat html card nya dan tambahkan ke variabel html
                             html += `
-                                <div class="col-md-4 mb-4 col-lg-3">
+                                <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                                     <div class="card">
                                         <img src="../img/siswa/${data.kelas}/${data.img}" class="card-img-top" alt="${data.nama}">
                                         <div class="card-body text-center">
                                             <h5 class="card-title">${data.nama}</h5>
                                             <hr>
-                                            <button type="button" class="btn btn-primary modal-trigger" data-toggle="modal" data-target="#modal">
+                                            <button type="button" class="btn btn-info modal-trigger" data-toggle="modal" data-target="#modal">
                                                 Detail
                                             </button>
                                         </div>
@@ -30,17 +54,28 @@ function tampilCard(kelas, keywords, classes) {
                 })
                 
             }
+
+            // Ubah html dari elemen dengan id daftar-siswa dengan variabel html
             $('#daftar-siswa').html(html);
 
+            // Ubah judul
             $('#judul').html(`Daftar Siswa`);
             
+            // Jalankan fungsi modal
             ubahModal(daftarSiswaNew);
         })
         return;
+
+    // Jika keywords berisi string kosong atau keywords tidak ada maka jalankan perintah berikut
     } else if ( keywords == "" || !keywords ) {
+
+        // Ambil data JSON
         $.getJSON('../js/siswa.json', function(data) {
+
+            // Ambil data daftarSiswa dari JSON
             let daftarSiswa = data.daftarSiswa;
 
+            // Cek kelas
             switch (kelas) {
                 case "9-1":
                     daftarSiswa = daftarSiswa.kelas91;
@@ -75,16 +110,30 @@ function tampilCard(kelas, keywords, classes) {
                     break;
             };
 
+            // Buat variabel html dengan isi string kosong
             let html = ``;
+
+            // Mengurutkan daftarSiswa berdasarkan nama
+            daftarSiswa.sort(function(a, b){
+                var x = a.nama.toLowerCase();
+                var y = b.nama.toLowerCase();
+                if (x < y) {return -1;}
+                if (x > y) {return 1;}
+                return 0;
+            });
+
+            // Looping daftarSiswa
             $.each(daftarSiswa, function(i, data) {
+
+                // Tambahkan html card ke dalam variabel html
                 html += `
-                    <div class="col-md-4 mb-4 col-lg-3">
+                    <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                         <div class="card">
                             <img src="../img/siswa/${kelas}/${data.img}" class="card-img-top" alt="${data.nama}">
                             <div class="card-body text-center">
                                 <h5 class="card-title">${data.nama}</h5>
                                 <hr>
-                                <button type="button" class="btn btn-primary modal-trigger" data-toggle="modal" data-target="#modal">
+                                <button type="button" class="btn btn-info modal-trigger" data-toggle="modal" data-target="#modal">
                                     Detail
                                 </button>
                             </div>
@@ -92,41 +141,61 @@ function tampilCard(kelas, keywords, classes) {
                     </div>
                 `;
             });
+
+            // Ubah html dari elemen dengan id daftar-siswa dengan html yang ada di variabel html
             $('#daftar-siswa').html(html);
 
+            // Ubah judul berdasarkan kelas
             $('#judul').html(`Daftar Siswa Kelas ${kelas}`);
 
+            // Jalankan fungsi modal
             ubahModal(daftarSiswa);
         });
     }
 }
 
+// Fungsi untuk menangani modal saat tombol detail di klik
 function ubahModal(daftarSiswa) {
+
+    // Buat variabel j sebagai acuan tombol detail
     let j = 0;
+
+    // Looping daftarSiswa
     for ( let i = 0; i < daftarSiswa.length; ++i ) {
-        // Memanipulasi isi didalam modal 
+
+        // Ambil semua tombol detail
         const modalBtn = document.querySelectorAll('.modal-trigger');
-        const list = Array.from(document.querySelectorAll('li.list-group-item'));
+
+        // Beri event click pada setiap tombol
         modalBtn[j].addEventListener('click', function() {
-            const pesan = document.querySelector('blockquote p');
-            pesan.textContent = "";
-            $(pesan).html(`<strong>Pesan Kesan : </strong><br>\`\` ${daftarSiswa[i].pesanKesan} \`\``);
-            list[0].textContent = "";
-            list[1].textContent = "";
-            list[2].textContent = "";
-            list[3].textContent = "";
-            list[4].textContent = "";
-            $(list[0]).html(`<strong>Nama : </strong>${daftarSiswa[i].nama}`);
-            $(list[1]).html(`<strong>Kelas : </strong>${daftarSiswa[i].kelas}`);
-            $(list[2]).html(`<strong>TTL : </strong>${daftarSiswa[i].ttl}`);
-            $(list[3]).html(`<strong>Alamat : </strong>${daftarSiswa[i].alamat}`);
-            $(list[4]).html(`<strong>No Telp : </strong>${daftarSiswa[i].noTelp}`);
+
+            // Buat variabel html dengan isi html dari modal-body
+            let html = `
+                <ul class="list-group mb-3">
+                    <li class="list-group-item"><strong>Nama : </strong>${daftarSiswa[i].nama}</li>
+                    <li class="list-group-item"><strong>Kelas : </strong>${daftarSiswa[i].kelas}</li>
+                    <li class="list-group-item"><strong>TTL : </strong>${daftarSiswa[i].ttl}</li>
+                    <li class="list-group-item"><strong>Alamat : </strong>${daftarSiswa[i].alamat}</li>
+                    <li class="list-group-item"><strong>No Telp : </strong>${daftarSiswa[i].noTelp}</li>
+                </ul>
+                <blockquote class="blockquote">
+                    <p class="mb-0"><strong>Pesan Kesan : </strong><br>\`\` ${daftarSiswa[i].pesanKesan} \`\`</p>
+                </blockquote>
+            `;
+
+            // Tambahkan elemen html ke elemen dengan class modal-body
+            $('.modal-body').html(html);
         });
+
+        // Increment variabel j
         j++;
     };
 };
 
+// Fungsi untuk menampilkan html bagian body
 function tampilBodySiswa(kelas) {
+
+    // Buat variabel html diisi dengan html yang ada di bagian body
     const html = `
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -193,16 +262,7 @@ function tampilBodySiswa(kelas) {
                         </button>
                     </div>
                     <div class="modal-body">
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                        </ul>
-                        <blockquote class="blockquote">
-                            <p class="mb-0"></p>
-                        </blockquote>
+                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
@@ -220,7 +280,7 @@ function tampilBodySiswa(kelas) {
                         <h3>Alumni MTsN 1 Kapuas</h3>
                         <p>Daftar Para Alumni MTsN 1 Kapuas Tahun 2021</p>
                         <p class="mb-0">Jika ada kesalahan penulisan nama atau menginginkan perubahan identitas silahkan hubungi saya dengan mengklik icon dibawah ini</p>
-                        <a href="https://wa.me/6285248258322">
+                        <a href="https://wa.me/6285248258322" target="_blank">
                             <img src="../img/logo/whatsapp.png" alt="WhatsApp" width="25">
                         </a>
                     </div>
@@ -232,10 +292,20 @@ function tampilBodySiswa(kelas) {
         </footer>
         <!-- Akhir Footer -->
     `;
-    $('body').append(html)
-    tampilCard(kelas)
+
+    // Tambahkan elemen html ke dalam bagian body
+    $('body').append(html);
+
+    // Jalankan fungsi menampilkan card siswa
+    tampilCard(kelas);
+
+    // Beri event input ke elemen dengan id keyword
     $('#keyword').on('input', function() {
+
+        // Jalankan fungsi menampilkan card siswa dan mengirimkan nilai dari yang diketikkan di input
         tampilCard(kelas, $(this).val(), false);
+
+        // Ubah scroll kembali ke atas
         window.scrollTo(0, 0);
     });
 };
