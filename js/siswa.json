@@ -22,6 +22,15 @@
         ],
         "kelas91": [
             {
+                "nama": "Wafa",
+                "kelas": "9-1",
+                "ttl": "Kuala Kapuas, 08 Desember 2005",
+                "img": "wafa.jpg",
+                "alamat": "Jl. Barito Gg. 4B no. 49 RT. 023 RW. 003 Kuala Kapuas.",
+                "noTelp": "089691004895",
+                "pesanKesan": "This school is the best place to studying"
+            },
+            {
                 "nama": "Ahmad Fadlianur",
                 "kelas": "9-1",
                 "ttl": "Kuala Kapuas,17-08-2006",
@@ -276,6 +285,15 @@
                 "pesanKesan": "Sangat menyenangkan dan banyak mendapat ilmu.Semoga jasa ibu dan bapak guru dibalas kebaikannya oleh Allah Swt Dan ilmu yang kami dapatkan selama di MTsN 1 Kapuas menjadi barokah untuk kami semua."
             },
             {
+                "nama": "Nadya kamilatul aisy",
+                "kelas": "9-2",
+                "ttl": "Palembang, 08 November 2006",
+                "img": "nadya.jpg",
+                "alamat": "Jln Kapuas no 7 selat hulu",
+                "noTelp": "089691346657",
+                "pesanKesan": "perasaan saya sekolah disini kayak plat motor jkt, B aja"
+            },
+            {
                 "nama": "Destia Ayu Lestari",
                 "kelas": "9-2",
                 "ttl": "13 Desember 2006",
@@ -283,6 +301,15 @@
                 "alamat": "Jl.perkutut",
                 "noTelp": "083140287637",
                 "pesanKesan": " \"tuntut lah ilmu sampai ke negeri cina tapi karna lagi Corona di cancel dulu aja\" 2021,btw skrg Corona punya anak"
+            },
+            {
+                "nama": "Noor Alisa",
+                "kelas": "9-2",
+                "ttl": "Kuala kapuas, 24-02-2006",
+                "img": "alisa.jpeg",
+                "alamat": "jln.tambun bungai ",
+                "noTelp": "082353122006",
+                "pesanKesan": "Buang mimpimu dan matilah."
             },
             {
                 "nama": "Herlika",
@@ -336,7 +363,7 @@
                 "img": "nayla.jpeg",
                 "alamat": "Keruing no.118",
                 "noTelp": "081248977575",
-                "pesanKesan": "lihat kan foto ku tidak berwarna, itulah gambaran hari hari ku tanpa mu."
+                "pesanKesan": "lihat kan foto ku tidak berwarna, itulah gambaran hari hari ku tanpa hadir nya bapa econ di sekolah :("
             },
             {
                 "nama": "Nazwa Afivah",
@@ -458,6 +485,15 @@
                 "alamat": "Kuala kapuas, Jl anggrek Gg.6c. Rt13 Rw02",
                 "noTelp": "089691385057",
                 "pesanKesan": "Banyak pelajaran yang saya dapat, dari memahami pelajaran/Tugas sekolah. Bergaul dengan teman yang berbeda sifat...dan berterimakasih atas jasa guru yang mengajari kami dengan sabarrr. Meskipun tidak terlalu banyak kenangan di sekolah. Karna sekarang masa pandemi virus....ya saya harap saya bisa jadi pribadi yang lebih baik kedepan nya. Trimakasihhh..."
+            },
+            {
+                "nama": "Nanda Putri Aulia",
+                "kelas": "9-4",
+                "ttl": "Kapuas, 8/10/2006",
+                "img": "nanda.jpg",
+                "alamat": "Jln Mahakam gg selaras",
+                "noTelp": "083192397506",
+                "pesanKesan": "Bahagia sih tapi kurang bahagia karna gagal push qonqu duo tpp:("
             },
             {
                 "nama": "Anisa Putri",
@@ -587,6 +623,15 @@
             }
         ],
         "kelas95": [
+            {
+                "nama": "Rizki Maulidah",
+                "kelas": "9-5",
+                "ttl": "16 Agustus 2006",
+                "img": "maulidah.jpg",
+                "alamat": "Jl. Pemuda km 3,5",
+                "noTelp": "083154788297",
+                "pesanKesan": "Saya senang karna selama berada di MTsN saya bisa mendapatkan banyak teman dan ilmu yang bermanfaat. Semoga kedepannya MTsN bisa semakin sukses dan menghasilkan banyak murid baru yang berprestasi."
+            },
             {
                 "nama": "Ahmad Faisal Ramadhan",
                 "kelas": "9-5",

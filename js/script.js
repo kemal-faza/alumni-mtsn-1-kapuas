@@ -1,21 +1,22 @@
+console.log(window.innerWidth);
 if ( window.innerWidth > 1000 ) {
-    // $('nav').removeClass('navbar-light');
+    $('nav').css('background-color', 'transparent');
     $('nav').removeClass('navbar-dark');
     $('nav').addClass('navbar-light');
 } else {
+    $('nav').css('background-color', '#00796b');
     $('nav').removeClass('navbar-light');
-    // $('nav').removeClass('navbar-dark');
     $('nav').addClass('navbar-dark');
 }
 
 $(window).on('resize', function() {
     if ( window.innerWidth > 1000 ) {
-        // $('nav').removeClass('navbar-light');
+        $('nav').css('background-color', 'transparent');
         $('nav').removeClass('navbar-dark');
         $('nav').addClass('navbar-light');
     } else {
+        $('nav').css('background-color', '#00796b');
         $('nav').removeClass('navbar-light');
-        // $('nav').removeClass('navbar-dark');
         $('nav').addClass('navbar-dark');
     }
 });
