@@ -13,8 +13,7 @@ nav {
     min-height: 500px;
     padding-top: 190px;
     overflow: hidden;
-    background-attachment: fixed;
-    background-position: center bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,7 +36,6 @@ hr {
 
     .jumbotron {
         margin-top: -72px;
-        /* padding-top: 200px; */
         overflow: hidden;
     }
 
