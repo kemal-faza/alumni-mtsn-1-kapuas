@@ -208,9 +208,9 @@ function tampilBodySiswa(kelas) {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item active mr-3">
+                        <!-- <li class="nav-item active mr-3">
                             <a class="nav-link" href="../kegiatan.html">Kegiatan</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item dropdown active mr-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Siswa
