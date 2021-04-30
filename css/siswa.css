@@ -14,3 +14,10 @@ b {
 .bi-house-fill {
     font-size: 30px;
 }
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 992px) {
+    #keyword {
+        margin: 10px auto;
+    }
+}

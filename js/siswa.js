@@ -55,6 +55,17 @@ function tampilCard(kelas, keywords, classes) {
                 
             }
 
+            if(daftarSiswaNew.length == 0) {
+                html = `
+                    <div class="col">
+                        <div class="alert alert-danger text-center" role="alert">
+                            <h4>Siswa yang dicari tidak ditemukan!</h4>
+                            <p>Pastikan nama siswa yang dicari sudah benar</p>
+                        </div>
+                    </div>
+                `;
+            }
+
             // Ubah html dari elemen dengan id daftar-siswa dengan variabel html
             $('#daftar-siswa').html(html);
 
@@ -278,10 +289,10 @@ function tampilBodySiswa(kelas) {
                 <div class="row">
                     <div class="col">
                         <h3>Alumni MTsN 1 Kapuas</h3>
-                        <p>Daftar Para Alumni MTsN 1 Kapuas Tahun 2021</p>
+                        <p>Daftar Para Alumni MTsN 1 Kapuas Angkatan ke-24 Tahun 2021</p>
                         <p class="mb-0">Jika ada kesalahan penulisan nama atau menginginkan perubahan identitas silahkan hubungi saya dengan mengklik icon dibawah ini</p>
                         <a href="https://wa.me/6285248258322" target="_blank">
-                            <img src="../img/logo/whatsapp.png" alt="WhatsApp" width="25">
+                            https://wa.me/6285248258322
                         </a>
                     </div>
                     <div class="col">
