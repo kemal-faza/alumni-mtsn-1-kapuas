@@ -1,5 +1,4 @@
 nav {
-    /* background-color: #00796b; */
     font-family: Roboto Slab;
     transition: .5s;
 }
@@ -21,6 +20,8 @@ nav {
 .jumbotron h1,
 .jumbotron p {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(77, 182, 172, 0.7);
+    width: fit-content;
 }
 
 hr {
