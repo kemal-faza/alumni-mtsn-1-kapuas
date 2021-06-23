@@ -245,6 +245,18 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
 
         // Jika guru tidak ada maka tampilkan pemberitahuan
         if (daftarGuru.length == 0) {
+
+            // Ubah html daftar-guru
+            $('#daftar-guru').html(`
+                <div class="row text-center mt-5">
+                    <div class="col">
+                        <h1>Daftar Guru</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="pengajar"></div>
+            `);
+
             html5 += `
             <div class="col">
                 <div class="alert alert-danger text-center" role="alert">
