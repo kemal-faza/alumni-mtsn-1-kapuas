@@ -1,1391 +1,1396 @@
 {
-    "daftarSiswa": {
-        "guru": [
-            {
-                "nama": "Awan Winanto",
-                "posisi": "Guru Matematika",
-                "img": "",
-                "alamat": "Jln. Tambun Bungai",
-                "noTelp": "123456789012",
-                "pesanKesan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet!"
-            }
-        ],
-        "staff": [
-            {
-                "nama": "",
-                "posisi": "",
-                "img": "",
-                "alamat": "",
-                "noTelp": "",
-                "pesanKesan": ""
-            }
-        ],
-        "kelas91": [
-            {
-                "nama": "Wafa",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 08 Desember 2005",
-                "img": "wafa.jpg",
-                "alamat": "Jl. Barito Gg. 4B no. 49 RT. 023 RW. 003 Kuala Kapuas.",
-                "noTelp": "089691004895",
-                "pesanKesan": "This school is the best place to studying"
-            },
-            {
-                "nama": "Gusti Ahmad Rijkijailani",
-                "kelas": "9-1",
-                "ttl": "Kapuas, 25-01-2006",
-                "img": "gusti.jpg",
-                "alamat": "Jalan Mahakam Gang Abadi no 11",
-                "noTelp": "081549476463",
-                "pesanKesan": "Ó╭╮Ò"
-            },
-            {
-                "nama": "Muhammad Saputra",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 09-07-2006",
-                "img": "saputra.jpg",
-                "alamat": "Jl. teratai Gg. no 15 RT 026 RW 003",
-                "noTelp": "0895372727288",
-                "pesanKesan": "Atas nama Muhammad Saputra saya minta maaf klo ada slah selama di MTSN 1 Kapuas , sklh MTSN paling Debts "
-            },
-            {
-                "nama": "Intan Nurul Ain",
-                "kelas": "9-1",
-                "ttl": "27 Desember 2006",
-                "img": "intan.jpg",
-                "alamat": "jln.Barito GG.IV ",
-                "noTelp": "089693050157",
-                "pesanKesan": "semoga MTsN 1 Kapuas makin sukses kedepan nya dan menerbitkan lebih banyak siswa siswi yang segudang prestasi ! <br>bahagia bisaa bersekolah disini dan banggaa bisa menjadi bagian dari siswi MtsN 1 Kapuas."
-            },
-            {
-                "nama": "Siti Adiba Khanza Azzahra ",
-                "kelas": "9-1",
-                "ttl": "Nagara, 09 juli 2006",
-                "img": "adiba.jpg",
-                "alamat": "jalan cilik riwut gang 1b kombipas no. 1",
-                "noTelp": "089691312377",
-                "pesanKesan": "terima kasih atas kurang lebih 3 tahun saya belajar disini,<br><br>kesan:<br>- saya mendapatkan banyak temen yang akhlaknya sangat hebat dan sefrekuensi, dan sangat rame<br>- saya punya masa² bangga dengan diri sendiri karena waktu ulangan pel. agama rata² tinggi<br>- saya punya banyak guru yang sangat baik dan ramah, friendly, dan bisa membantu saya lebih banyak mengingat pelajaran, terutama agama<br>- maaf, agak capek ga naik² ranking waktu during <br><br>pesan:<br>- semoga MTsN 1 Kapuas selalu berkembang<br>- semoga bapak dan ibu guru dimudahkan dalam segala urusan dan selalu sehat <br>- semoga saya mendapatkan teman yang sama baik dan serunya seperti sekarang<br>- semoga saya bisa membahagiakan kedua orang tua saya, masuk surga bersama keluarga dan sahabat² saya, masuk 5 besar<br>- semoga suna rintarou nyata <br><br>terimakasih banyak bapak ibu♡"
-            },
-            {
-                "nama": "Nabila Yolanda",
-                "kelas": "9-1",
-                "ttl": "Banjarbaru, 30 Januari 2006 ",
-                "img": "nabila.jpg",
-                "alamat": "Jalan ayani gg suakarya no 88",
-                "noTelp": "083150429685",
-                "pesanKesan": "Pesan:Harapan saya, sekolah ini terus berkembang, meningkatkan kualitas pelayanan, khusus nya pada bidang teknologi, sehingga dapat mencetak anak - anak berprestasi di Indonesia ke depannya. <br><br>Kesan: pertemuan dengan bermacam -macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi.  "
-            },
-            {
-                "nama": "Hibban Noufal",
-                "kelas": "9-1",
-                "ttl": "Kapuas, 31-07-2006",
-                "img": "hibban.jpg",
-                "alamat": "Jl.Barito GG.X.  BLOK. E",
-                "noTelp": "089628145563",
-                "pesanKesan": "Terimakasih sudah mendidik saya dengan baik terimakasih"
-            },
-            {
-                "nama": "Ahmad Muzzaki",
-                "kelas": "9-1",
-                "ttl": "Sei Bakung 3/8/2006",
-                "img": "zaki.jpg",
-                "alamat": "JLN.CILIK RIWUT GG 1B",
-                "noTelp": "087814018687",
-                "pesanKesan": "Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini<br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
-            },
-            {
-                "nama": "Reva Yulanda",
-                "kelas": "9-1",
-                "ttl": "Pondok Damar, 09-08-2005",
-                "img": "reva.jpg",
-                "alamat": "Jalan anggrek gg 5, No.23",
-                "noTelp": "085371103077",
-                "pesanKesan": "pertemuan degan bermacam macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi.<br>agsksk gabisa jajan lg dong,HAHAHA☺️"
-            },
-            {
-                "nama": "Ahmad Fadlianur",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas,17-08-2006",
-                "img": "fadli.jpg",
-                "alamat": "Jl.Panjaitan NO.26",
-                "noTelp": "085245133272",
-                "pesanKesan": "Senang sekolah di MTsN 1 Kapuas banyak kegiatan,lomba,dan keseruan lainnya"
-            },
-            {
-                "nama": "Ahmad Maulana Tsaqif",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 20 Februari 2006",
-                "img": "maulana.jpg",
-                "alamat": "Jalan Patih Rumbih Gg XII No.10, RT.41/RW.44, Selat Tengah, Selat, KAB. KAPUAS, SELAT, KALIMANTAN TENGAH, ID, 73514",
-                "noTelp": "0895620065002",
-                "pesanKesan": "Asik sih dapat banyak pembelajaran,bnyk temen dewasa juga di Mtsn 1 Kapuas hehee moga Mtsn 1 Kapuas makin majuuu👍🙏"
-            },
-            {
-                "nama": "Ahmad Rifa'i",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 07/07/2006",
-                "img": "rifa'i.jpg",
-                "alamat": "Jl. A.yani no 34 rt 12 selat hilir kuala kapuas ",
-                "noTelp": "085225101041",
-                "pesanKesan": "I cheated on all my exams"
-            },
-            {
-                "nama": "Ahmad Yusuf",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas",
-                "img": "yusuf.png",
-                "alamat": "Jl.kapuas",
-                "noTelp": "083136503931",
-                "pesanKesan": "Baik"
-            },
-            {
-                "nama": "Ananda Aprilia Maulidya",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 16 April 2006",
-                "img": "ananda.jpeg",
-                "alamat": "Jl. Kenanga No. 36 RT. 030 RW. 003",
-                "noTelp": "0895326114659",
-                "pesanKesan": "Kesan : Ga terlalu berkesan karna sekolahnya cuma 3 semester"
-            },
-            {
-                "nama": "Aulia Sari",
-                "kelas": "9-1",
-                "ttl": "Nagara, 25-Desember-2005",
-                "img": "aulia.jpg",
-                "alamat": "Jl.Barito no 85 RT.11 RW.03",
-                "noTelp": "0895706217855",
-                "pesanKesan": "Senang, bisa belajar banyak hal."
-            },
-            {
-                "nama": "Azka Nayla Rahmah",
-                "kelas": "9-1",
-                "ttl": "KUALA KAPUAS,17-JUNI-2006",
-                "img": "azka.jpg",
-                "alamat": "Jl.Mahakam",
-                "noTelp": "0895704804172",
-                "pesanKesan": "Saya senang bersekolah disini"
-            },
-            {
-                "nama": "Dona Fifi Rosalina",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas,28 Februari 2006",
-                "img": "dona.jpg",
-                "alamat": "Jalan Jawa No 84",
-                "noTelp": "085763705331",
-                "pesanKesan": "Senang karna jadi mempunyai banyak teman."
-            },
-            {
-                "nama": "Fahrurraji",
-                "kelas": "9-1",
-                "ttl": "Basarang, 9 September 2006",
-                "img": "fahrurraji.jpg",
-                "alamat": "Jl. Anjir Basarang km.3",
-                "noTelp": "081350233546",
-                "pesanKesan": "Banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini. Sekolah ini telah mengajarkan banyal hal dan banyak membantu saya untuk menjadi seorang pribadi yang lebih baik dengan cara yang menyenangkan."
-            },
-            {
-                "nama": "Farhah Aqilah",
-                "kelas": "9-1",
-                "ttl": "Lhoukseumawe, Aceh,  24 April 2006",
-                "img": "farhah.jpg",
-                "alamat": "jl Pemuda no 69A kapuas Kalimantan Tengah",
-                "noTelp": "085105571974",
-                "pesanKesan": "ini mau di kosongin tapi ga bisa."
-            },
-            {
-                "nama": "Kevin Zolva Rahman",
-                "kelas": "9-1",
-                "ttl": "Pulang Pisau 22-06-2006",
-                "img": "kevin.png",
-                "alamat": "jln.cilik riwut perumahan berkat ikhlas permai 2 blok c no 26",
-                "noTelp": "085333235784",
-                "pesanKesan": "Terimakasih sudah membimbing saya, maaf kalau selama ini saya punya salah. Semoga ilmu yang sudah ibu/bapak kasih di balas oleh Allah."
-            },
-            {
-                "nama": "Muhamad Farur Reza",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas 9 April 2006",
-                "img": "reza.jpg",
-                "alamat": "Jl.cilik riwut gg.2 / Jl.Bpp No.109",
-                "noTelp": "085822995957",
-                "pesanKesan": "Cara Mengajar Guru-Guru yang Baik Dan Sopan Terhadap Murid."
-            },
-            {
-                "nama": "Muhamad Kemal Faza",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 26 Mei 2006",
-                "img": "kemal.jpg",
-                "alamat": "Jl. Kapuas No.09 RT.03 RW.01",
-                "noTelp": "085248258322",
-                "pesanKesan": "Saya memperoleh banyak ilmu dan pengalaman disini. Dan saya berterimakasih kepada guru-guru yang telah memberikan ilmunya tanpa rasa lelah. Semoga para guru dan semua warga sekolah diberi kesehatan selalu."
-            },
-            {
-                "nama": "Muhammad Ansyari",
-                "kelas": "9-1",
-                "ttl": "20 Oktober 2005",
-                "img": "ansyari.jpg",
-                "alamat": "Jl.kasturi.rt.6 kodepos:73551",
-                "noTelp": "085251252681",
-                "pesanKesan": "Bagus karena saya mendapat banyak kebaikan dan saya juga bisa mengharumkan nama baik MTSN 1 KAPUAS di Palangkaraya"
-            },
-            {
-                "nama": "Muhammad Fadillah",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 17-06-2006",
-                "img": "fadillah.jpg",
-                "alamat": "Jln.Cilik riwut gg Wahyu blok B no 7",
-                "noTelp": "085348061402",
-                "pesanKesan": "Pesan:<br>Ga usah malu kalau hobimu nonton anime atau kartun, di luar sana ribuan orang lebih hobi menonton aib orang lain<br>Kesan:<br>Hebat dan mengenang🌹🤠"
-            },
-            {
-                "nama": "Muhammad Fahmi",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 2 Agustus 2006",
-                "img": "fahmi.jpg",
-                "alamat": "Jalan Seroja NO:92,  RT.25,  RW.03.",
-                "noTelp": "083150569341",
-                "pesanKesan": "Pesan kesan selama di mtsn, mendewasakan diri, bertemu teman yg berbeda beda, mendapatkan wawasan yg luas, dan merubah jati diri yg awal nya kurang baik menjadi lumayan baik."
-            },
-            {
-                "nama": "Muhammad Nabil Hariry",
-                "kelas": "9-1",
-                "ttl": "Banjarmasin, 21-12-2006",
-                "img": "nabil.jpg",
-                "alamat": "Jalan Cilik Riwut perumahan Asri no 124",
-                "noTelp": "0895421383600",
-                "pesanKesan": "Semoga MTSN semakin maju dari sebelumnya.<br>Hobi:Membaca dan mendengarkan musik.<br>Ig:@nabil.hariry"
-            },
-            {
-                "nama": "Muhammad Nur Ihsan",
-                "kelas": "9-1",
-                "ttl": "Kuala kapuas, 13 februari 2006",
-                "img": "ihsan.jpg",
-                "alamat": "Jln. Pemuda handil ulis km3,5",
-                "noTelp": "0895354320128",
-                "pesanKesan": "Menggokil👞 😎👌"
-            },
-            {
-                "nama": "Mulia Safitri",
-                "kelas": "9-1",
-                "ttl": "21-10-2006",
-                "img": "mulia.jpg",
-                "alamat": "Jl.barito no.35 RT.37 RW.02 ",
-                "noTelp": "082154750301",
-                "pesanKesan": "Kesan waktu sekolah di Mts itu ada yang baik ada juga yang buruk.klo buruknya itu banyak yang suka musuhin tanpa tau alasannya apa,dan kesan yang baiknya mulia bersyukur di temuin sama teman teman yang baik kaya Bella,Nanda,cabi,Rania,dll.menurut mulia mereka itu support sistemnya mulia, Masi bnyk kesan kesan baik lain yang ga bisa mulia ungkapin disini. Terimakasih ( ◜‿◝ )♡"
-            },
-            {
-                "nama": "Nabella Rizki Ananda",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas,13 Januari 2006",
-                "img": "bella.jpg",
-                "alamat": "Jl.K.P.Tandean No 04 Rt 05",
-                "noTelp": "083150569314",
-                "pesanKesan": "Lagi malas mikir,jadi kesannya b aja"
-            },
-            {
-                "nama": "Putri Salma Rahayu",
-                "kelas": "9-1",
-                "ttl": "Banyumas, 27-01-2006",
-                "img": "salma.jpg",
-                "alamat": "Jln.pemuda Gg.al-Asyari ",
-                "noTelp": "0895422171080",
-                "pesanKesan": "Kesan saya selama 3 tahun bersekolah di MTsN 1 Kapuas sangat berharga dan tidak terlupakan.Banyak hal yang sudah saya pelajari termasuk ilmu dan ahklak yang baik yang akan berguna untuk masa depan. <br> Pesan saya semoga  MTsn 1 Kapuas ke depannya menjadi lebih baik lagi agar menciptakan generasi yang berguna dan berprestasi dan saya mengucapkan terima kasih kepada guru-guru yang telah mengajar saya selama di MTsn 1 Kapuas."
-            },
-            {
-                "nama": "Rania Azahra Putri",
-                "kelas": "9-1",
-                "ttl": "Kuala Kapuas, 10 Juni 2006",
-                "img": "rania.jpg",
-                "alamat": "Jln. Barito Gg. Bina Warta No. 15",
-                "noTelp": "089692897325",
-                "pesanKesan": "Gda yg menarik, biasa aja"
-            },
-            {
-                "nama": "Raudatun Nisa",
-                "kelas": "9-1",
-                "ttl": "Barito Kuala, 07 April 2007",
-                "img": "nisa.jpg",
-                "alamat": "Jalan Pemuda gg. Alif Putih No 87  RT 01 RW 01",
-                "noTelp": "082322175847",
-                "pesanKesan": "Kesan saya selama di MTsN, saya mendapat teman yang menyenangkan, juga guru yang baik hati mengajar dan memberi saya banyak ilmu. Saya juga mendapat banyak hal baru yang belum pernah saya dapatkan sebelumnya. "
-            },
-            {
-                "nama": "Salwa Alfakhira",
-                "kelas": "9-1",
-                "ttl": "Banjarmasin, 31 Oktober 2006",
-                "img": "salwa.jpg",
-                "alamat": "Jln.S.Parman gg 2 no.81",
-                "noTelp": "085348614972",
-                "pesanKesan": "Terima kasih atas semua yang diajarkan baik dari pelajaran agama dan umum dengan sangat seimbang, terlebih dari itu terima kasih juga atas didikan sopan santunnya, semoga semuanya bisa bermanfaat di kemudian hari."
-            }
-        ],
-        "kelas92": [
-            {
-                "nama": "Achmad Baihaqi",
-                "kelas": "9-2",
-                "ttl": "Kuala kapuas, 12 April 2006",
-                "img": "baihaqi.jpg",
-                "alamat": "Jl. Cilik Riwut, Gg.VIII",
-                "noTelp": "089696166266",
-                "pesanKesan": "Tidak ada kesan yang terlalu berarti selama saya bersekolah di sekolah ini. Tetapi ada beberapa momen yang membuat saya bahagia. Saya bisa mengenal hal-hal yang baru dan mendapat ilmu yang bermanfaat dari orang-orang di sekeliling saya. "
-            },
-            {
-                "nama": "Akhmad Rezky Utama",
-                "kelas": "9-2",
-                "ttl": "Kuala kapuas, 18 November 2005",
-                "img": "rezky.jpg",
-                "alamat": "Jln.Barito gang 12 PERMUNAS RT 28 No 3",
-                "noTelp": "082253465330",
-                "pesanKesan": "Pesan: <br><br>Jika anda pemalas, Malaslah setiap hari, Sehingga anda jadi pemalas yang rajin<br><br>Kesan:<br><br>Banyak yang ingin saya ceritakan Tetapi selama saya sekolah di MTsN 1 Kapuas, Alhamdulillah saya mendapatkan Lebih banyak Ilmu yang bermanfaat, Teman, Followers, Uang jajan, Pengalaman dan lain nya<br><br>Inti nya MTsN 1 Kapuas ter the best<br><br>\"Don't Follow your Dream, Just Follow My instagram\"<br><br>IG: @eky__369"
-            },
-            {
-                "nama": "Faqih Ahmad",
-                "kelas": "9-2",
-                "ttl": "KAPUAS, 19 November 2006",
-                "img": "faqih.jpg",
-                "alamat": "JL.TAMBUN BUNGAI GG.4 NO.43",
-                "noTelp": "0811097358",
-                "pesanKesan": "Pesan : Terimakasih kepada guru² yg telah mengajar saya dan teman² yg lain, dan juga saya dan mewakili teman² yg lain untuk meminta maaf apabila kami mempunyai banyak kesalahan<br> <br>Kesan : Ya saya sangat senang bersekolah di MTsN 1 Kapuas dah itu saja 🐦👍🏻"
-            },
-            {
-                "nama": "Daivina Adani",
-                "kelas": "9-2",
-                "ttl": "Anjir pasar, 7 juni 2006",
-                "img": "daivina.jpg",
-                "alamat": "Jalan melati, kelurahan selat tengah kecamatan selat Rt. 27 Rw.03",
-                "noTelp": "083143977008",
-                "pesanKesan": "Sangat menyenangkan dan banyak mendapat ilmu.Semoga jasa ibu dan bapak guru dibalas kebaikannya oleh Allah Swt Dan ilmu yang kami dapatkan selama di MTsN 1 Kapuas menjadi barokah untuk kami semua."
-            },
-            {
-                "nama": "Salsabila",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 21 - 04 -2006",
-                "img": "salsabila.jpg",
-                "alamat": "Jl. Mayjend Sutoyo gg 1 No. 45",
-                "noTelp": "089693048152",
-                "pesanKesan": "Menurut saya secara singkat, banyak pelajaran yang bisa saya dapatkan serta bimbingan para ibu bapak guru yang lain dalam mengajar. Maaf atas perilaku buruk saya yang pernah saya lakukan dan terimakasih banyak untuk semua kebaikan kalian dalam mengajar. "
-            },
-            {
-                "nama": "Moch. Iqbaal Jati",
-                "kelas": "9-2",
-                "ttl": "Barimba, 05-02-2007",
-                "img": "jati.jpg",
-                "alamat": "Jl.Kapuas Seberang II Kel. Hampatung Kec. Kapuas Hilir",
-                "noTelp": "082252942394",
-                "pesanKesan": "\"Kalau ketemu guru disalamin,Jangan Dianggurin\""
-            },
-            {
-                "nama": "Nadya kamilatul aisy",
-                "kelas": "9-2",
-                "ttl": "Palembang, 08 November 2006",
-                "img": "nadya.jpg",
-                "alamat": "Jln Kapuas no 7 selat hulu",
-                "noTelp": "089691346657",
-                "pesanKesan": "perasaan saya sekolah disini kayak plat motor jkt, B aja"
-            },
-            {
-                "nama": "Diffania Audria Falah Ramadhani",
-                "kelas": "9-2",
-                "ttl": "Kapuas, 18-10-2006",
-                "img": "diffania.jpg",
-                "alamat": "jl. pemuda perumahan kampoeng modern blok A no 1",
-                "noTelp": "085348485820",
-                "pesanKesan": "lumayan lah kaya es jeruk"
-            },
-            {
-                "nama": "Destia Ayu Lestari",
-                "kelas": "9-2",
-                "ttl": "13 Desember 2006",
-                "img": "destia.jpg",
-                "alamat": "Jl.perkutut",
-                "noTelp": "083140287637",
-                "pesanKesan": " \"tuntut lah ilmu sampai ke negeri cina tapi karna lagi Corona di cancel dulu aja\" 2021,btw skrg Corona punya anak"
-            },
-            {
-                "nama": "Noor Alisa",
-                "kelas": "9-2",
-                "ttl": "Kuala kapuas, 24-02-2006",
-                "img": "alisa.jpeg",
-                "alamat": "jln.tambun bungai ",
-                "noTelp": "082353122006",
-                "pesanKesan": "Buang mimpimu dan matilah."
-            },
-            {
-                "nama": "Herlika",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas 31-08-2006",
-                "img": "herlika.jpg",
-                "alamat": "Jln.Mahakam Gg5",
-                "noTelp": "083143329661",
-                "pesanKesan": "PESAN DAN KESAN <br>Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
-            },
-            {
-                "nama": "Muhammad Iqbal Fahrezi",
-                "kelas": "9-2",
-                "ttl": "Martapura, 25 April 2006",
-                "img": "iqbal.jpg",
-                "alamat": "Jl.Nuri II ",
-                "noTelp": "0895701227254",
-                "pesanKesan": "Never gonna give you up"
-            },
-            {
-                "nama": "Muhamad Abrar",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 10 Februari 2006",
-                "img": "abrar.jpeg",
-                "alamat": "Jl.pemuda",
-                "noTelp": "081347258569",
-                "pesanKesan": "Pesan<br>Stop baperan<br>Kesan<br>Jam kos ya tidur<br><br>やめてください。<br><br>Entah apa yang merasuki mu "
-            },
-            {
-                "nama": "Muhamad Dwi Reqza Saputra",
-                "kelas": "9-2",
-                "ttl": "KUALA KAPUAS 11 DESEMBER 2005",
-                "img": "dwi.jpg",
-                "alamat": "JL.BARITO GANG.8 JATI PERMAI NO 148",
-                "noTelp": "085249853957",
-                "pesanKesan": "\"Kalau capek istirahat,kamu hanya akan merasa terbebani bila terus membantu mereka. KAMU BUKAN MALAIKAT\""
-            },
-            {
-                "nama": "Muhammad isra",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 22-08-2006",
-                "img": "isra.jpg",
-                "alamat": "Jln. Tambun Bungai Gg 5c",
-                "noTelp": "082249381622",
-                "pesanKesan": "Saya senang selama sekolah di sini karena bisa mendapat banyak teman dan hal-hal baru."
-            },
-            {
-                "nama": "Miftahurroziqin",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas,01 Januari 2007",
-                "img": "roziq.jpg",
-                "alamat": "Jln. Patih Rumbih no.15",
-                "noTelp": "081521934427",
-                "pesanKesan": "Merasa senang dan bangga selama menjadi siswa MTsN 1 Kapuas"
-            },
-            {
-                "nama": "Asih Mahmudah",
-                "kelas": "9-2",
-                "ttl": "Terusan, 05 Juli 2006",
-                "img": "asih.jpg",
-                "alamat": "Keruing Gang 5A",
-                "noTelp": "0895700749814",
-                "pesanKesan": "Terima kasih kepada Bapak/Ibu Guru yang mengajarkan saya ilmu dan menjadi manusia yang beradab. Teruntuk teman juga terima kasih menerima saya menjadi sahabat kalian. Banyak kenangan suka dan duka menjadi siswa MTsN 1Kapuas dari awal masuk sekolah hingga lulus. <br><br>Pesan :kita harus menghargai apa yang dimiliki,jangan menunggu hal itu menghilang dan kemudian menyesalinya.<br> <br>Kesan:jangan terlalu terpaku pada hasil yang bagus dan walaupun hasilnya buruk,karena apapun hasilnya yang penting sudah hal tersebut dengan bahagia."
-            },
-            {
-                "nama": "Destia Amelia Hayatun Nufus",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 26-12-2005",
-                "img": "amelia.jpeg",
-                "alamat": "Jl.Pemuda Komplek Sumber Kurnia Blok C No.13 Rt.11",
-                "noTelp": "082255821597",
-                "pesanKesan": "Terimakasih nct dan wayv karena mu sekolahku lebih menyenangkan."
-            },
-            {
-                "nama": "Nabila",
-                "kelas": "9-2",
-                "ttl": "15-03-2007",
-                "img": "nabila.jpeg",
-                "alamat": "Murung Keramat",
-                "noTelp": "082358040606",
-                "pesanKesan": "Pesan nya :smg angkatan selanjutnya bisa membanggakan MTsN yaps😁🤙🏻 <br> Kesan nya :selama sklh di mtsn nabila pny teman yg baik sprti nina,jeje n guru nya baik semua.argh kgn skli sklh 😖💖"
-            },
-            {
-                "nama": "Nayla Javiera",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 09 Juni 2006.",
-                "img": "nayla.jpeg",
-                "alamat": "Keruing no.118",
-                "noTelp": "081248977575",
-                "pesanKesan": "lihat kan foto ku tidak berwarna, itulah gambaran hari hari ku tanpa hadir nya bapa econ di sekolah :("
-            },
-            {
-                "nama": "Nazwa Afivah",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 26-juni-2007",
-                "img": "nazwa.jpg",
-                "alamat": "Jln. Aghatis No. 42A",
-                "noTelp": "081350495042",
-                "pesanKesan": "Hidup itu banyak cobaan klo banyak saweran itu dangdutan"
-            },
-            {
-                "nama": "Nor Istiqamah",
-                "kelas": "9-2",
-                "ttl": "Kuala kapuas, 13 april 2006",
-                "img": "istiqamah.jpg",
-                "alamat": "Jl. jenderal Sudirman ",
-                "noTelp": "081521503898",
-                "pesanKesan": "Pesan: Terima kasih kepada bapak/ibu guru yang sudah mengajari saya dan mohon maaf apabila saya pernah membuat bapak/ibu guru marah atau kesal terhadap perilakuan saya yang menurut bapak/ibu guru kurang berkenan dihati. <br><br>Kesan:saya senang bersekolah di MTSN 1 Kapuas dan saya juga senang. bisa Pertemuan dengan bermacam macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi. "
-            },
-            {
-                "nama": "Nor Jannah",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 11 Juni 2006",
-                "img": "jannah.jpg",
-                "alamat": "Jln cilik kriwut",
-                "noTelp": "089691488704",
-                "pesanKesan": "Baik"
-            },
-            {
-                "nama": "Putri Norsafitri",
-                "kelas": "9-2",
-                "ttl": "Kuala kapuas, 08-01-2006",
-                "img": "norsafitri.jpg",
-                "alamat": "Jln.pemuda Km 3.5",
-                "noTelp": "0895389718100",
-                "pesanKesan": "Sekolah yang sangat membanggakan. Saya bahagia sdh bisa bersekolah disini. "
-            },
-            {
-                "nama": "Putri Rahmawati",
-                "kelas": "9-2",
-                "ttl": "Mantangai, 01 November 2005",
-                "img": "rahmawati.jpeg",
-                "alamat": "Tambun bungai Gg.V no 52",
-                "noTelp": "081549476309",
-                "pesanKesan": "ga tau bingung"
-            },
-            {
-                "nama": "Rabiatul Adawiyah",
-                "kelas": "9-2",
-                "ttl": "Kuala Kapuas, 22-09-2006",
-                "img": "rabiatul.jpg",
-                "alamat": "Murung Keramat",
-                "noTelp": "089690809530",
-                "pesanKesan": "Di sini saya banyak belajar, menemukan teman sejati, dan mendapat pengalaman yang sangat menyenangkan."
-            },
-            {
-                "nama": "Tri Afka",
-                "kelas": "9-2",
-                "ttl": "19-oktober-2006",
-                "img": "afka.jpg",
-                "alamat": "Jln cilik riwut gang 5 citra permai",
-                "noTelp": "0895700165773",
-                "pesanKesan": "Saya sangat senang sekolah di mtsn 1 kuala kapuas"
-            }
-        ],
-        "kelas93": [
-            {
-                "nama": "Aisya Rahmah",
-                "kelas": "9-3",
-                "ttl": "Kuala Kapuas, 31 januari 2006",
-                "img": "aisya.jpg",
-                "alamat": "Jl. Mawar Gg 2 no 18",
-                "noTelp": "081345649735",
-                "pesanKesan": "Saya senang bisa bersekolah di MTsN 1 Kapuas. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang baik dan ramah. Pertemuan dengan bermacam-macam karakter teman membuat saya mengerti  bagaimana caranya bersosialisasi dan mengendalikan emosi."
-            },
-            {
-                "nama": "Putri Insani Hayati",
-                "kelas": "9-3",
-                "ttl": "Dahirang, 20 September 2006",
-                "img": "insani.jpg",
-                "alamat": "Jl.Kapuas Seberang 2 no.32 rt.004",
-                "noTelp": "089628142199",
-                "pesanKesan": "Pesan: Semoga kedepannya MTSN 1 Kapuas lebih baik lagi dari sebelumnya<br>Kesan: Saya mendapat teman\" baru,dan sahabat disini dan guru\" yang terbaik"
-            },
-            {
-                "nama": "Isra hayattun nufus",
-                "kelas": "9-3",
-                "ttl": "Kuala kapuas, 28 juli 2006",
-                "img": "isra.jpg",
-                "alamat": "Kuala kapuas, 28 juli 2006",
-                "noTelp": "083141011184",
-                "pesanKesan": "Saya senang mendaptkan banyak ilmu, Walaupun sering membuat pusing, tapi tetap kangen."
-            },
-            {
-                "nama": "Muhammad Rezki",
-                "kelas": "9-3",
-                "ttl": "KUALA KAPUAS, 31-MARET-2006",
-                "img": "rezki.jpg",
-                "alamat": "Jl.Pemuda km 4,5(jalan usang) rt 05 rw 02 nomor rumah 61 kelurahan selat utara ",
-                "noTelp": "082351542792",
-                "pesanKesan": "Bisa tadarus tiap pagi sama khatam al Quran bersama-sama dan terima kasih untuk semua guru MTsN 1 Kapuas yang telah memberikan ilmu nya."
-            },
-            {
-                "nama": "Rahmawati",
-                "kelas": "9-3",
-                "ttl": "Kapuas,11 febuari 2006",
-                "img": "rahmawati.jpg",
-                "alamat": "Jl.bakti abri murung keramat rt.6",
-                "noTelp": "085701990676",
-                "pesanKesan": "Sangat mendidik"
-            }
-        ],
-        "kelas94": [
-            {
-                "nama": "Ali Nordin",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 25-10-2006",
-                "img": "ali.jpg",
-                "alamat": "Jl. Cilik Riwut No 29 Rt 09 Rw 03",
-                "noTelp": "089691346762",
-                "pesanKesan": "Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya. Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah. Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini. Walaupun perpisahan kali cukup berbeda tapi saya sangat senang dengan semua kenangan-kenangan yang pernah dibuat pada tahun tahun sebelumnya dan saya yakin dibalik semua ini pasti ada hikmahnya. Dan saya sangat berterima kasih kepada bapak/ibu guru yang mengajarkan kami dengan sabar dan ikhlas."
-            },
-            {
-                "nama": "Alya Kamilah",
-                "kelas": "9-4",
-                "ttl": "Kuala kapuas, 14 maret 2006",
-                "img": "alya.jpg",
-                "alamat": "Kuala kapuas, Jl anggrek Gg.6c. Rt13 Rw02",
-                "noTelp": "089691385057",
-                "pesanKesan": "Banyak pelajaran yang saya dapat, dari memahami pelajaran/Tugas sekolah. Bergaul dengan teman yang berbeda sifat...dan berterimakasih atas jasa guru yang mengajari kami dengan sabarrr. Meskipun tidak terlalu banyak kenangan di sekolah. Karna sekarang masa pandemi virus....ya saya harap saya bisa jadi pribadi yang lebih baik kedepan nya. Trimakasihhh..."
-            },
-            {
-                "nama": "Putri Sekar Harum",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 13 Maret 2006",
-                "img": "sekar.jpg",
-                "alamat": "Jln. Barito Gg. 12 Perumnas No. Rumah 33",
-                "noTelp": "089691527965",
-                "pesanKesan": "kesan:<br>Awalnya saya belum terbiasa belajar di sekolah dengan banyak mata pelajaran agamanya, nilai saya diawal kelas 7 memang rendah, tapi seiring waktu nilai saya semakin berkembang dan saya mulai terbiasa belajar agama-agama yang diberikan setiap hari pada tiap-tiap mata pelajaran.<br><br>pesan:<br>saya berharap sekolah madrasah seperti mtsn 1 kapuas ini, bisa terus berkembang dan bisa menghasilkan murid murid yang agamis dan penuh ilmu keagamaannya, serta terus mengembangkan muridnya agar bisa terus membanggakan nama mtsn 1 kapuas."
-            },
-            {
-                "nama": "Muhammad Rizky Ikhsan",
-                "kelas": "9-4",
-                "ttl": "31 Agustus 2006",
-                "img": "rizky.jpg",
-                "alamat": "Jalan cilik riwut BPP gg asmuri",
-                "noTelp": "0895634766753",
-                "pesanKesan": "Never gonna give you up<br>Never gonna let you down<br>Never gonna run around and desert you<br>Never gonna make you cry never gonna say goodbye<br>Never gonna tell a lie and hurt you"
-            },
-            {
-                "nama": "Nanda Putri Aulia",
-                "kelas": "9-4",
-                "ttl": "Kapuas, 8/10/2006",
-                "img": "nanda.jpg",
-                "alamat": "Jln Mahakam gg selaras",
-                "noTelp": "083192397506",
-                "pesanKesan": "Bahagia sih tapi kurang bahagia karna gagal push qonqu duo tpp:("
-            },
-            {
-                "nama": "Athaya Ghina",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 11-11-2006",
-                "img": "ghina.jpg",
-                "alamat": "",
-                "noTelp": "0895705949445",
-                "pesanKesan": "Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br><br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
-            },
-            {
-                "nama": "Anisa Putri",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 12-11-2006",
-                "img": "anisa.jpg",
-                "alamat": "Jalan pemuda km 3,5",
-                "noTelp": "089694423831",
-                "pesanKesan": "Banyak terhibur"
-            },
-            {
-                "nama": "Chaesar Bimasakti",
-                "kelas": "9-4",
-                "ttl": "12-05-2005",
-                "img": "bimasakti.jpeg",
-                "alamat": "Depot Jakarta",
-                "noTelp": "081251059015",
-                "pesanKesan": "Jangan LDR, ternyata LDR itu berat. Aku menyesal"
-            },
-            {
-                "nama": "Nyimas Fithriyyah Robbana Hidayah",
-                "kelas": "9-4",
-                "ttl": "Banjarmasin, 28-10-2006",
-                "img": "nyimas.jpg",
-                "alamat": "Jln. Barito GG. 7a kenanga No. 257",
-                "noTelp": "083192397517",
-                "pesanKesan": "Harapannya semoga sekolah ini bisa berkembang lebih maju, guru-guru yang mengajar juga semoga sehat selalu, dan juga semoga Corona cepat berlalu agar anak didik yang baru masuk bisa merasakan bersosialisasi dengan teman dan lingkungan sekitar. Kesan selama bersekolah di sini menyenangkan, apalagi memiliki teman baru, sahabat baru, juga kondisi lingkungan yang baru. Dan banyak hal-hal yang tak terlupakan walaupun disaat terakhir kenaikan kelas 8 kita melakukan sekolah dengan keadaan daring sampai saat kelulusan kelas 9 masih melakukan sekolah dengan keadaan daring. Memang betul tidak ada kenangannya disaat kita di akhir sekolah menengah pertama di mana nanti akan dipisahkan saat kita mulai masuk SMA di mana teman-teman kita akan berbeda sekolah dengan kita, tetapi kita juga dapat belajar bahwa di setiap pertemuan pasti ada perpisahan."
-            },
-            {
-                "nama": "Farizka Rahmah Andini",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 7 September 2006",
-                "img": "farizka.jpg",
-                "alamat": "Jalan Tambun Bungai Gang 5a Nomor 42",
-                "noTelp": "085345001254",
-                "pesanKesan": "Saya senang sekolah disini, karena bertemu teman-teman yang berakhlak mulia. Sekian🙏."
-            },
-            {
-                "nama": "Frida Medina Mecca",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 15 Januari 2007",
-                "img": "medina.jpg",
-                "alamat": "Jl. Tjilik Riwut Gg. Majelis Taklim Rt. 017",
-                "noTelp": "089686366578",
-                "pesanKesan": "Bersekolah di MTsN 1 Kapuas sangat menyenangkan sekali"
-            },
-            {
-                "nama": "Muhammad Farid Khatimi",
-                "kelas": "9-4",
-                "ttl": "BANJARMASIN 09-Desember-2005",
-                "img": "farid.jpeg",
-                "alamat": "Jl aghatis Gg6 no 115",
-                "noTelp": "08884372681",
-                "pesanKesan": "KENANGAN YANG TAKKAN KU LUPAKAN BERSAMA TEMAN2 DAN JUGA GURU2 <br>MtsN makin maju gaspol"
-            },
-            {
-                "nama": "Muhammad Hidayat",
-                "kelas": "9-4",
-                "ttl": "17 Juni 2006",
-                "img": "hidayat.jpg",
-                "alamat": "Jl. Kapuas",
-                "noTelp": "089637218483",
-                "pesanKesan": "Sangat senang"
-            },
-            {
-                "nama": "Muhammad Ikhsan Maulana",
-                "kelas": "9-4",
-                "ttl": "Kuala kapuas,13 februari 2007",
-                "img": "ikhsan.jpg",
-                "alamat": "JALAN CILIK RIWUT GANG WAHYU BLOK A NO 8",
-                "noTelp": "0895367237541",
-                "pesanKesan": "Terimakasih yang sebesar besarnya kepada bapak dan ibu guru yang telah mendampingi serta memberi wawasan dan ilmu pengetahuan kepada saya.dan terima kasih banyak kepada teman teman yang telah baik terhadap saya."
-            },
-            {
-                "nama": "Muhammad Ridwan Sholeh",
-                "kelas": "9-4",
-                "ttl": "Kuala kapuas 18-02-2007",
-                "img": "ridwan.jpg",
-                "alamat": "Jl.barito Gg.13A",
-                "noTelp": "089629253345",
-                "pesanKesan": "Mendapat teman baru"
-            },
-            {
-                "nama": "Muhammad Zulfikar",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 12-Mei-2006",
-                "img": "zulfikar.jpg",
-                "alamat": "Jl.Jawa Gg.V No.26 ",
-                "noTelp": "089609159940",
-                "pesanKesan": "Saya mendapatkan kesan yang sangat menyenangkan ketika saya belajar di sini.Sekolah ini telah mengajari saya banyak hal dan banyak membantu saya dengan cara yang menarik."
-            },
-            {
-                "nama": "Najla",
-                "kelas": "9-4",
-                "ttl": "02/07/2006",
-                "img": "najla.jpg",
-                "alamat": "Jln barito gg 3 no 22",
-                "noTelp": "082150248243",
-                "pesanKesan": "Pesan: Semoga MTsN 1 kapuas semakin maju dan bisa terkenal dengan prestasinya aaminn. <br> Kesan: Semua rasa ada disini, ada senang dan ada sedih. Tapi senyum ceria yang selalu ada ada disini. Pokoknya banyak pengalaman yang kami dapatkan."
-            },
-            {
-                "nama": "Nur Halimah",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas,05/11/2006",
-                "img": "halimah.jpg",
-                "alamat": "JL.Cilik Riwut Gg Puskesmas RT/012 RW/004",
-                "noTelp": "0895700193044",
-                "pesanKesan": "Janganlah engkau menimba ilmu atau pengetahuan, karna dalam sumur tidak ada pengetahuan."
-            },
-            {
-                "nama": "Sarah Ade Muflih",
-                "kelas": "9-4",
-                "ttl": "Kapuas, 25-5-2006",
-                "img": "sarah.jpg",
-                "alamat": "Jl. Tambun bungai Gg 3 No. 90b",
-                "noTelp": "085753601025",
-                "pesanKesan": "Selama sekolah di sini dapat pengalaman seru, tapi lebih banyak pengalaman nyebelinnya juga sih. Tapi mau gimana lagi. Takdir ilahi😌"
-            },
-            {
-                "nama": "Siti Nasywa Annisa",
-                "kelas": "9-4",
-                "ttl": "Kuala Kapuas, 23 Juli 2006",
-                "img": "nasywa.jpg",
-                "alamat": "Jln. Mahakam No.137 RT.06 RW.02 ",
-                "noTelp": "0895401178629",
-                "pesanKesan": "Sekolah ini banyak memberikan pelajaran yang berguna bagi saya dan juga telah membentuk saya menjadi karakter yang jauh lebih baik dari sebelumnya. Ini semua karena para guru selalu ada untuk membimbing saya, menunjukkan apa yang benar dan yang salah. Selain itu, teman-teman juga sangat berarti bagi saya. Tanpa mereka, saya bukan siapa-siapa. Saya yakin besok atau lusa saya akan benar-benar kehilangan waktu kita bersama-sama sejauh ini."
-            },
-            {
-                "nama": "Siti Saidah",
-                "kelas": "9-4",
-                "ttl": "LUNUK RAMBA, 5 APRIL 2006",
-                "img": "saidah.jpg",
-                "alamat": " JL. Trans kalimantan Rt 05 kel/desa Lunuk Ramba kec Basarang Km 4,5",
-                "noTelp": "082354911145",
-                "pesanKesan": "Saya sangat bangga menjadi murid di mtsn 1 kapuas, banyak pelajaran yang dapat saya ambil selama bersekolah di mtsn 1 kapus, guru-guru yang mengajar pun sabar menghadapi sifat kami, bercanda bareng di kelas,kumpul-kumpul sama teman-teman pada jam istirahat  dan pada akhirnya ada pengumuman 2 minggu libur dari situ lah kami tidak bisa bercanda tawa bersama teman-teman lagi di sekolah, selama 1 tahun kami belajar daring tidak merasa bagaimana jadi kaka kelas 9 dan pada akhirnya kisah kami pun akan selesai di mtsn 1 kapus suatu saat nanti saya akan merindukan kenangan dan kehangatan di sekolah ini dan saya sangat berterima kasih kepada bapak dan ibu guru atas ilmu yang kalian berikan kepada saya, yang telah sabar mendidik saya dan memberikan nasehat kepada saya."
-            }
-        ],
-        "kelas95": [
-            {
-                "nama": "Rizki Maulidah",
-                "kelas": "9-5",
-                "ttl": "16 Agustus 2006",
-                "img": "maulidah.jpg",
-                "alamat": "Jl. Pemuda km 3,5",
-                "noTelp": "083154788297",
-                "pesanKesan": "Saya senang karna selama berada di MTsN saya bisa mendapatkan banyak teman dan ilmu yang bermanfaat. Semoga kedepannya MTsN bisa semakin sukses dan menghasilkan banyak murid baru yang berprestasi."
-            },
-            {
-                "nama": "Ahmad Faisal Ramadhan",
-                "kelas": "9-5",
-                "ttl": "Kapuas, 04 Oktober 2006",
-                "img": "faisal.jpg",
-                "alamat": "Jalan Barito Gang12A No.17",
-                "noTelp": "085156579441",
-                "pesanKesan": "gatau"
-            },
-            {
-                "nama": "Isravika Azkiya",
-                "kelas": "9-5",
-                "ttl": "20-08-2004",
-                "img": "isravika.jpg",
-                "alamat": "Jl. Anjir basarang km 2",
-                "noTelp": "085231606072",
-                "pesanKesan": "Anjay lulus. Apapun yang pernah kita lakukan baik dan buruk bagiku tetap indah sebagai kenangan. We love you MTsN sekolah terindah dan terbaik."
-            },
-            {
-                "nama": "Aldy Valenz",
-                "kelas": "9-5",
-                "ttl": "Kuala kapuas, 25 mei 2006",
-                "img": "aldy.jpg",
-                "alamat": "Jalan kapuas gg kapuas baru",
-                "noTelp": "08152803568",
-                "pesanKesan": "Kesan selama di mts banyak dan tidak bisa di ceritakan karna terlalu banyak."
-            },
-            {
-                "nama": "Nur Rahman Diva Yanda",
-                "kelas": "9-5",
-                "ttl": "Kuala Kapuas, 5 Desember 2005",
-                "img": "diva.jpg",
-                "alamat": "Jl. Barito gg.6d",
-                "noTelp": "082351898607",
-                "pesanKesan": "MTsN 1 Kapuas sekolahnya bagus dan fasilitasnya lengkap."
-            },
-            {
-                "nama": "Ghina Raudatul Jannah",
-                "kelas": "9-5",
-                "ttl": "Sampit, 21-04-2006",
-                "img": "ghina.jpg",
-                "alamat": "jln.cilik riwut,Gg.manunggal 1-b.No 195",
-                "noTelp": "0895421607400",
-                "pesanKesan": "Pertemuan dengan bermacam macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi. Banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini,Banyak suka duka 3 tahun yg di lewati senang sedih bersama kawan-kawan."
-            },
-            {
-                "nama": "Medina Zahra",
-                "kelas": "9-5",
-                "ttl": "05 Juni 2006",
-                "img": "medina.jpg",
-                "alamat": "Jl. Cilik riwut no. 1",
-                "noTelp": "089691354743",
-                "pesanKesan": "Biasa saja, karena teman saya itu itu aja"
-            },
-            {
-                "nama": "Noor Fadillah",
-                "kelas": "9-5",
-                "ttl": "Kuala Kapuas, 28-5-2006",
-                "img": "fadillah.jpg",
-                "alamat": "Jl. Pemuda km 3,5",
-                "noTelp": "089660815896",
-                "pesanKesan": "Alhamdulillah baik² saja"
-            },
-            {
-                "nama": "Siti Rahmah",
-                "kelas": "9-5",
-                "ttl": "Kuala Kapuas,31,Mei,2006",
-                "img": "rahmah.jpg",
-                "alamat": "Jl.Tambun Bungai no:07",
-                "noTelp": "089530597837",
-                "pesanKesan": "Kesan saya selama bersekolah disini, sangat menyenangkan. Banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini. Sekolah ini telah mengajarkan banyak hal dan banyak membantu saya untuk menjadi seorang pribadi yang lebih baik dengan cara yang menyenangkan.Terimakasih guru dan teman-teman. Saya mendapat banyak ilmu dan pengalaman berharga selama belajar di sini."
-            }
-        ],
-        "kelas96": [
-            {
-                "nama": "Ahmad Hairil",
-                "kelas": "9-6",
-                "ttl": "19 Juli 2007",
-                "img": "hairil.jpg",
-                "alamat": "Jl. Soegiman",
-                "noTelp": "089691016833",
-                "pesanKesan": "Saya sangat bangga menjadı anak MTsN 1 Kapuas"
-            },
-            {
-                "nama": "Ahmad Maulana",
-                "kelas": "9-6",
-                "ttl": "30 November 2006",
-                "img": "maulana.jpg",
-                "alamat": "Desa Dahian Tambuk Kecamatan Mihing Raya Kabupaten Gunung mas",
-                "noTelp": "082151071407",
-                "pesanKesan": "Saya merasa bangga dan senang bersekolah di MTsN 1 Kapuas selama ini saya banyak mendapatkan pelajaran yang baik, guru guru disini juga sangat baik dan sangat ramah mengajarkan hal hal yang baik dan selama tiga tahun disini saya banyak mendapat kan pengalaman dan juga mendaptkan banyak teman saat bersekolah disini. Dan saya ucapkan terimakasih pada guru guru yang mengajarkan kami selama ini"
-            },
-            {
-                "nama": "Annisa Widiany",
-                "kelas": "9-6",
-                "ttl": "Basarang, 06-11-2006",
-                "img": "annisa.jpg",
-                "alamat": "Basarang KM 1,5",
-                "noTelp": "085249331684",
-                "pesanKesan": " \"Orang cerdas pasti pintar, orang pintar belum tentu cerdas\". "
-            },
-            {
-                "nama": "Dewi Nafisah",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 11-Januari-2006",
-                "img": "dewi.jpg",
-                "alamat": "Jl.jawa RT.039 RW.04",
-                "noTelp": "083147936837",
-                "pesanKesan": "Kesan saya selama bersekolah disini,banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini. Sekolah ini telah mengajarkan banyak hal dan banyak membantu saya untuk menjadi seorang pribadi yang lebih baik dengan cara yang menyenangkan."
-            },
-            {
-                "nama": "Fibryan Narulyta",
-                "kelas": "9-6",
-                "ttl": "Basarang, 04-februari-2006",
-                "img": "fibryan.jpg",
-                "alamat": "jl.soegiman",
-                "noTelp": "08978854698",
-                "pesanKesan": "Raihlah masa depan tanpa melupakan orang yang membantumu di masa lalu"
-            },
-            {
-                "nama": "Haris Fadilah",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 2006-03-29",
-                "img": "haris.jpg",
-                "alamat": "Cilik Riwut Gg 5",
-                "noTelp": "085386816796",
-                "pesanKesan": "Mendapatkan sesuatu yang baruuu"
-            },
-            {
-                "nama": "Ikhsan Teguh Mustajibul Khoir",
-                "kelas": "9-6",
-                "ttl": "8 JUNI 2006",
-                "img": "ikhsan.jpg",
-                "alamat": "jln Kalimantan gang 07 no 81",
-                "noTelp": "0895421920050",
-                "pesanKesan": "Kesannya susah dijelaskan, yang penting semoga saya lulus, mantap lah pokoknya 💪😎🤙"
-            },
-            {
-                "nama": "Intan Lestari",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 26-03-2026",
-                "img": "intan.jpg",
-                "alamat": "Jl.Meranti Rt. 008",
-                "noTelp": "085820201667",
-                "pesanKesan": " \"sangat menyenangkan mendapat teman baru dan belajar bersama teh es\" "
-            },
-            {
-                "nama": "Mariyadi",
-                "kelas": "9-6",
-                "ttl": "KUALA KAPUAS, 09 JULI 2006",
-                "img": "mariyadi.jpg",
-                "alamat": "JL. CILIK RIWUT GG. DAMAI RT. 030 RW.003 KUALA KAPUAS",
-                "noTelp": "089526576569",
-                "pesanKesan": "TIDAK ADA KENANGAN YANG PALING INDAH KECUALI BERSAMA GURU DAN TEMAN DISEKOLAH"
-            },
-            {
-                "nama": "Maulida Aprilia",
-                "kelas": "9-6",
-                "ttl": "Kapuas, 10-April-2006",
-                "img": "maulida.jpg",
-                "alamat": "Jln. Pemuda. Km. 3,5 Gg. Pinang. Rt. 02 Rw. 01",
-                "noTelp": "08978859449",
-                "pesanKesan": "Pertemuan dengan bermacam macam karakter teman membuat saya mengerti bagaimana cara nya bersosialisasi dan mengendalikan emosi. Terima kasih MtsN kau memeberi saya banyak pelajaran yang berharga."
-            },
-            {
-                "nama": "Muhammad Jawad Rahim",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 16-05-2006",
-                "img": "jawad.jpg",
-                "alamat": "Jln manunggal 1a",
-                "noTelp": "081251059146",
-                "pesanKesan": "Saya merasakan pembelajaran yng sangat baik"
-            },
-            {
-                "nama": "Navida Diah Utami",
-                "kelas": "9-6",
-                "ttl": "kulon progo, 29-11-2006",
-                "img": "navida.jpg",
-                "alamat": "JL.Agathis GG.06 NO.105",
-                "noTelp": "085849253244",
-                "pesanKesan": "my mother told me to follow my dream, so i followed NCT DREAM."
-            },
-            {
-                "nama": "Nida'ulkhairiyyah",
-                "kelas": "9-6",
-                "ttl": "Kuala kapuas, 17 Juli 2006",
-                "img": "nida.jpg",
-                "alamat": "Jln.Mawar NO.11 RT.05 RW.01",
-                "noTelp": "089691831541",
-                "pesanKesan": "Menyenangkan"
-            },
-            {
-                "nama": "Noor Aqila Zulfa",
-                "kelas": "9-6",
-                "ttl": "KUALA KAPUAS 26-07-2006",
-                "img": "aqila.jpg",
-                "alamat": "Jln Mahakam Gg 9 A kec. selat Hulu kab. kapuas",
-                "noTelp": "083155791353",
-                "pesanKesan": "Saya lebih semangat beraktivitas"
-            },
-            {
-                "nama": "Nor perida",
-                "kelas": "9-6",
-                "ttl": "Pujon, 01-12-2004",
-                "img": "perida.jpg",
-                "alamat": "Jl.Jawa gg.salak no 66",
-                "noTelp": "089530651603",
-                "pesanKesan": "Sangat menyenangkan menjadi murid Mts,guru guru sangat penyayang ramah baik hati"
-            },
-            {
-                "nama": "Rasya Rahmawati.",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 12-02-2007.",
-                "img": "rasya.jpg",
-                "alamat": "Jl.A.Yani No 82 RT 7.",
-                "noTelp": "082351535878",
-                "pesanKesan": "Selama saya di MTsN sangat menyenangkan, mendapat pelajaran yang baik, guru-guru yang baik dan teman-teman yang baik juga humoris.Saya juga sangat senang bersekolah di MTsN karena saya mendapat ilmu dan pengetahuan."
-            },
-            {
-                "nama": "Rehan",
-                "kelas": "9-6",
-                "ttl": "9-4-2007",
-                "img": "rehan.jpg",
-                "alamat": "Jl.pemuda km 5,5",
-                "noTelp": "085751855838",
-                "pesanKesan": "Untuk ibu/bapak guru , MTSN 1 Kuala Kapuas , Ketika masuk sekolah ini, saya melihat tanaman di sekitar sekolah tidak terawat, pagar yang rusak, dan beberapa coretan di dinding. Meski halaman sekolah ini sangat luas, dan mungkin agak sukar merawat tanaman di sekelilingnya, tapi bukankah lingkungan sekolah harus dibuat senyaman mungkin.<br>Sekolah sebaiknya memperkerjakan lebih dari seorang penjaga sekolah untuk merawat tanaman sekolah, serta melakukan perawatan periodik agar lingkungan sekolah nyaman dan menyenangkan."
-            },
-            {
-                "nama": "Rendra Rafa Nugroho",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 22 November 2006",
-                "img": "rafa.jpg",
-                "alamat": "Jln A.Yani no.87",
-                "noTelp": "089691387169",
-                "pesanKesan": "Menghebat dan menggokil😎👍👍"
-            },
-            {
-                "nama": "Rico Scendinatavia",
-                "kelas": "9-6",
-                "ttl": "23-03-2006",
-                "img": "rico.jpg",
-                "alamat": "Jl.tiungraya no.551",
-                "noTelp": "089693051617",
-                "pesanKesan": "Kesan nya keren"
-            },
-            {
-                "nama": "Zainal Hakimi",
-                "kelas": "9-6",
-                "ttl": "Kuala Kapuas, 10-04-2096",
-                "img": "zainal.jpg",
-                "alamat": "Perumnas pulau telo",
-                "noTelp": "081220129901",
-                "pesanKesan": "Guru nya baik baik"
-            }
-        ],
-        "kelas97": [
-            {
-                "nama": "Putri Ajwa Aliana",
-                "kelas": "9-7",
-                "ttl": "Banjarmasin, 14 Agustus 2006",
-                "img": "ajwa.jpg",
-                "alamat": "Jalan Pemuda No.13",
-                "noTelp": "085349623557",
-                "pesanKesan": "Yeay lulus hihi"
-            },
-            {
-                "nama": "Ahmad Marwaji",
-                "kelas": "9-7",
-                "ttl": "KUALA KAPAUSD 25 MEI 2006",
-                "img": "marwaji.jpg",
-                "alamat": "JALAN BARITO NO 65 RT 08 KECAMATAN SELAT",
-                "noTelp": "089637217608",
-                "pesanKesan": "senang dapat belajar di sekolah MTSN selat Kapuas"
-            },
-            {
-                "nama": "Ahmad Nuril Zidny",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 3 Januari 2006",
-                "img": "nuril.jpg",
-                "alamat": "Jl. Cilik Riwut Gang VIII No. 39 RT 04 Kuala Kapuas",
-                "noTelp": "081345146533",
-                "pesanKesan": "Mendapatkan Banyak teman, Mendapatkan banyak ilmu-ilmu baru dari guru-guru disini"
-            },
-            {
-                "nama": "Alaika Nida",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas 4 Mei 2007",
-                "img": "alaika.png",
-                "alamat": "Jl.barito Gg binawarta",
-                "noTelp": "089691201619",
-                "pesanKesan": "saya pengen conqu, life is not daijobu :("
-            },
-            {
-                "nama": "Aulia Hidayah",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 13-06-2006",
-                "img": "aulia.jpg",
-                "alamat": "Jl. Cilik Riwut GG. Vb No.28 Rt 016 kecamatan selat",
-                "noTelp": "087830913176",
-                "pesanKesan": "Kesan saya sangat bahagia bisa bersekolah di MTsN 1 Kapuas. Semua Bapak dan Ibu gurunya ramah dan penuh dengan kesabaran walaupun terkadang banyak murid yang mengeluh karena pembelajaran secara daring. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang begitu banyak, saya juga akan ingat selalu pesan dari guru. Kini masa pembelajaran kami di tingkat MTS sudah hampir berakhir dan menuju ke tingkat yang lebih tinggi. Semoga MTsN 1 Kapuas bisa terus berkembang, semakin maju dan semakin banyak murid yang berprestasi dan membanggakan."
-            },
-            {
-                "nama": "Danang Dwi Cahyo",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 30 Mei 2006",
-                "img": "danang.jpg",
-                "alamat": "jln.manunggal lll  no.330 (masuk lewat pilau disebelah kafe kedai gue)",
-                "noTelp": "081345424682",
-                "pesanKesan": "Biasa aja normal aja seperti sekolah pada umumnya <br>Mungkin untuk ekstrakulikuler nya bisa difokusin lagi gitu"
-            },
-            {
-                "nama": "Gadiza Ardhia Cahyani",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 13/02/2007",
-                "img": "gadiza.jpeg",
-                "alamat": "Jl.Trans Kalimantan, sei baras",
-                "noTelp": "081254419933",
-                "pesanKesan": "Saya sangat bahagia bisa bersekolah di sini, semua pengajarnya ramah dan penuh dengan kesabaran. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang begitu baik :)"
-            },
-            {
-                "nama": "Herlini",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 31-08-2006",
-                "img": "herlini.jpeg",
-                "alamat": "Jln.mahakam GG 5",
-                "noTelp": "083192369115",
-                "pesanKesan": "PESAN DAN KESAN <br><br>Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br><br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
-            },
-            {
-                "nama": "Khairunisa",
-                "kelas": "9-7",
-                "ttl": "Kapuas,26,februari,2006",
-                "img": "khairunisa.jpeg",
-                "alamat": "Jln.durian pulau telo baru rt02 no002",
-                "noTelp": "085349934271",
-                "pesanKesan": "Di MTsN saya dapat belajar banyak hal"
-            },
-            {
-                "nama": "Luna Dewi Azzahra",
-                "kelas": "9-7",
-                "ttl": "Kuala kapuas, 15-11-2006",
-                "img": "luna.jpeg",
-                "alamat": "Desa Maluen rt.02 kecamatan basarang kabupaten kapuas",
-                "noTelp": "085386113240",
-                "pesanKesan": "Kesan saya adalah saya sangat senang bisa kuliah di MTSN 1 Kapuas.  Semua guru ramah dan penuh kesabaran.  Saya telah belajar banyak hal, selain dari ilmu yang saya miliki, juga banyak teman, saya akan selalu mengingat pesan dari guru.  Sekarang periode pembelajaran kita di level MTS hampir berakhir dan menuju ke level yang lebih tinggi.  Semoga MTSN 1 Kapuas bisa terus berkembang, maju dan semakin banyak lagi siswa yang berprestasi dan membanggakan."
-            },
-            {
-                "nama": "Mutia",
-                "kelas": "9-7",
-                "ttl": "Kuala kapuas,17 September 2006",
-                "img": "mutia.jpg",
-                "alamat": "Kel.selteng Rt/Rw:001 jl.kapuas no.25",
-                "noTelp": "0895637947021",
-                "pesanKesan": "Sama aja sih kek di sd cuman nambah pangkat sama nambah teman yang sangat berahklak,kalau soal pelajarannya behh sangat menguji adrenalin"
-            },
-            {
-                
-                "nama": "Nadya Azzahra Putri",
-                "kelas": "9-7",
-                "ttl": "Banjarmasin, 22-08-2006",
-                "img": "putri.jpg",
-                "alamat": "Jl. Jawa Gg. 6 No. 6",
-                "noTelp": "081522690926",
-                "pesanKesan": "Kesan selama di MTsN lumayan bagus, guru dan anak muridnya ngga seburuk yang dibayangkan cuman kadang sayanya yang lebay aja. Di MTsN juga saya jadi belajar banyaakkk hal bukan tentang pelajaran selama di sekolah saja. Di MTsN juga saya bersyukur bisa dapat teman yang bisa mengerti dan satu pikiran dengan saya. Dan untuk guru guru atau anggota MTsN terima kasih sudah memberi kenangan yang terbaik, yang akan saya ingat dalam waktu lama. Karena bersekolah di MTsN juga saya bisa mendapatkan idola yang akan membantu saya kedepannya. Terima kasih untuk 3 tahunnya💗 semoga MTsN bisa menjadi sekolah yang berkembang dan meminimalisir kekurangannya ya!🧡"
-            },
-            {
-                "nama": "Nadya Sabilla",
-                "kelas": "9-7",
-                "ttl": "Amuntai, 21 Juni 2006",
-                "img": "nadya.jpg",
-                "alamat": "Jln.murai raya perumnas pulau telo no 434",
-                "noTelp": "083110421795",
-                "pesanKesan": "𝓐𝓼𝓼𝓪𝓵𝓪𝓶𝓾𝓪𝓵𝓪𝓲𝓴𝓾𝓶 𝔀𝓪𝓻𝓪𝓱𝓶𝓪𝓽𝓾𝓵𝓵𝓪𝓱𝓲 𝔀𝓪𝓫𝓪𝓻𝓪𝓴𝓪𝓽𝓾𝓱<br>Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br><br>Saya senang karena selama sekolah di sini saya jadi bisa mengaji dan sholat dengan benar. Para guru juga sabar dalam mengajar walaupun murid selalu melakukan kesalahan.<br><br>Saya paling suka saat sholat bersama teman-teman di masjid, apalagi masjid yang ada di dekat sekolahan saya ini sangat besar dan bagus. Makanan di kantin atau di luar sekolah juga enak-enak sehingga saat kami  beristirahat selalu penuh dan antri.<br><br>Pesan : Semoga saya dan teman-teman saya bisa bertemu dan berkumpul di lain waktu nanti.<br>Dan Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahan saya, halalkan ilmu-ilmu yang telah kau berikan pada kami. Dan Semoga Allah SWT membalasmu dengan ganjaran yang berlipat kali ganda.<br> Terimakasih <br> ᵂᵃˢˢᵃˡᵃᵐᵘᵃˡᵃⁱᵏᵘᵐ ʷᵃʳᵃʰᵐᵃᵗᵘˡˡᵃʰⁱ ʷᵃᵇᵃʳᵃᵏᵃᵗᵘʰ<br> <br> "
-            },
-            {
-                "nama": "Suci Aqillah",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 04 Mei 2006",
-                "img": "suci.jpg",
-                "alamat": "Jl. Pemuda Gg.02 No. 08",
-                "noTelp": "081347520892",
-                "pesanKesan": "Mengagumimu gaperlu sampe to the Bone, tapi niat belajar harus sampai to the bone"
-            },
-            {
-                "nama": "Syifa Rahmadaniah",
-                "kelas": "9-7",
-                "ttl": "Kuala Kapuas, 26 September 2006",
-                "img": "syifa.jpg",
-                "alamat": "Jln. Barito Gg. 8c Turi",
-                "noTelp": "0895338581268",
-                "pesanKesan": "Pesan : Semoga sekolahnya semakin maju. <br> Kesan : Menyenangkan, Gurunya smua ramah dan baik."
-            }
-        ],
-        "kelas98": [
-            {
-                "nama": "Patimatul Aulia",
-                "kelas": "9-8",
-                "ttl": "Kuala kapuas, 13 februari 2006",
-                "img": "patimatul.jpg",
-                "alamat": "Jln.Garuda Gg.lll RT 03 RW 04 selat barat.",
-                "noTelp": "082151735224",
-                "pesanKesan": "Saya senang sekaligus bangga bisa bersekolah disekolah sebagus ini salah satu sekolah terkenal dan terfavorit dikota ini, dan menjadi salah satu bagian dari sekolah ini.semoga sekolah ini semakin baik kedepannya sukses dan terus maju."
-            },
-            {
-                "nama": "Raja Karuniawan",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 30 Juni 2006",
-                "img": "raja.jpg",
-                "alamat": "Kec.Basarang,jl. jaya raya",
-                "noTelp": "082153139253",
-                "pesanKesan": "Mantap ga? Mantap ga? Mantap lah masa enggak."
-            },
-            {
-                "nama": "Agnina",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 11",
-                "img": "agnina.jpg",
-                "alamat": "Jln. Mahakam,gg3 no:4",
-                "noTelp": "082152937359",
-                "pesanKesan": "Anjaiiiii lulusss, dadah MTSn papaleee"
-            },
-            {
-                "nama": "Melyda Apriani",
-                "kelas": "9-8",
-                "ttl": "04-04-2007",
-                "img": "melyda.jpg",
-                "alamat": "jln.Barito gg X a",
-                "noTelp": "089530651339",
-                "pesanKesan": "Kesan: Terimakasih untuk semuanya terutama para bapak dan ibu guru yang telah mengajarkan kami banyak hal dan selalu sabar dalam pelajaran maupun menghadapi sikap kami. Untuk para my pren terimakasih telah berperan dikehidupan saya,tanpa kalian kelas kita bakalan garing,tanpa kalian semua tidak ada kenangan di masa SmP saya.<br><br>Pesan: Tetap saling menjaga komunikasi,terus solid sobat.Tetaplah bernafas,kalau sudah tidak sampai jumpa lagi kawan."
-            },
-            {
-                "nama": "Aminatuzzahra",
-                "kelas": "9-8",
-                "ttl": "Paringin, 9 Maret 2006",
-                "img": "aminatuzzahra.jpg",
-                "alamat": "Jln.Kapuas No.37 RT 0.5 RW 0.2, Selat Hulu.",
-                "noTelp": "083150569168",
-                "pesanKesan": "Saya senang bisa bersekolah di MTsN 1 Kapuas, saya bisa menjadi pribadi yang lebih baik dari sebelumnya karena berkat kerja keras Bapak/Ibu guru, semoga Allah SWT memberikan balasan yang setimpal kepada Bapak/Ibu guru, dan semoga MTsN 1 Kapuas dapat mempertahankan segala hal yang baik dan menjadi lebih baik lagi."
-            },
-            {
-                "nama": "Muhammad Rizky Ramadhani",
-                "kelas": "9-8",
-                "ttl": "Barito Kuala, 20 Oktober 2005",
-                "img": "ramadhani.jpg",
-                "alamat": "Desa Sungai Seluang Pasar, Kecamatan Belawang, Kabupaten Barito Kuala, RT.02",
-                "noTelp": "085787090095",
-                "pesanKesan": "MTsN 1 Kapuas mantab, gurunya baik, jelas dalam menjelaskan pelajaran, sabar, memberikan yang contoh baik terhadap murid, dan penyayang kepada murid nya MTsN 1 Kapuas mantab, gurunya baik, jelas dalam menjelaskan pelajaran, sabar, memberikan yang contoh baik terhadap murid, dan penyayang kepada murid nya"
-            },
-            {
-                "nama": "Alya Nur Aini",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 07/01/2006",
-                "img": "alya.jpg",
-                "alamat": "Jl.Keruing Gg.1A No.54",
-                "noTelp": "082252298279",
-                "pesanKesan": " Feel lucky, bersyukur atas hari-hari indahnya. "
-            },
-            {
-                "nama": "Muhammad Rifa'i",
-                "kelas": "9-8",
-                "ttl": "07-04-2006",
-                "img": "rifa'i.jpg",
-                "alamat": "Jln.Kasturi, PulauTelo",
-                "noTelp": "083150543863",
-                "pesanKesan": "Merasa senang dan mempunyai banyak pengalaman semasa di sekolah di MTsN1Kapuas karna merasa senang mempunyai banyak temen"
-            },
-            {
-                "nama": "Mayada",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 10 Mei 2007",
-                "img": "mayada.jpg",
-                "alamat": "jln. Kapuas",
-                "noTelp": "085751827501",
-                "pesanKesan": "KESAN:banyak sekali yang saya alami selama sekolah di MTsN mulai dari pertama masuk sampai saat ini,saya jua sangat senang bisa mengenal teman-teman  semua<br><br>PESAN:munculkan generasi yang baik dimasa yang akan datang dan sukses terus buat MTsN 1 kapuas"
-            },
-            {
-                "nama": "Muhammad Rizky Firdaus",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 24-07-2021",
-                "img": "rizky.jpg",
-                "alamat": "Jl. Seth adji gg.VII",
-                "noTelp": "085751854990",
-                "pesanKesan": "Terima kasih Bpk dan Ibu Guru yg telah menuntut saya dari kelas 7 sampai kelas 9 ini saya sangat berterimakasih banyak"
-            },
-            {
-                "nama": "Irfan Aditya Wardana",
-                "kelas": "9-8",
-                "ttl": "6/7/2006",
-                "img": "irfan.jpg",
-                "alamat": "Jalan Cilikriwut Gg BPP/II Komplek Pertenakan, Perumahan Bumi Indah permai No 12",
-                "noTelp": "082255063218",
-                "pesanKesan": "Pesan: Jangan Lupa Untuk Selalu Belajar Dirumah Agar Mendapatkan nilai Yang Bagus.<br>Kesan : Selama saya Bersekolah Di MTsN Saya merasa Lumayan Senang Karena Mendapatkan Banyak Teman Dan pendidikan Yang mumpuni."
-            },
-            {
-                "nama": "Lisna",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas,30 April 2006",
-                "img": "lisna.jpg",
-                "alamat": "Jl.kapuas GG kapuas RT 26 RW 07 No.45",
-                "noTelp": "08978861053",
-                "pesanKesan": "Kesan yang saya rasakan dari pertama masuk sekolah di MTsN 1 KAPUAS banyak hal dan pengalaman baru yang saya rasakan,dari mulai bertemu teman baru,guru baru, lingkungan sekolah yang baru dan hal lainnya,dan juga banyak hal baru yang saya peroleh dari setiap bapak/Ibu guru dan teman teman,selainn diajarkan mata pelajaran umum saya juga diajarkan pendidikan agama di MTsN 1 KAPUAS Ilmu ilmu yang diberikan sangat bermanfaat untuk dunia dan akhirat,selain itu saya juga diajarkan bagaimana cara bersikap dan bertindak yang baik kepada setiap orang yang saya temui.Namun adanya wabah Corona ini sangat menghalangi kita semua untuk belajar bersama, bertatap muka dan bertemu dengan teman dan guru,keadaan ini merupakan keadaan yang tidak biasa bagi saya,dimana harus belajar sendiri dirumah tanpa bertemu seorang guru yang rela menjelaskan supaya anak muridnya mengerti dan seorang teman yang membuat penat nya belajar menghilang.Namun wabah Corona ini juga memberi kesan bagi saya, dimana diajarkan pentingnya kebersihan .Dan saat ini saya sampai di titik dimana saya harus meninggalkan tempat yang merupakan rumah ke dua bagi saya yaitu sekolah MTsN 1 KAPUAS, sekolah yang Hebat dan Bermartabat.Saya sangat bahagia bisa bersekolah di sini, semua pengajarnya ramah dan penuh dengan kesabaran banyak hal yang tak terlupakan dan menyenangkan yang saya dapatkan ketika bersekolah disini. Sekolah ini membantu saya untuk menjadi pribadi yang lebih baik dari sebelumnya. Walaupun saya harus meninggalkan sekolah terhebat ini tapi saya tidak akan pernah melupakan pesan ,kesan dan pengalaman selama bersekolah di sini 🤗"
-            },
-            {
-                "nama": "Muhammad Noor Tajalli Ma.",
-                "kelas": "9-8",
-                "ttl": "Martapura, 1 Mei 2006",
-                "img": "tajalli.jpg",
-                "alamat": "Pemuda km4,5 handel usang",
-                "noTelp": "085753494183",
-                "pesanKesan": "Ibu bapak guru disana sangat baik dan ramah,sabar dalam mendidik dan membimbing kami,pasilitasnya pun memadai"
-            },
-            {
-                "nama": "Cindy Oktavia R.Purwati ",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 03 Oktober 2006",
-                "img": "cindy.jpg",
-                "alamat": "Jln.Nusa Indah Gang I No.25 ",
-                "noTelp": "0895704805291",
-                "pesanKesan": "Saya sangat senang bisa bersekolah di sini,guru-gurunya ramah dan penuh dengan kesabaran.Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat,saya juga mendapatkan teman yang baik dan ramah."
-            },
-            {
-                "nama": "Muhammad Rozan Ibtisam",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 02.03.2006",
-                "img": "rozan.jpg",
-                "alamat": "Jln.Sakapurun GG 3 no.69",
-                "noTelp": "085754763272",
-                "pesanKesan": "Menyenangkan bertemu banyak teman baru dan pengalaman belajar yg sangat epic"
-            },
-            {
-                "nama": "Nabila Noviriani",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 6 November 2006",
-                "img": "nabila.jpg",
-                "alamat": "Jln Barito GG 7 c No.172",
-                "noTelp": "0895700194117",
-                "pesanKesan": "Kesan:Saya mendapatkan banyak ilmu yang bermanfaat,bisa bertemu banyak teman yang ramah,guru guru yang baik dan ramah dan saya menjadi pribadi yang lebih baik dari sebelumnya.<br>Pesan:harapan saya,sekolah ini terus berkembang,bisa meluluskan banyak murid yang berprestasi,dan semoga guru guru dan semua yang membantu saya selama di sekolah ini tetap sehat dan panjang umur."
-            },
-            {
-                "nama": "Nafiis Hidayatullah",
-                "kelas": "9-8",
-                "ttl": "Amuntai, 02 Maret 2006",
-                "img": "nafiis.jpg",
-                "alamat": "Ds.Tambun Raya RT.1, Basarang km.8",
-                "noTelp": "081257151574",
-                "pesanKesan": "Sangat menyenangkan karena bisa melihat teman yang pecicilan terjatuh saat lari-larian 😁"
-            },
-            {
-                "nama": "Rabiatullisa",
-                "kelas": "9-8",
-                "ttl": "10 - 9 - 2006",
-                "img": "rabiatullisa.jpg",
-                "alamat": "Jalan cilik Riwut gang 1 Tajuddin no 20",
-                "noTelp": "082358574419",
-                "pesanKesan": "Senang, banyak belajar hal baru, ilmu baru,  pengalaman baru dan menjadi pribadi yang lebih baik lagi"
-            },
-            {
-                "nama": "Rehan Al Bukhori",
-                "kelas": "9-8",
-                "ttl": "Kuala Kapuas, 08 Agustus 2006",
-                "img": "rehan.png",
-                "alamat": "Jln.barito Gg.6 no 60",
-                "noTelp": "083150569180",
-                "pesanKesan": "Selama di MTsN 1 Kapuas kami para murid didik dengan baik oleh bapak dan ibu guru."
-            },
-            {
-                "nama": "Saila Jamila",
-                "kelas": "9-8",
-                "ttl": "06-06-2006, Kuala Kapuas",
-                "img": "saila.jpg",
-                "alamat": "Jln.mahakam Gg.9A no 45 RT.06 RW.02",
-                "noTelp": "083150569174",
-                "pesanKesan": "Sekolah ini telah banyak memberikan pelajaran kepada saya,sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik dari pada sebelumnya.ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah. Selain itu,teman teman juga sangat bermakna di hati saya.tanpa mereka saya bukanlah siapa siapa.saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini."
-            }
-        ]
-    }
+    "kelas91": [
+        {
+            "nama": "Wafa",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 08 Desember 2005",
+            "img": "wafa.jpg",
+            "alamat": "Jl. Barito Gg. 4B no. 49 RT. 023 RW. 003 Kuala Kapuas.",
+            "noTelp": "089691004895",
+            "pesanKesan": "This school is the best place to studying"
+        },
+        {
+            "nama": "Gusti Ahmad Rijkijailani",
+            "kelas": "9-1",
+            "ttl": "Kapuas, 25-01-2006",
+            "img": "gusti.jpg",
+            "alamat": "Jalan Mahakam Gang Abadi no 11",
+            "noTelp": "081549476463",
+            "pesanKesan": "Ó╭╮Ò"
+        },
+        {
+            "nama": "Muhammad Saputra",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 09-07-2006",
+            "img": "saputra.jpg",
+            "alamat": "Jl. teratai Gg. no 15 RT 026 RW 003",
+            "noTelp": "0895372727288",
+            "pesanKesan": "Atas nama Muhammad Saputra saya minta maaf klo ada slah selama di MTSN 1 Kapuas , sklh MTSN paling Debts "
+        },
+        {
+            "nama": "Intan Nurul Ain",
+            "kelas": "9-1",
+            "ttl": "27 Desember 2006",
+            "img": "intan.jpg",
+            "alamat": "jln.Barito GG.IV ",
+            "noTelp": "089693050157",
+            "pesanKesan": "semoga MTsN 1 Kapuas makin sukses kedepan nya dan menerbitkan lebih banyak siswa siswi yang segudang prestasi ! <br>bahagia bisaa bersekolah disini dan banggaa bisa menjadi bagian dari siswi MtsN 1 Kapuas."
+        },
+        {
+            "nama": "Siti Adiba Khanza Azzahra ",
+            "kelas": "9-1",
+            "ttl": "Nagara, 09 juli 2006",
+            "img": "adiba.jpg",
+            "alamat": "jalan cilik riwut gang 1b kombipas no. 1",
+            "noTelp": "089691312377",
+            "pesanKesan": "terima kasih atas kurang lebih 3 tahun saya belajar disini,<br><br>kesan:<br>- saya mendapatkan banyak temen yang akhlaknya sangat hebat dan sefrekuensi, dan sangat rame<br>- saya punya masa² bangga dengan diri sendiri karena waktu ulangan pel. agama rata² tinggi<br>- saya punya banyak guru yang sangat baik dan ramah, friendly, dan bisa membantu saya lebih banyak mengingat pelajaran, terutama agama<br>- maaf, agak capek ga naik² ranking waktu during <br><br>pesan:<br>- semoga MTsN 1 Kapuas selalu berkembang<br>- semoga bapak dan ibu guru dimudahkan dalam segala urusan dan selalu sehat <br>- semoga saya mendapatkan teman yang sama baik dan serunya seperti sekarang<br>- semoga saya bisa membahagiakan kedua orang tua saya, masuk surga bersama keluarga dan sahabat² saya, masuk 5 besar<br>- semoga suna rintarou nyata <br><br>terimakasih banyak bapak ibu♡"
+        },
+        {
+            "nama": "Nabila Yolanda",
+            "kelas": "9-1",
+            "ttl": "Banjarbaru, 30 Januari 2006 ",
+            "img": "nabila.jpg",
+            "alamat": "Jalan ayani gg suakarya no 88",
+            "noTelp": "083150429685",
+            "pesanKesan": "Pesan:Harapan saya, sekolah ini terus berkembang, meningkatkan kualitas pelayanan, khusus nya pada bidang teknologi, sehingga dapat mencetak anak - anak berprestasi di Indonesia ke depannya. <br><br>Kesan: pertemuan dengan bermacam -macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi.  "
+        },
+        {
+            "nama": "Hibban Noufal",
+            "kelas": "9-1",
+            "ttl": "Kapuas, 31-07-2006",
+            "img": "hibban.jpg",
+            "alamat": "Jl.Barito GG.X.  BLOK. E",
+            "noTelp": "089628145563",
+            "pesanKesan": "Terimakasih sudah mendidik saya dengan baik terimakasih"
+        },
+        {
+            "nama": "Ahmad Muzzaki",
+            "kelas": "9-1",
+            "ttl": "Sei Bakung 3/8/2006",
+            "img": "zaki.jpg",
+            "alamat": "JLN.CILIK RIWUT GG 1B",
+            "noTelp": "087814018687",
+            "pesanKesan": "Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini<br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
+        },
+        {
+            "nama": "Reva Yulanda",
+            "kelas": "9-1",
+            "ttl": "Pondok Damar, 09-08-2005",
+            "img": "reva.jpg",
+            "alamat": "Jalan anggrek gg 5, No.23",
+            "noTelp": "085371103077",
+            "pesanKesan": "pertemuan degan bermacam macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi.<br>agsksk gabisa jajan lg dong,HAHAHA☺️"
+        },
+        {
+            "nama": "Ahmad Fadlianur",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas,17-08-2006",
+            "img": "fadli.jpg",
+            "alamat": "Jl.Panjaitan NO.26",
+            "noTelp": "085245133272",
+            "pesanKesan": "Senang sekolah di MTsN 1 Kapuas banyak kegiatan,lomba,dan keseruan lainnya"
+        },
+        {
+            "nama": "Ahmad Maulana Tsaqif",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 20 Februari 2006",
+            "img": "maulana.jpg",
+            "alamat": "Jalan Patih Rumbih Gg XII No.10, RT.41/RW.44, Selat Tengah, Selat, KAB. KAPUAS, SELAT, KALIMANTAN TENGAH, ID, 73514",
+            "noTelp": "0895620065002",
+            "pesanKesan": "Asik sih dapat banyak pembelajaran,bnyk temen dewasa juga di Mtsn 1 Kapuas hehee moga Mtsn 1 Kapuas makin majuuu👍🙏"
+        },
+        {
+            "nama": "Ahmad Rifa'i",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 07/07/2006",
+            "img": "rifa'i.jpg",
+            "alamat": "Jl. A.yani no 34 rt 12 selat hilir kuala kapuas ",
+            "noTelp": "085225101041",
+            "pesanKesan": "I cheated on all my exams"
+        },
+        {
+            "nama": "Ahmad Yusuf",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas",
+            "img": "yusuf.png",
+            "alamat": "Jl.kapuas",
+            "noTelp": "083136503931",
+            "pesanKesan": "Baik"
+        },
+        {
+            "nama": "Ananda Aprilia Maulidya",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 16 April 2006",
+            "img": "ananda.jpeg",
+            "alamat": "Jl. Kenanga No. 36 RT. 030 RW. 003",
+            "noTelp": "0895326114659",
+            "pesanKesan": "Kesan : Ga terlalu berkesan karna sekolahnya cuma 3 semester"
+        },
+        {
+            "nama": "Aulia Sari",
+            "kelas": "9-1",
+            "ttl": "Nagara, 25-Desember-2005",
+            "img": "aulia.jpg",
+            "alamat": "Jl.Barito no 85 RT.11 RW.03",
+            "noTelp": "0895706217855",
+            "pesanKesan": "Senang, bisa belajar banyak hal."
+        },
+        {
+            "nama": "Azka Nayla Rahmah",
+            "kelas": "9-1",
+            "ttl": "KUALA KAPUAS,17-JUNI-2006",
+            "img": "azka.jpg",
+            "alamat": "Jl.Mahakam",
+            "noTelp": "0895704804172",
+            "pesanKesan": "Saya senang bersekolah disini"
+        },
+        {
+            "nama": "Dona Fifi Rosalina",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas,28 Februari 2006",
+            "img": "dona.jpg",
+            "alamat": "Jalan Jawa No 84",
+            "noTelp": "085763705331",
+            "pesanKesan": "Senang karna jadi mempunyai banyak teman."
+        },
+        {
+            "nama": "Fahrurraji",
+            "kelas": "9-1",
+            "ttl": "Basarang, 9 September 2006",
+            "img": "fahrurraji.jpg",
+            "alamat": "Jl. Anjir Basarang km.3",
+            "noTelp": "081350233546",
+            "pesanKesan": "Banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini. Sekolah ini telah mengajarkan banyal hal dan banyak membantu saya untuk menjadi seorang pribadi yang lebih baik dengan cara yang menyenangkan."
+        },
+        {
+            "nama": "Farhah Aqilah",
+            "kelas": "9-1",
+            "ttl": "Lhoukseumawe, Aceh,  24 April 2006",
+            "img": "farhah.jpg",
+            "alamat": "jl Pemuda no 69A kapuas Kalimantan Tengah",
+            "noTelp": "085105571974",
+            "pesanKesan": "ini mau di kosongin tapi ga bisa."
+        },
+        {
+            "nama": "Kevin Zolva Rahman",
+            "kelas": "9-1",
+            "ttl": "Pulang Pisau 22-06-2006",
+            "img": "kevin.png",
+            "alamat": "jln.cilik riwut perumahan berkat ikhlas permai 2 blok c no 26",
+            "noTelp": "085333235784",
+            "pesanKesan": "Terimakasih sudah membimbing saya, maaf kalau selama ini saya punya salah. Semoga ilmu yang sudah ibu/bapak kasih di balas oleh Allah."
+        },
+        {
+            "nama": "Muhamad Farur Reza",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas 9 April 2006",
+            "img": "reza.jpg",
+            "alamat": "Jl.cilik riwut gg.2 / Jl.Bpp No.109",
+            "noTelp": "085822995957",
+            "pesanKesan": "Cara Mengajar Guru-Guru yang Baik Dan Sopan Terhadap Murid."
+        },
+        {
+            "nama": "Muhamad Kemal Faza",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 26 Mei 2006",
+            "img": "kemal.jpg",
+            "alamat": "Jl. Kapuas No.09 RT.03 RW.01",
+            "noTelp": "085248258322",
+            "pesanKesan": "Saya memperoleh banyak ilmu dan pengalaman disini. Dan saya berterimakasih kepada guru-guru yang telah memberikan ilmunya tanpa rasa lelah. Semoga para guru dan semua warga sekolah diberi kesehatan selalu."
+        },
+        {
+            "nama": "Muhammad Ansyari",
+            "kelas": "9-1",
+            "ttl": "20 Oktober 2005",
+            "img": "ansyari.jpg",
+            "alamat": "Jl.kasturi.rt.6 kodepos:73551",
+            "noTelp": "085251252681",
+            "pesanKesan": "Bagus karena saya mendapat banyak kebaikan dan saya juga bisa mengharumkan nama baik MTSN 1 KAPUAS di Palangkaraya"
+        },
+        {
+            "nama": "Muhammad Fadillah",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 17-06-2006",
+            "img": "fadillah.jpg",
+            "alamat": "Jln.Cilik riwut gg Wahyu blok B no 7",
+            "noTelp": "085348061402",
+            "pesanKesan": "Pesan:<br>Ga usah malu kalau hobimu nonton anime atau kartun, di luar sana ribuan orang lebih hobi menonton aib orang lain<br>Kesan:<br>Hebat dan mengenang🌹🤠"
+        },
+        {
+            "nama": "Muhammad Fahmi",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 2 Agustus 2006",
+            "img": "fahmi.jpg",
+            "alamat": "Jalan Seroja NO:92,  RT.25,  RW.03.",
+            "noTelp": "083150569341",
+            "pesanKesan": "Pesan kesan selama di mtsn, mendewasakan diri, bertemu teman yg berbeda beda, mendapatkan wawasan yg luas, dan merubah jati diri yg awal nya kurang baik menjadi lumayan baik."
+        },
+        {
+            "nama": "Muhammad Nabil Hariry",
+            "kelas": "9-1",
+            "ttl": "Banjarmasin, 21-12-2006",
+            "img": "nabil.jpg",
+            "alamat": "Jalan Cilik Riwut perumahan Asri no 124",
+            "noTelp": "0895421383600",
+            "pesanKesan": "Semoga MTSN semakin maju dari sebelumnya.<br>Hobi:Membaca dan mendengarkan musik.<br>Ig:@nabil.hariry"
+        },
+        {
+            "nama": "Muhammad Nur Ihsan",
+            "kelas": "9-1",
+            "ttl": "Kuala kapuas, 13 februari 2006",
+            "img": "ihsan.jpg",
+            "alamat": "Jln. Pemuda handil ulis km3,5",
+            "noTelp": "0895354320128",
+            "pesanKesan": "Menggokil👞 😎👌"
+        },
+        {
+            "nama": "Mulia Safitri",
+            "kelas": "9-1",
+            "ttl": "21-10-2006",
+            "img": "mulia.jpg",
+            "alamat": "Jl.barito no.35 RT.37 RW.02 ",
+            "noTelp": "082154750301",
+            "pesanKesan": "Kesan waktu sekolah di Mts itu ada yang baik ada juga yang buruk.klo buruknya itu banyak yang suka musuhin tanpa tau alasannya apa,dan kesan yang baiknya mulia bersyukur di temuin sama teman teman yang baik kaya Bella,Nanda,cabi,Rania,dll.menurut mulia mereka itu support sistemnya mulia, Masi bnyk kesan kesan baik lain yang ga bisa mulia ungkapin disini. Terimakasih ( ◜‿◝ )♡"
+        },
+        {
+            "nama": "Nabella Rizki Ananda",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas,13 Januari 2006",
+            "img": "bella.jpg",
+            "alamat": "Jl.K.P.Tandean No 04 Rt 05",
+            "noTelp": "083150569314",
+            "pesanKesan": "Lagi malas mikir,jadi kesannya b aja"
+        },
+        {
+            "nama": "Putri Salma Rahayu",
+            "kelas": "9-1",
+            "ttl": "Banyumas, 27-01-2006",
+            "img": "salma.jpg",
+            "alamat": "Jln.pemuda Gg.al-Asyari ",
+            "noTelp": "0895422171080",
+            "pesanKesan": "Kesan saya selama 3 tahun bersekolah di MTsN 1 Kapuas sangat berharga dan tidak terlupakan.Banyak hal yang sudah saya pelajari termasuk ilmu dan ahklak yang baik yang akan berguna untuk masa depan. <br> Pesan saya semoga  MTsn 1 Kapuas ke depannya menjadi lebih baik lagi agar menciptakan generasi yang berguna dan berprestasi dan saya mengucapkan terima kasih kepada guru-guru yang telah mengajar saya selama di MTsn 1 Kapuas."
+        },
+        {
+            "nama": "Rania Azahra Putri",
+            "kelas": "9-1",
+            "ttl": "Kuala Kapuas, 10 Juni 2006",
+            "img": "rania.jpg",
+            "alamat": "Jln. Barito Gg. Bina Warta No. 15",
+            "noTelp": "089692897325",
+            "pesanKesan": "Gda yg menarik, biasa aja"
+        },
+        {
+            "nama": "Raudatun Nisa",
+            "kelas": "9-1",
+            "ttl": "Barito Kuala, 07 April 2007",
+            "img": "nisa.jpg",
+            "alamat": "Jalan Pemuda gg. Alif Putih No 87  RT 01 RW 01",
+            "noTelp": "082322175847",
+            "pesanKesan": "Kesan saya selama di MTsN, saya mendapat teman yang menyenangkan, juga guru yang baik hati mengajar dan memberi saya banyak ilmu. Saya juga mendapat banyak hal baru yang belum pernah saya dapatkan sebelumnya. "
+        },
+        {
+            "nama": "Salwa Alfakhira",
+            "kelas": "9-1",
+            "ttl": "Banjarmasin, 31 Oktober 2006",
+            "img": "salwa.jpg",
+            "alamat": "Jln.S.Parman gg 2 no.81",
+            "noTelp": "085348614972",
+            "pesanKesan": "Terima kasih atas semua yang diajarkan baik dari pelajaran agama dan umum dengan sangat seimbang, terlebih dari itu terima kasih juga atas didikan sopan santunnya, semoga semuanya bisa bermanfaat di kemudian hari."
+        }
+    ],
+    "kelas92": [
+        {
+            "nama": "Achmad Baihaqi",
+            "kelas": "9-2",
+            "ttl": "Kuala kapuas, 12 April 2006",
+            "img": "baihaqi.jpg",
+            "alamat": "Jl. Cilik Riwut, Gg.VIII",
+            "noTelp": "089696166266",
+            "pesanKesan": "Tidak ada kesan yang terlalu berarti selama saya bersekolah di sekolah ini. Tetapi ada beberapa momen yang membuat saya bahagia. Saya bisa mengenal hal-hal yang baru dan mendapat ilmu yang bermanfaat dari orang-orang di sekeliling saya. "
+        },
+        {
+            "nama": "Akhmad Rezky Utama",
+            "kelas": "9-2",
+            "ttl": "Kuala kapuas, 18 November 2005",
+            "img": "rezky.jpg",
+            "alamat": "Jln.Barito gang 12 PERMUNAS RT 28 No 3",
+            "noTelp": "082253465330",
+            "pesanKesan": "Pesan: <br><br>Jika anda pemalas, Malaslah setiap hari, Sehingga anda jadi pemalas yang rajin<br><br>Kesan:<br><br>Banyak yang ingin saya ceritakan Tetapi selama saya sekolah di MTsN 1 Kapuas, Alhamdulillah saya mendapatkan Lebih banyak Ilmu yang bermanfaat, Teman, Followers, Uang jajan, Pengalaman dan lain nya<br><br>Inti nya MTsN 1 Kapuas ter the best<br><br>\"Don't Follow your Dream, Just Follow My instagram\"<br><br>IG: @eky__369"
+        },
+        {
+            "nama": "Faqih Ahmad",
+            "kelas": "9-2",
+            "ttl": "KAPUAS, 19 November 2006",
+            "img": "faqih.jpg",
+            "alamat": "JL.TAMBUN BUNGAI GG.4 NO.43",
+            "noTelp": "0811097358",
+            "pesanKesan": "Pesan : Terimakasih kepada guru² yg telah mengajar saya dan teman² yg lain, dan juga saya dan mewakili teman² yg lain untuk meminta maaf apabila kami mempunyai banyak kesalahan<br> <br>Kesan : Ya saya sangat senang bersekolah di MTsN 1 Kapuas dah itu saja 🐦👍🏻"
+        },
+        {
+            "nama": "Daivina Adani",
+            "kelas": "9-2",
+            "ttl": "Anjir pasar, 7 juni 2006",
+            "img": "daivina.jpg",
+            "alamat": "Jalan melati, kelurahan selat tengah kecamatan selat Rt. 27 Rw.03",
+            "noTelp": "083143977008",
+            "pesanKesan": "Sangat menyenangkan dan banyak mendapat ilmu.Semoga jasa ibu dan bapak guru dibalas kebaikannya oleh Allah Swt Dan ilmu yang kami dapatkan selama di MTsN 1 Kapuas menjadi barokah untuk kami semua."
+        },
+        {
+            "nama": "Salsabila",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 21 - 04 -2006",
+            "img": "salsabila.jpg",
+            "alamat": "Jl. Mayjend Sutoyo gg 1 No. 45",
+            "noTelp": "089693048152",
+            "pesanKesan": "Menurut saya secara singkat, banyak pelajaran yang bisa saya dapatkan serta bimbingan para ibu bapak guru yang lain dalam mengajar. Maaf atas perilaku buruk saya yang pernah saya lakukan dan terimakasih banyak untuk semua kebaikan kalian dalam mengajar. "
+        },
+        {
+            "nama": "Moch. Iqbaal Jati",
+            "kelas": "9-2",
+            "ttl": "Barimba, 05-02-2007",
+            "img": "jati.jpg",
+            "alamat": "Jl.Kapuas Seberang II Kel. Hampatung Kec. Kapuas Hilir",
+            "noTelp": "082252942394",
+            "pesanKesan": "\"Kalau ketemu guru disalamin,Jangan Dianggurin\""
+        },
+        {
+            "nama": "Nadya kamilatul aisy",
+            "kelas": "9-2",
+            "ttl": "Palembang, 08 November 2006",
+            "img": "nadya.jpg",
+            "alamat": "Jln Kapuas no 7 selat hulu",
+            "noTelp": "089691346657",
+            "pesanKesan": "perasaan saya sekolah disini kayak plat motor jkt, B aja"
+        },
+        {
+            "nama": "Diffania Audria Falah Ramadhani",
+            "kelas": "9-2",
+            "ttl": "Kapuas, 18-10-2006",
+            "img": "diffania.jpg",
+            "alamat": "jl. pemuda perumahan kampoeng modern blok A no 1",
+            "noTelp": "085348485820",
+            "pesanKesan": "lumayan lah kaya es jeruk"
+        },
+        {
+            "nama": "Destia Ayu Lestari",
+            "kelas": "9-2",
+            "ttl": "13 Desember 2006",
+            "img": "destia.jpg",
+            "alamat": "Jl.perkutut",
+            "noTelp": "083140287637",
+            "pesanKesan": " \"tuntut lah ilmu sampai ke negeri cina tapi karna lagi Corona di cancel dulu aja\" 2021,btw skrg Corona punya anak"
+        },
+        {
+            "nama": "Noor Alisa",
+            "kelas": "9-2",
+            "ttl": "Kuala kapuas, 24-02-2006",
+            "img": "alisa.jpeg",
+            "alamat": "jln.tambun bungai ",
+            "noTelp": "082353122006",
+            "pesanKesan": "Buang mimpimu dan matilah."
+        },
+        {
+            "nama": "Herlika",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas 31-08-2006",
+            "img": "herlika.jpg",
+            "alamat": "Jln.Mahakam Gg5",
+            "noTelp": "083143329661",
+            "pesanKesan": "PESAN DAN KESAN <br>Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
+        },
+        {
+            "nama": "Muhammad Iqbal Fahrezi",
+            "kelas": "9-2",
+            "ttl": "Martapura, 25 April 2006",
+            "img": "iqbal.jpg",
+            "alamat": "Jl.Nuri II ",
+            "noTelp": "0895701227254",
+            "pesanKesan": "Never gonna give you up"
+        },
+        {
+            "nama": "Muhamad Abrar",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 10 Februari 2006",
+            "img": "abrar.jpeg",
+            "alamat": "Jl.pemuda",
+            "noTelp": "081347258569",
+            "pesanKesan": "Pesan<br>Stop baperan<br>Kesan<br>Jam kos ya tidur<br><br>やめてください。<br><br>Entah apa yang merasuki mu "
+        },
+        {
+            "nama": "Muhamad Dwi Reqza Saputra",
+            "kelas": "9-2",
+            "ttl": "KUALA KAPUAS 11 DESEMBER 2005",
+            "img": "dwi.jpg",
+            "alamat": "JL.BARITO GANG.8 JATI PERMAI NO 148",
+            "noTelp": "085249853957",
+            "pesanKesan": "\"Kalau capek istirahat,kamu hanya akan merasa terbebani bila terus membantu mereka. KAMU BUKAN MALAIKAT\""
+        },
+        {
+            "nama": "Muhammad isra",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 22-08-2006",
+            "img": "isra.jpg",
+            "alamat": "Jln. Tambun Bungai Gg 5c",
+            "noTelp": "082249381622",
+            "pesanKesan": "Saya senang selama sekolah di sini karena bisa mendapat banyak teman dan hal-hal baru."
+        },
+        {
+            "nama": "Miftahurroziqin",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas,01 Januari 2007",
+            "img": "roziq.jpg",
+            "alamat": "Jln. Patih Rumbih no.15",
+            "noTelp": "081521934427",
+            "pesanKesan": "Merasa senang dan bangga selama menjadi siswa MTsN 1 Kapuas"
+        },
+        {
+            "nama": "Asih Mahmudah",
+            "kelas": "9-2",
+            "ttl": "Terusan, 05 Juli 2006",
+            "img": "asih.jpg",
+            "alamat": "Keruing Gang 5A",
+            "noTelp": "0895700749814",
+            "pesanKesan": "Terima kasih kepada Bapak/Ibu Guru yang mengajarkan saya ilmu dan menjadi manusia yang beradab. Teruntuk teman juga terima kasih menerima saya menjadi sahabat kalian. Banyak kenangan suka dan duka menjadi siswa MTsN 1Kapuas dari awal masuk sekolah hingga lulus. <br><br>Pesan :kita harus menghargai apa yang dimiliki,jangan menunggu hal itu menghilang dan kemudian menyesalinya.<br> <br>Kesan:jangan terlalu terpaku pada hasil yang bagus dan walaupun hasilnya buruk,karena apapun hasilnya yang penting sudah hal tersebut dengan bahagia."
+        },
+        {
+            "nama": "Destia Amelia Hayatun Nufus",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 26-12-2005",
+            "img": "amelia.jpeg",
+            "alamat": "Jl.Pemuda Komplek Sumber Kurnia Blok C No.13 Rt.11",
+            "noTelp": "082255821597",
+            "pesanKesan": "Terimakasih nct dan wayv karena mu sekolahku lebih menyenangkan."
+        },
+        {
+            "nama": "Nabila",
+            "kelas": "9-2",
+            "ttl": "15-03-2007",
+            "img": "nabila.jpeg",
+            "alamat": "Murung Keramat",
+            "noTelp": "082358040606",
+            "pesanKesan": "Pesan nya :smg angkatan selanjutnya bisa membanggakan MTsN yaps😁🤙🏻 <br> Kesan nya :selama sklh di mtsn nabila pny teman yg baik sprti nina,jeje n guru nya baik semua.argh kgn skli sklh 😖💖"
+        },
+        {
+            "nama": "Nayla Javiera",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 09 Juni 2006.",
+            "img": "nayla.jpeg",
+            "alamat": "Keruing no.118",
+            "noTelp": "081248977575",
+            "pesanKesan": "lihat kan foto ku tidak berwarna, itulah gambaran hari hari ku tanpa hadir nya bapa econ di sekolah :("
+        },
+        {
+            "nama": "Nazwa Afivah",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 26-juni-2007",
+            "img": "nazwa.jpg",
+            "alamat": "Jln. Aghatis No. 42A",
+            "noTelp": "081350495042",
+            "pesanKesan": "Hidup itu banyak cobaan klo banyak saweran itu dangdutan"
+        },
+        {
+            "nama": "Nor Istiqamah",
+            "kelas": "9-2",
+            "ttl": "Kuala kapuas, 13 april 2006",
+            "img": "istiqamah.jpg",
+            "alamat": "Jl. jenderal Sudirman ",
+            "noTelp": "081521503898",
+            "pesanKesan": "Pesan: Terima kasih kepada bapak/ibu guru yang sudah mengajari saya dan mohon maaf apabila saya pernah membuat bapak/ibu guru marah atau kesal terhadap perilakuan saya yang menurut bapak/ibu guru kurang berkenan dihati. <br><br>Kesan:saya senang bersekolah di MTSN 1 Kapuas dan saya juga senang. bisa Pertemuan dengan bermacam macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi. "
+        },
+        {
+            "nama": "Nor Jannah",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 11 Juni 2006",
+            "img": "jannah.jpg",
+            "alamat": "Jln cilik kriwut",
+            "noTelp": "089691488704",
+            "pesanKesan": "Baik"
+        },
+        {
+            "nama": "Putri Norsafitri",
+            "kelas": "9-2",
+            "ttl": "Kuala kapuas, 08-01-2006",
+            "img": "norsafitri.jpg",
+            "alamat": "Jln.pemuda Km 3.5",
+            "noTelp": "0895389718100",
+            "pesanKesan": "Sekolah yang sangat membanggakan. Saya bahagia sdh bisa bersekolah disini. "
+        },
+        {
+            "nama": "Putri Rahmawati",
+            "kelas": "9-2",
+            "ttl": "Mantangai, 01 November 2005",
+            "img": "rahmawati.jpeg",
+            "alamat": "Tambun bungai Gg.V no 52",
+            "noTelp": "081549476309",
+            "pesanKesan": "ga tau bingung"
+        },
+        {
+            "nama": "Rabiatul Adawiyah",
+            "kelas": "9-2",
+            "ttl": "Kuala Kapuas, 22-09-2006",
+            "img": "rabiatul.jpg",
+            "alamat": "Murung Keramat",
+            "noTelp": "089690809530",
+            "pesanKesan": "Di sini saya banyak belajar, menemukan teman sejati, dan mendapat pengalaman yang sangat menyenangkan."
+        },
+        {
+            "nama": "Tri Afka",
+            "kelas": "9-2",
+            "ttl": "19-oktober-2006",
+            "img": "afka.jpg",
+            "alamat": "Jln cilik riwut gang 5 citra permai",
+            "noTelp": "0895700165773",
+            "pesanKesan": "Saya sangat senang sekolah di mtsn 1 kuala kapuas"
+        }
+    ],
+    "kelas93": [
+        {
+            "nama": "Aisya Rahmah",
+            "kelas": "9-3",
+            "ttl": "Kuala Kapuas, 31 januari 2006",
+            "img": "aisya.jpg",
+            "alamat": "Jl. Mawar Gg 2 no 18",
+            "noTelp": "081345649735",
+            "pesanKesan": "Saya senang bisa bersekolah di MTsN 1 Kapuas. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang baik dan ramah. Pertemuan dengan bermacam-macam karakter teman membuat saya mengerti  bagaimana caranya bersosialisasi dan mengendalikan emosi."
+        },
+        {
+            "nama": "Putri Insani Hayati",
+            "kelas": "9-3",
+            "ttl": "Dahirang, 20 September 2006",
+            "img": "insani.jpg",
+            "alamat": "Jl.Kapuas Seberang 2 no.32 rt.004",
+            "noTelp": "089628142199",
+            "pesanKesan": "Pesan: Semoga kedepannya MTSN 1 Kapuas lebih baik lagi dari sebelumnya<br>Kesan: Saya mendapat teman\" baru,dan sahabat disini dan guru\" yang terbaik"
+        },
+        {
+            "nama": "Muhammad Hafidz",
+            "kelas": "9-3",
+            "ttl": "Kuala Kapuas, 23 februari 2006",
+            "img": "hafidz.jpg",
+            "alamat": "Jl mahakam gg7 rw 02 rt 20 no 121",
+            "noTelp": "089691839149",
+            "pesanKesan": "Pesan : Semoga para guru sehat selalu dan tetap semangat mengajar murid-muridnya. <br><br>Kesan : Sangat bangga bisa belajar di MTsN 1 Kapuas ini. Para guru tidak lelah menjawab pertanyaan siswa dan selalu mendukung kegiatan belajar siswa dengan maksimal. Bahkan di luar jam sekolah pun para guru tetap membantu jika siswa kesulitan dalam belajar."
+        },
+        {
+            "nama": "Isra hayattun nufus",
+            "kelas": "9-3",
+            "ttl": "Kuala kapuas, 28 juli 2006",
+            "img": "isra.jpg",
+            "alamat": "",
+            "noTelp": "083141011184",
+            "pesanKesan": "Saya senang mendaptkan banyak ilmu, Walaupun sering membuat pusing, tapi tetap kangen."
+        },
+        {
+            "nama": "Aulia Rahmah",
+            "kelas": "9-3",
+            "ttl": "Kuala Kapuas, 8 April 2006",
+            "img": "aulia.jpg",
+            "alamat": "Jl.pilau GG X no 1",
+            "noTelp": "082351859447",
+            "pesanKesan": "Terimakasih untuk semua yang telah menjadi bagian dari kenanganku di sekolah MTsN 1 Kapuas, semoga menjadi sukses dimasa depan.<br>Padahal besok masih ingin sekolah tapi tiba tiba sudah lulus aja."
+        },
+        {
+            "nama": "Muhammad Rezki",
+            "kelas": "9-3",
+            "ttl": "KUALA KAPUAS, 31-MARET-2006",
+            "img": "rezki.jpg",
+            "alamat": "Jl.Pemuda km 4,5(jalan usang) rt 05 rw 02 nomor rumah 61 kelurahan selat utara ",
+            "noTelp": "082351542792",
+            "pesanKesan": "Bisa tadarus tiap pagi sama khatam al Quran bersama-sama dan terima kasih untuk semua guru MTsN 1 Kapuas yang telah memberikan ilmu nya."
+        },
+        {
+            "nama": "Rahmawati",
+            "kelas": "9-3",
+            "ttl": "Kapuas,11 febuari 2006",
+            "img": "rahmawati.jpg",
+            "alamat": "Jl.bakti abri murung keramat rt.6",
+            "noTelp": "085701990676",
+            "pesanKesan": "Sangat mendidik"
+        }
+    ],
+    "kelas94": [
+        {
+            "nama": "Ali Nordin",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 25-10-2006",
+            "img": "ali.jpg",
+            "alamat": "Jl. Cilik Riwut No 29 Rt 09 Rw 03",
+            "noTelp": "089691346762",
+            "pesanKesan": "Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya. Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah. Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini. Walaupun perpisahan kali cukup berbeda tapi saya sangat senang dengan semua kenangan-kenangan yang pernah dibuat pada tahun tahun sebelumnya dan saya yakin dibalik semua ini pasti ada hikmahnya. Dan saya sangat berterima kasih kepada bapak/ibu guru yang mengajarkan kami dengan sabar dan ikhlas."
+        },
+        {
+            "nama": "Alya Kamilah",
+            "kelas": "9-4",
+            "ttl": "Kuala kapuas, 14 maret 2006",
+            "img": "alya.jpg",
+            "alamat": "Kuala kapuas, Jl anggrek Gg.6c. Rt13 Rw02",
+            "noTelp": "089691385057",
+            "pesanKesan": "Banyak pelajaran yang saya dapat, dari memahami pelajaran/Tugas sekolah. Bergaul dengan teman yang berbeda sifat...dan berterimakasih atas jasa guru yang mengajari kami dengan sabarrr. Meskipun tidak terlalu banyak kenangan di sekolah. Karna sekarang masa pandemi virus....ya saya harap saya bisa jadi pribadi yang lebih baik kedepan nya. Trimakasihhh..."
+        },
+        {
+            "nama": "Putri Sekar Harum",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 13 Maret 2006",
+            "img": "sekar.jpg",
+            "alamat": "Jln. Barito Gg. 12 Perumnas No. Rumah 33",
+            "noTelp": "089691527965",
+            "pesanKesan": "kesan:<br>Awalnya saya belum terbiasa belajar di sekolah dengan banyak mata pelajaran agamanya, nilai saya diawal kelas 7 memang rendah, tapi seiring waktu nilai saya semakin berkembang dan saya mulai terbiasa belajar agama-agama yang diberikan setiap hari pada tiap-tiap mata pelajaran.<br><br>pesan:<br>saya berharap sekolah madrasah seperti mtsn 1 kapuas ini, bisa terus berkembang dan bisa menghasilkan murid murid yang agamis dan penuh ilmu keagamaannya, serta terus mengembangkan muridnya agar bisa terus membanggakan nama mtsn 1 kapuas."
+        },
+        {
+            "nama": "Muhammad Rizky Ikhsan",
+            "kelas": "9-4",
+            "ttl": "31 Agustus 2006",
+            "img": "rizky.jpg",
+            "alamat": "Jalan cilik riwut BPP gg asmuri",
+            "noTelp": "0895634766753",
+            "pesanKesan": "Never gonna give you up<br>Never gonna let you down<br>Never gonna run around and desert you<br>Never gonna make you cry never gonna say goodbye<br>Never gonna tell a lie and hurt you"
+        },
+        {
+            "nama": "Nanda Putri Aulia",
+            "kelas": "9-4",
+            "ttl": "Kapuas, 8/10/2006",
+            "img": "nanda.jpg",
+            "alamat": "Jln Mahakam gg selaras",
+            "noTelp": "083192397506",
+            "pesanKesan": "Bahagia sih tapi kurang bahagia karna gagal push qonqu duo tpp:("
+        },
+        {
+            "nama": "Athaya Ghina",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 11-11-2006",
+            "img": "ghina.jpg",
+            "alamat": "",
+            "noTelp": "0895705949445",
+            "pesanKesan": "Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br><br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
+        },
+        {
+            "nama": "Anisa Putri",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 12-11-2006",
+            "img": "anisa.jpg",
+            "alamat": "Jalan pemuda km 3,5",
+            "noTelp": "089694423831",
+            "pesanKesan": "Banyak terhibur"
+        },
+        {
+            "nama": "Chaesar Bimasakti",
+            "kelas": "9-4",
+            "ttl": "12-05-2005",
+            "img": "bimasakti.jpeg",
+            "alamat": "Depot Jakarta",
+            "noTelp": "081251059015",
+            "pesanKesan": "Jangan LDR, ternyata LDR itu berat. Aku menyesal"
+        },
+        {
+            "nama": "Nyimas Fithriyyah Robbana Hidayah",
+            "kelas": "9-4",
+            "ttl": "Banjarmasin, 28-10-2006",
+            "img": "nyimas.jpg",
+            "alamat": "Jln. Barito GG. 7a kenanga No. 257",
+            "noTelp": "083192397517",
+            "pesanKesan": "Harapannya semoga sekolah ini bisa berkembang lebih maju, guru-guru yang mengajar juga semoga sehat selalu, dan juga semoga Corona cepat berlalu agar anak didik yang baru masuk bisa merasakan bersosialisasi dengan teman dan lingkungan sekitar. Kesan selama bersekolah di sini menyenangkan, apalagi memiliki teman baru, sahabat baru, juga kondisi lingkungan yang baru. Dan banyak hal-hal yang tak terlupakan walaupun disaat terakhir kenaikan kelas 8 kita melakukan sekolah dengan keadaan daring sampai saat kelulusan kelas 9 masih melakukan sekolah dengan keadaan daring. Memang betul tidak ada kenangannya disaat kita di akhir sekolah menengah pertama di mana nanti akan dipisahkan saat kita mulai masuk SMA di mana teman-teman kita akan berbeda sekolah dengan kita, tetapi kita juga dapat belajar bahwa di setiap pertemuan pasti ada perpisahan."
+        },
+        {
+            "nama": "Farizka Rahmah Andini",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 7 September 2006",
+            "img": "farizka.jpg",
+            "alamat": "Jalan Tambun Bungai Gang 5a Nomor 42",
+            "noTelp": "085345001254",
+            "pesanKesan": "Saya senang sekolah disini, karena bertemu teman-teman yang berakhlak mulia. Sekian🙏."
+        },
+        {
+            "nama": "Frida Medina Mecca",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 15 Januari 2007",
+            "img": "medina.jpg",
+            "alamat": "Jl. Tjilik Riwut Gg. Majelis Taklim Rt. 017",
+            "noTelp": "089686366578",
+            "pesanKesan": "Bersekolah di MTsN 1 Kapuas sangat menyenangkan sekali"
+        },
+        {
+            "nama": "Muhammad Farid Khatimi",
+            "kelas": "9-4",
+            "ttl": "BANJARMASIN 09-Desember-2005",
+            "img": "farid.jpeg",
+            "alamat": "Jl aghatis Gg6 no 115",
+            "noTelp": "08884372681",
+            "pesanKesan": "KENANGAN YANG TAKKAN KU LUPAKAN BERSAMA TEMAN2 DAN JUGA GURU2 <br>MtsN makin maju gaspol"
+        },
+        {
+            "nama": "Muhammad Hidayat",
+            "kelas": "9-4",
+            "ttl": "17 Juni 2006",
+            "img": "hidayat.jpg",
+            "alamat": "Jl. Kapuas",
+            "noTelp": "089637218483",
+            "pesanKesan": "Sangat senang"
+        },
+        {
+            "nama": "Muhammad Ikhsan Maulana",
+            "kelas": "9-4",
+            "ttl": "Kuala kapuas,13 februari 2007",
+            "img": "ikhsan.jpg",
+            "alamat": "JALAN CILIK RIWUT GANG WAHYU BLOK A NO 8",
+            "noTelp": "0895367237541",
+            "pesanKesan": "Terimakasih yang sebesar besarnya kepada bapak dan ibu guru yang telah mendampingi serta memberi wawasan dan ilmu pengetahuan kepada saya.dan terima kasih banyak kepada teman teman yang telah baik terhadap saya."
+        },
+        {
+            "nama": "Muhammad Ridwan Sholeh",
+            "kelas": "9-4",
+            "ttl": "Kuala kapuas 18-02-2007",
+            "img": "ridwan.jpg",
+            "alamat": "Jl.barito Gg.13A",
+            "noTelp": "089629253345",
+            "pesanKesan": "Mendapat teman baru"
+        },
+        {
+            "nama": "Muhammad Zulfikar",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 12-Mei-2006",
+            "img": "zulfikar.jpg",
+            "alamat": "Jl.Jawa Gg.V No.26 ",
+            "noTelp": "089609159940",
+            "pesanKesan": "Saya mendapatkan kesan yang sangat menyenangkan ketika saya belajar di sini.Sekolah ini telah mengajari saya banyak hal dan banyak membantu saya dengan cara yang menarik."
+        },
+        {
+            "nama": "Najla",
+            "kelas": "9-4",
+            "ttl": "02/07/2006",
+            "img": "najla.jpg",
+            "alamat": "Jln barito gg 3 no 22",
+            "noTelp": "082150248243",
+            "pesanKesan": "Pesan: Semoga MTsN 1 kapuas semakin maju dan bisa terkenal dengan prestasinya aaminn. <br> Kesan: Semua rasa ada disini, ada senang dan ada sedih. Tapi senyum ceria yang selalu ada ada disini. Pokoknya banyak pengalaman yang kami dapatkan."
+        },
+        {
+            "nama": "Nur Halimah",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas,05/11/2006",
+            "img": "halimah.jpg",
+            "alamat": "JL.Cilik Riwut Gg Puskesmas RT/012 RW/004",
+            "noTelp": "0895700193044",
+            "pesanKesan": "Janganlah engkau menimba ilmu atau pengetahuan, karna dalam sumur tidak ada pengetahuan."
+        },
+        {
+            "nama": "Sarah Ade Muflih",
+            "kelas": "9-4",
+            "ttl": "Kapuas, 25-5-2006",
+            "img": "sarah.jpg",
+            "alamat": "Jl. Tambun bungai Gg 3 No. 90b",
+            "noTelp": "085753601025",
+            "pesanKesan": "Selama sekolah di sini dapat pengalaman seru, tapi lebih banyak pengalaman nyebelinnya juga sih. Tapi mau gimana lagi. Takdir ilahi😌"
+        },
+        {
+            "nama": "Siti Nasywa Annisa",
+            "kelas": "9-4",
+            "ttl": "Kuala Kapuas, 23 Juli 2006",
+            "img": "nasywa.jpg",
+            "alamat": "Jln. Mahakam No.137 RT.06 RW.02 ",
+            "noTelp": "0895401178629",
+            "pesanKesan": "Sekolah ini banyak memberikan pelajaran yang berguna bagi saya dan juga telah membentuk saya menjadi karakter yang jauh lebih baik dari sebelumnya. Ini semua karena para guru selalu ada untuk membimbing saya, menunjukkan apa yang benar dan yang salah. Selain itu, teman-teman juga sangat berarti bagi saya. Tanpa mereka, saya bukan siapa-siapa. Saya yakin besok atau lusa saya akan benar-benar kehilangan waktu kita bersama-sama sejauh ini."
+        },
+        {
+            "nama": "Siti Saidah",
+            "kelas": "9-4",
+            "ttl": "LUNUK RAMBA, 5 APRIL 2006",
+            "img": "saidah.jpg",
+            "alamat": " JL. Trans kalimantan Rt 05 kel/desa Lunuk Ramba kec Basarang Km 4,5",
+            "noTelp": "082354911145",
+            "pesanKesan": "Saya sangat bangga menjadi murid di mtsn 1 kapuas, banyak pelajaran yang dapat saya ambil selama bersekolah di mtsn 1 kapus, guru-guru yang mengajar pun sabar menghadapi sifat kami, bercanda bareng di kelas,kumpul-kumpul sama teman-teman pada jam istirahat  dan pada akhirnya ada pengumuman 2 minggu libur dari situ lah kami tidak bisa bercanda tawa bersama teman-teman lagi di sekolah, selama 1 tahun kami belajar daring tidak merasa bagaimana jadi kaka kelas 9 dan pada akhirnya kisah kami pun akan selesai di mtsn 1 kapus suatu saat nanti saya akan merindukan kenangan dan kehangatan di sekolah ini dan saya sangat berterima kasih kepada bapak dan ibu guru atas ilmu yang kalian berikan kepada saya, yang telah sabar mendidik saya dan memberikan nasehat kepada saya."
+        }
+    ],
+    "kelas95": [
+        {
+            "nama": "Rizki Maulidah",
+            "kelas": "9-5",
+            "ttl": "16 Agustus 2006",
+            "img": "maulidah.jpg",
+            "alamat": "Jl. Pemuda km 3,5",
+            "noTelp": "083154788297",
+            "pesanKesan": "Saya senang karna selama berada di MTsN saya bisa mendapatkan banyak teman dan ilmu yang bermanfaat. Semoga kedepannya MTsN bisa semakin sukses dan menghasilkan banyak murid baru yang berprestasi."
+        },
+        {
+            "nama": "Ahmad Faisal Ramadhan",
+            "kelas": "9-5",
+            "ttl": "Kapuas, 04 Oktober 2006",
+            "img": "faisal.jpg",
+            "alamat": "Jalan Barito Gang12A No.17",
+            "noTelp": "085156579441",
+            "pesanKesan": "gatau"
+        },
+        {
+            "nama": "Isravika Azkiya",
+            "kelas": "9-5",
+            "ttl": "20-08-2004",
+            "img": "isravika.jpg",
+            "alamat": "Jl. Anjir basarang km 2",
+            "noTelp": "085231606072",
+            "pesanKesan": "Anjay lulus. Apapun yang pernah kita lakukan baik dan buruk bagiku tetap indah sebagai kenangan. We love you MTsN sekolah terindah dan terbaik."
+        },
+        {
+            "nama": "Aldy Valenz",
+            "kelas": "9-5",
+            "ttl": "Kuala kapuas, 25 mei 2006",
+            "img": "aldy.jpg",
+            "alamat": "Jalan kapuas gg kapuas baru",
+            "noTelp": "08152803568",
+            "pesanKesan": "Kesan selama di mts banyak dan tidak bisa di ceritakan karna terlalu banyak."
+        },
+        {
+            "nama": "Nur Rahman Diva Yanda",
+            "kelas": "9-5",
+            "ttl": "Kuala Kapuas, 5 Desember 2005",
+            "img": "diva.jpg",
+            "alamat": "Jl. Barito gg.6d",
+            "noTelp": "082351898607",
+            "pesanKesan": "MTsN 1 Kapuas sekolahnya bagus dan fasilitasnya lengkap."
+        },
+        {
+            "nama": "Ghina Raudatul Jannah",
+            "kelas": "9-5",
+            "ttl": "Sampit, 21-04-2006",
+            "img": "ghina.jpg",
+            "alamat": "jln.cilik riwut,Gg.manunggal 1-b.No 195",
+            "noTelp": "0895421607400",
+            "pesanKesan": "Pertemuan dengan bermacam macam karakter teman membuat saya mengerti bagaimana caranya bersosialisasi dan mengendalikan emosi. Banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini,Banyak suka duka 3 tahun yg di lewati senang sedih bersama kawan-kawan."
+        },
+        {
+            "nama": "Medina Zahra",
+            "kelas": "9-5",
+            "ttl": "05 Juni 2006",
+            "img": "medina.jpg",
+            "alamat": "Jl. Cilik riwut no. 1",
+            "noTelp": "089691354743",
+            "pesanKesan": "Biasa saja, karena teman saya itu itu aja"
+        },
+        {
+            "nama": "Noor Fadillah",
+            "kelas": "9-5",
+            "ttl": "Kuala Kapuas, 28-5-2006",
+            "img": "fadillah.jpg",
+            "alamat": "Jl. Pemuda km 3,5",
+            "noTelp": "089660815896",
+            "pesanKesan": "Alhamdulillah baik² saja"
+        },
+        {
+            "nama": "Siti Rahmah",
+            "kelas": "9-5",
+            "ttl": "Kuala Kapuas,31,Mei,2006",
+            "img": "rahmah.jpg",
+            "alamat": "Jl.Tambun Bungai no:07",
+            "noTelp": "089530597837",
+            "pesanKesan": "Kesan saya selama bersekolah disini, sangat menyenangkan. Banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini. Sekolah ini telah mengajarkan banyak hal dan banyak membantu saya untuk menjadi seorang pribadi yang lebih baik dengan cara yang menyenangkan.Terimakasih guru dan teman-teman. Saya mendapat banyak ilmu dan pengalaman berharga selama belajar di sini."
+        }
+    ],
+    "kelas96": [
+        {
+            "nama": "Ahmad Hairil",
+            "kelas": "9-6",
+            "ttl": "19 Juli 2007",
+            "img": "hairil.jpg",
+            "alamat": "Jl. Soegiman",
+            "noTelp": "089691016833",
+            "pesanKesan": "Saya sangat bangga menjadı anak MTsN 1 Kapuas"
+        },
+        {
+            "nama": "Ahmad Maulana",
+            "kelas": "9-6",
+            "ttl": "30 November 2006",
+            "img": "maulana.jpg",
+            "alamat": "Desa Dahian Tambuk Kecamatan Mihing Raya Kabupaten Gunung mas",
+            "noTelp": "082151071407",
+            "pesanKesan": "Saya merasa bangga dan senang bersekolah di MTsN 1 Kapuas selama ini saya banyak mendapatkan pelajaran yang baik, guru guru disini juga sangat baik dan sangat ramah mengajarkan hal hal yang baik dan selama tiga tahun disini saya banyak mendapat kan pengalaman dan juga mendaptkan banyak teman saat bersekolah disini. Dan saya ucapkan terimakasih pada guru guru yang mengajarkan kami selama ini"
+        },
+        {
+            "nama": "Annisa Widiany",
+            "kelas": "9-6",
+            "ttl": "Basarang, 06-11-2006",
+            "img": "annisa.jpg",
+            "alamat": "Basarang KM 1,5",
+            "noTelp": "085249331684",
+            "pesanKesan": " \"Orang cerdas pasti pintar, orang pintar belum tentu cerdas\". "
+        },
+        {
+            "nama": "Dewi Nafisah",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 11-Januari-2006",
+            "img": "dewi.jpg",
+            "alamat": "Jl.jawa RT.039 RW.04",
+            "noTelp": "083147936837",
+            "pesanKesan": "Kesan saya selama bersekolah disini,banyak hal tak terlupakan yang saya dapatkan selama bersekolah disini. Sekolah ini telah mengajarkan banyak hal dan banyak membantu saya untuk menjadi seorang pribadi yang lebih baik dengan cara yang menyenangkan."
+        },
+        {
+            "nama": "Fibryan Narulyta",
+            "kelas": "9-6",
+            "ttl": "Basarang, 04-februari-2006",
+            "img": "fibryan.jpg",
+            "alamat": "jl.soegiman",
+            "noTelp": "08978854698",
+            "pesanKesan": "Raihlah masa depan tanpa melupakan orang yang membantumu di masa lalu"
+        },
+        {
+            "nama": "Haris Fadilah",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 2006-03-29",
+            "img": "haris.jpg",
+            "alamat": "Cilik Riwut Gg 5",
+            "noTelp": "085386816796",
+            "pesanKesan": "Mendapatkan sesuatu yang baruuu"
+        },
+        {
+            "nama": "Ikhsan Teguh Mustajibul Khoir",
+            "kelas": "9-6",
+            "ttl": "8 JUNI 2006",
+            "img": "ikhsan.jpg",
+            "alamat": "jln Kalimantan gang 07 no 81",
+            "noTelp": "0895421920050",
+            "pesanKesan": "Kesannya susah dijelaskan, yang penting semoga saya lulus, mantap lah pokoknya 💪😎🤙"
+        },
+        {
+            "nama": "Intan Lestari",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 26-03-2026",
+            "img": "intan.jpg",
+            "alamat": "Jl.Meranti Rt. 008",
+            "noTelp": "085820201667",
+            "pesanKesan": " \"sangat menyenangkan mendapat teman baru dan belajar bersama teh es\" "
+        },
+        {
+            "nama": "Mariyadi",
+            "kelas": "9-6",
+            "ttl": "KUALA KAPUAS, 09 JULI 2006",
+            "img": "mariyadi.jpg",
+            "alamat": "JL. CILIK RIWUT GG. DAMAI RT. 030 RW.003 KUALA KAPUAS",
+            "noTelp": "089526576569",
+            "pesanKesan": "TIDAK ADA KENANGAN YANG PALING INDAH KECUALI BERSAMA GURU DAN TEMAN DISEKOLAH"
+        },
+        {
+            "nama": "Maulida Aprilia",
+            "kelas": "9-6",
+            "ttl": "Kapuas, 10-April-2006",
+            "img": "maulida.jpg",
+            "alamat": "Jln. Pemuda. Km. 3,5 Gg. Pinang. Rt. 02 Rw. 01",
+            "noTelp": "08978859449",
+            "pesanKesan": "Pertemuan dengan bermacam macam karakter teman membuat saya mengerti bagaimana cara nya bersosialisasi dan mengendalikan emosi. Terima kasih MtsN kau memeberi saya banyak pelajaran yang berharga."
+        },
+        {
+            "nama": "Muhammad Jawad Rahim",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 16-05-2006",
+            "img": "jawad.jpg",
+            "alamat": "Jln manunggal 1a",
+            "noTelp": "081251059146",
+            "pesanKesan": "Saya merasakan pembelajaran yng sangat baik"
+        },
+        {
+            "nama": "Navida Diah Utami",
+            "kelas": "9-6",
+            "ttl": "kulon progo, 29-11-2006",
+            "img": "navida.jpg",
+            "alamat": "JL.Agathis GG.06 NO.105",
+            "noTelp": "085849253244",
+            "pesanKesan": "my mother told me to follow my dream, so i followed NCT DREAM."
+        },
+        {
+            "nama": "Nida'ulkhairiyyah",
+            "kelas": "9-6",
+            "ttl": "Kuala kapuas, 17 Juli 2006",
+            "img": "nida.jpg",
+            "alamat": "Jln.Mawar NO.11 RT.05 RW.01",
+            "noTelp": "089691831541",
+            "pesanKesan": "Menyenangkan"
+        },
+        {
+            "nama": "Noor Aqila Zulfa",
+            "kelas": "9-6",
+            "ttl": "KUALA KAPUAS 26-07-2006",
+            "img": "aqila.jpg",
+            "alamat": "Jln Mahakam Gg 9 A kec. selat Hulu kab. kapuas",
+            "noTelp": "083155791353",
+            "pesanKesan": "Saya lebih semangat beraktivitas"
+        },
+        {
+            "nama": "Nor perida",
+            "kelas": "9-6",
+            "ttl": "Pujon, 01-12-2004",
+            "img": "perida.jpg",
+            "alamat": "Jl.Jawa gg.salak no 66",
+            "noTelp": "089530651603",
+            "pesanKesan": "Sangat menyenangkan menjadi murid Mts,guru guru sangat penyayang ramah baik hati"
+        },
+        {
+            "nama": "Rasya Rahmawati.",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 12-02-2007.",
+            "img": "rasya.jpg",
+            "alamat": "Jl.A.Yani No 82 RT 7.",
+            "noTelp": "082351535878",
+            "pesanKesan": "Selama saya di MTsN sangat menyenangkan, mendapat pelajaran yang baik, guru-guru yang baik dan teman-teman yang baik juga humoris.Saya juga sangat senang bersekolah di MTsN karena saya mendapat ilmu dan pengetahuan."
+        },
+        {
+            "nama": "Rehan",
+            "kelas": "9-6",
+            "ttl": "9-4-2007",
+            "img": "rehan.jpg",
+            "alamat": "Jl.pemuda km 5,5",
+            "noTelp": "085751855838",
+            "pesanKesan": "Untuk ibu/bapak guru , MTSN 1 Kuala Kapuas , Ketika masuk sekolah ini, saya melihat tanaman di sekitar sekolah tidak terawat, pagar yang rusak, dan beberapa coretan di dinding. Meski halaman sekolah ini sangat luas, dan mungkin agak sukar merawat tanaman di sekelilingnya, tapi bukankah lingkungan sekolah harus dibuat senyaman mungkin.<br>Sekolah sebaiknya memperkerjakan lebih dari seorang penjaga sekolah untuk merawat tanaman sekolah, serta melakukan perawatan periodik agar lingkungan sekolah nyaman dan menyenangkan."
+        },
+        {
+            "nama": "Rendra Rafa Nugroho",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 22 November 2006",
+            "img": "rafa.jpg",
+            "alamat": "Jln A.Yani no.87",
+            "noTelp": "089691387169",
+            "pesanKesan": "Menghebat dan menggokil😎👍👍"
+        },
+        {
+            "nama": "Rico Scendinatavia",
+            "kelas": "9-6",
+            "ttl": "23-03-2006",
+            "img": "rico.jpg",
+            "alamat": "Jl.tiungraya no.551",
+            "noTelp": "089693051617",
+            "pesanKesan": "Kesan nya keren"
+        },
+        {
+            "nama": "Zainal Hakimi",
+            "kelas": "9-6",
+            "ttl": "Kuala Kapuas, 10-04-2096",
+            "img": "zainal.jpg",
+            "alamat": "Perumnas pulau telo",
+            "noTelp": "081220129901",
+            "pesanKesan": "Guru nya baik baik"
+        }
+    ],
+    "kelas97": [
+        {
+            "nama": "Putri Ajwa Aliana",
+            "kelas": "9-7",
+            "ttl": "Banjarmasin, 14 Agustus 2006",
+            "img": "ajwa.jpg",
+            "alamat": "Jalan Pemuda No.13",
+            "noTelp": "085349623557",
+            "pesanKesan": "Yeay lulus hihi"
+        },
+        {
+            "nama": "Ahmad Marwaji",
+            "kelas": "9-7",
+            "ttl": "KUALA KAPAUSD 25 MEI 2006",
+            "img": "marwaji.jpg",
+            "alamat": "JALAN BARITO NO 65 RT 08 KECAMATAN SELAT",
+            "noTelp": "089637217608",
+            "pesanKesan": "senang dapat belajar di sekolah MTSN selat Kapuas"
+        },
+        {
+            "nama": "Ahmad Nuril Zidny",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 3 Januari 2006",
+            "img": "nuril.jpg",
+            "alamat": "Jl. Cilik Riwut Gang VIII No. 39 RT 04 Kuala Kapuas",
+            "noTelp": "081345146533",
+            "pesanKesan": "Mendapatkan Banyak teman, Mendapatkan banyak ilmu-ilmu baru dari guru-guru disini"
+        },
+        {
+            "nama": "Alaika Nida",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas 4 Mei 2007",
+            "img": "alaika.png",
+            "alamat": "Jl.barito Gg binawarta",
+            "noTelp": "089691201619",
+            "pesanKesan": "saya pengen conqu, life is not daijobu :("
+        },
+        {
+            "nama": "Aulia Hidayah",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 13-06-2006",
+            "img": "aulia.jpg",
+            "alamat": "Jl. Cilik Riwut GG. Vb No.28 Rt 016 kecamatan selat",
+            "noTelp": "087830913176",
+            "pesanKesan": "Kesan saya sangat bahagia bisa bersekolah di MTsN 1 Kapuas. Semua Bapak dan Ibu gurunya ramah dan penuh dengan kesabaran walaupun terkadang banyak murid yang mengeluh karena pembelajaran secara daring. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang begitu banyak, saya juga akan ingat selalu pesan dari guru. Kini masa pembelajaran kami di tingkat MTS sudah hampir berakhir dan menuju ke tingkat yang lebih tinggi. Semoga MTsN 1 Kapuas bisa terus berkembang, semakin maju dan semakin banyak murid yang berprestasi dan membanggakan."
+        },
+        {
+            "nama": "Danang Dwi Cahyo",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 30 Mei 2006",
+            "img": "danang.jpg",
+            "alamat": "jln.manunggal lll  no.330 (masuk lewat pilau disebelah kafe kedai gue)",
+            "noTelp": "081345424682",
+            "pesanKesan": "Biasa aja normal aja seperti sekolah pada umumnya <br>Mungkin untuk ekstrakulikuler nya bisa difokusin lagi gitu"
+        },
+        {
+            "nama": "Gadiza Ardhia Cahyani",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 13/02/2007",
+            "img": "gadiza.jpeg",
+            "alamat": "Jl.Trans Kalimantan, sei baras",
+            "noTelp": "081254419933",
+            "pesanKesan": "Saya sangat bahagia bisa bersekolah di sini, semua pengajarnya ramah dan penuh dengan kesabaran. Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat, juga teman yang begitu baik :)"
+        },
+        {
+            "nama": "Herlini",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 31-08-2006",
+            "img": "herlini.jpeg",
+            "alamat": "Jln.mahakam GG 5",
+            "noTelp": "083192369115",
+            "pesanKesan": "PESAN DAN KESAN <br><br>Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br><br>Pesan : <br>Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahanku, halalkan ilmu-ilmu yang telah kauberikan padaku. Semoga Tuhan membalasmu dengan ganjaran yang berlipat kali ganda."
+        },
+        {
+            "nama": "Khairunisa",
+            "kelas": "9-7",
+            "ttl": "Kapuas,26,februari,2006",
+            "img": "khairunisa.jpeg",
+            "alamat": "Jln.durian pulau telo baru rt02 no002",
+            "noTelp": "085349934271",
+            "pesanKesan": "Di MTsN saya dapat belajar banyak hal"
+        },
+        {
+            "nama": "Luna Dewi Azzahra",
+            "kelas": "9-7",
+            "ttl": "Kuala kapuas, 15-11-2006",
+            "img": "luna.jpeg",
+            "alamat": "Desa Maluen rt.02 kecamatan basarang kabupaten kapuas",
+            "noTelp": "085386113240",
+            "pesanKesan": "Kesan saya adalah saya sangat senang bisa kuliah di MTSN 1 Kapuas.  Semua guru ramah dan penuh kesabaran.  Saya telah belajar banyak hal, selain dari ilmu yang saya miliki, juga banyak teman, saya akan selalu mengingat pesan dari guru.  Sekarang periode pembelajaran kita di level MTS hampir berakhir dan menuju ke level yang lebih tinggi.  Semoga MTSN 1 Kapuas bisa terus berkembang, maju dan semakin banyak lagi siswa yang berprestasi dan membanggakan."
+        },
+        {
+            "nama": "Mutia",
+            "kelas": "9-7",
+            "ttl": "Kuala kapuas,17 September 2006",
+            "img": "mutia.jpg",
+            "alamat": "Kel.selteng Rt/Rw:001 jl.kapuas no.25",
+            "noTelp": "0895637947021",
+            "pesanKesan": "Sama aja sih kek di sd cuman nambah pangkat sama nambah teman yang sangat berahklak,kalau soal pelajarannya behh sangat menguji adrenalin"
+        },
+        {
+            
+            "nama": "Nadya Azzahra Putri",
+            "kelas": "9-7",
+            "ttl": "Banjarmasin, 22-08-2006",
+            "img": "putri.jpg",
+            "alamat": "Jl. Jawa Gg. 6 No. 6",
+            "noTelp": "081522690926",
+            "pesanKesan": "Kesan selama di MTsN lumayan bagus, guru dan anak muridnya ngga seburuk yang dibayangkan cuman kadang sayanya yang lebay aja. Di MTsN juga saya jadi belajar banyaakkk hal bukan tentang pelajaran selama di sekolah saja. Di MTsN juga saya bersyukur bisa dapat teman yang bisa mengerti dan satu pikiran dengan saya. Dan untuk guru guru atau anggota MTsN terima kasih sudah memberi kenangan yang terbaik, yang akan saya ingat dalam waktu lama. Karena bersekolah di MTsN juga saya bisa mendapatkan idola yang akan membantu saya kedepannya. Terima kasih untuk 3 tahunnya💗 semoga MTsN bisa menjadi sekolah yang berkembang dan meminimalisir kekurangannya ya!🧡"
+        },
+        {
+            "nama": "Nadya Sabilla",
+            "kelas": "9-7",
+            "ttl": "Amuntai, 21 Juni 2006",
+            "img": "nadya.jpg",
+            "alamat": "Jln.murai raya perumnas pulau telo no 434",
+            "noTelp": "083110421795",
+            "pesanKesan": "𝓐𝓼𝓼𝓪𝓵𝓪𝓶𝓾𝓪𝓵𝓪𝓲𝓴𝓾𝓶 𝔀𝓪𝓻𝓪𝓱𝓶𝓪𝓽𝓾𝓵𝓵𝓪𝓱𝓲 𝔀𝓪𝓫𝓪𝓻𝓪𝓴𝓪𝓽𝓾𝓱<br>Kesan :<br>Sekolah ini telah banyak memberikan pelajaran kepada saya, sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik daripada sebelumnya.<br>Ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah.<br>Selain itu, teman-teman juga sangat bermakna di hati saya. Tanpa mereka, saya bukanlah siapa-siapa. Saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini.<br><br>Saya senang karena selama sekolah di sini saya jadi bisa mengaji dan sholat dengan benar. Para guru juga sabar dalam mengajar walaupun murid selalu melakukan kesalahan.<br><br>Saya paling suka saat sholat bersama teman-teman di masjid, apalagi masjid yang ada di dekat sekolahan saya ini sangat besar dan bagus. Makanan di kantin atau di luar sekolah juga enak-enak sehingga saat kami  beristirahat selalu penuh dan antri.<br><br>Pesan : Semoga saya dan teman-teman saya bisa bertemu dan berkumpul di lain waktu nanti.<br>Dan Untuk guru-guruku tersayang, terima kasih atas segala jasa dan baktimu, saya tahu saya punya banyak salah, oleh karna itu maafkan semua kesalahan saya, halalkan ilmu-ilmu yang telah kau berikan pada kami. Dan Semoga Allah SWT membalasmu dengan ganjaran yang berlipat kali ganda.<br> Terimakasih <br> ᵂᵃˢˢᵃˡᵃᵐᵘᵃˡᵃⁱᵏᵘᵐ ʷᵃʳᵃʰᵐᵃᵗᵘˡˡᵃʰⁱ ʷᵃᵇᵃʳᵃᵏᵃᵗᵘʰ<br> <br> "
+        },
+        {
+            "nama": "Suci Aqillah",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 04 Mei 2006",
+            "img": "suci.jpg",
+            "alamat": "Jl. Pemuda Gg.02 No. 08",
+            "noTelp": "081347520892",
+            "pesanKesan": "Mengagumimu gaperlu sampe to the Bone, tapi niat belajar harus sampai to the bone"
+        },
+        {
+            "nama": "Syifa Rahmadaniah",
+            "kelas": "9-7",
+            "ttl": "Kuala Kapuas, 26 September 2006",
+            "img": "syifa.jpg",
+            "alamat": "Jln. Barito Gg. 8c Turi",
+            "noTelp": "0895338581268",
+            "pesanKesan": "Pesan : Semoga sekolahnya semakin maju. <br> Kesan : Menyenangkan, Gurunya smua ramah dan baik."
+        }
+    ],
+    "kelas98": [
+        {
+            "nama": "Patimatul Aulia",
+            "kelas": "9-8",
+            "ttl": "Kuala kapuas, 13 februari 2006",
+            "img": "patimatul.jpg",
+            "alamat": "Jln.Garuda Gg.lll RT 03 RW 04 selat barat.",
+            "noTelp": "082151735224",
+            "pesanKesan": "Saya senang sekaligus bangga bisa bersekolah disekolah sebagus ini salah satu sekolah terkenal dan terfavorit dikota ini, dan menjadi salah satu bagian dari sekolah ini.semoga sekolah ini semakin baik kedepannya sukses dan terus maju."
+        },
+        {
+            "nama": "Raja Karuniawan",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 30 Juni 2006",
+            "img": "raja.jpg",
+            "alamat": "Kec.Basarang,jl. jaya raya",
+            "noTelp": "082153139253",
+            "pesanKesan": "Mantap ga? Mantap ga? Mantap lah masa enggak."
+        },
+        {
+            "nama": "Ananda Fahmi Ramadhan",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 02 Oktober 2006",
+            "img": "fahmi.jpg",
+            "alamat": "Jln. Tambun bungai GG. 4",
+            "noTelp": "085249102992",
+            "pesanKesan": "Terima kasih untuk semua nya dahhhhh"
+        },
+        {
+            "nama": "Agnina",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 11",
+            "img": "agnina.jpg",
+            "alamat": "Jln. Mahakam,gg3 no:4",
+            "noTelp": "082152937359",
+            "pesanKesan": "Anjaiiiii lulusss, dadah MTSn papaleee"
+        },
+        {
+            "nama": "Melyda Apriani",
+            "kelas": "9-8",
+            "ttl": "04-04-2007",
+            "img": "melyda.jpg",
+            "alamat": "jln.Barito gg X a",
+            "noTelp": "089530651339",
+            "pesanKesan": "Kesan: Terimakasih untuk semuanya terutama para bapak dan ibu guru yang telah mengajarkan kami banyak hal dan selalu sabar dalam pelajaran maupun menghadapi sikap kami. Untuk para my pren terimakasih telah berperan dikehidupan saya,tanpa kalian kelas kita bakalan garing,tanpa kalian semua tidak ada kenangan di masa SmP saya.<br><br>Pesan: Tetap saling menjaga komunikasi,terus solid sobat.Tetaplah bernafas,kalau sudah tidak sampai jumpa lagi kawan."
+        },
+        {
+            "nama": "Aminatuzzahra",
+            "kelas": "9-8",
+            "ttl": "Paringin, 9 Maret 2006",
+            "img": "aminatuzzahra.jpg",
+            "alamat": "Jln.Kapuas No.37 RT 0.5 RW 0.2, Selat Hulu.",
+            "noTelp": "083150569168",
+            "pesanKesan": "Saya senang bisa bersekolah di MTsN 1 Kapuas, saya bisa menjadi pribadi yang lebih baik dari sebelumnya karena berkat kerja keras Bapak/Ibu guru, semoga Allah SWT memberikan balasan yang setimpal kepada Bapak/Ibu guru, dan semoga MTsN 1 Kapuas dapat mempertahankan segala hal yang baik dan menjadi lebih baik lagi."
+        },
+        {
+            "nama": "Muhammad Rizky Ramadhani",
+            "kelas": "9-8",
+            "ttl": "Barito Kuala, 20 Oktober 2005",
+            "img": "ramadhani.jpg",
+            "alamat": "Desa Sungai Seluang Pasar, Kecamatan Belawang, Kabupaten Barito Kuala, RT.02",
+            "noTelp": "085787090095",
+            "pesanKesan": "MTsN 1 Kapuas mantab, gurunya baik, jelas dalam menjelaskan pelajaran, sabar, memberikan yang contoh baik terhadap murid, dan penyayang kepada murid nya MTsN 1 Kapuas mantab, gurunya baik, jelas dalam menjelaskan pelajaran, sabar, memberikan yang contoh baik terhadap murid, dan penyayang kepada murid nya"
+        },
+        {
+            "nama": "Alya Nur Aini",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 07/01/2006",
+            "img": "alya.jpg",
+            "alamat": "Jl.Keruing Gg.1A No.54",
+            "noTelp": "082252298279",
+            "pesanKesan": " Feel lucky, bersyukur atas hari-hari indahnya. "
+        },
+        {
+            "nama": "Muhammad Rifa'i",
+            "kelas": "9-8",
+            "ttl": "07-04-2006",
+            "img": "rifa'i.jpg",
+            "alamat": "Jln.Kasturi, PulauTelo",
+            "noTelp": "083150543863",
+            "pesanKesan": "Merasa senang dan mempunyai banyak pengalaman semasa di sekolah di MTsN1Kapuas karna merasa senang mempunyai banyak temen"
+        },
+        {
+            "nama": "Mayada",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 10 Mei 2007",
+            "img": "mayada.jpg",
+            "alamat": "jln. Kapuas",
+            "noTelp": "085751827501",
+            "pesanKesan": "KESAN:banyak sekali yang saya alami selama sekolah di MTsN mulai dari pertama masuk sampai saat ini,saya jua sangat senang bisa mengenal teman-teman  semua<br><br>PESAN:munculkan generasi yang baik dimasa yang akan datang dan sukses terus buat MTsN 1 kapuas"
+        },
+        {
+            "nama": "Muhammad Rizky Firdaus",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 24-07-2021",
+            "img": "rizky.jpg",
+            "alamat": "Jl. Seth adji gg.VII",
+            "noTelp": "085751854990",
+            "pesanKesan": "Terima kasih Bpk dan Ibu Guru yg telah menuntut saya dari kelas 7 sampai kelas 9 ini saya sangat berterimakasih banyak"
+        },
+        {
+            "nama": "Irfan Aditya Wardana",
+            "kelas": "9-8",
+            "ttl": "6/7/2006",
+            "img": "irfan.jpg",
+            "alamat": "Jalan Cilikriwut Gg BPP/II Komplek Pertenakan, Perumahan Bumi Indah permai No 12",
+            "noTelp": "082255063218",
+            "pesanKesan": "Pesan: Jangan Lupa Untuk Selalu Belajar Dirumah Agar Mendapatkan nilai Yang Bagus.<br>Kesan : Selama saya Bersekolah Di MTsN Saya merasa Lumayan Senang Karena Mendapatkan Banyak Teman Dan pendidikan Yang mumpuni."
+        },
+        {
+            "nama": "Lisna",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas,30 April 2006",
+            "img": "lisna.jpg",
+            "alamat": "Jl.kapuas GG kapuas RT 26 RW 07 No.45",
+            "noTelp": "08978861053",
+            "pesanKesan": "Kesan yang saya rasakan dari pertama masuk sekolah di MTsN 1 KAPUAS banyak hal dan pengalaman baru yang saya rasakan,dari mulai bertemu teman baru,guru baru, lingkungan sekolah yang baru dan hal lainnya,dan juga banyak hal baru yang saya peroleh dari setiap bapak/Ibu guru dan teman teman,selainn diajarkan mata pelajaran umum saya juga diajarkan pendidikan agama di MTsN 1 KAPUAS Ilmu ilmu yang diberikan sangat bermanfaat untuk dunia dan akhirat,selain itu saya juga diajarkan bagaimana cara bersikap dan bertindak yang baik kepada setiap orang yang saya temui.Namun adanya wabah Corona ini sangat menghalangi kita semua untuk belajar bersama, bertatap muka dan bertemu dengan teman dan guru,keadaan ini merupakan keadaan yang tidak biasa bagi saya,dimana harus belajar sendiri dirumah tanpa bertemu seorang guru yang rela menjelaskan supaya anak muridnya mengerti dan seorang teman yang membuat penat nya belajar menghilang.Namun wabah Corona ini juga memberi kesan bagi saya, dimana diajarkan pentingnya kebersihan .Dan saat ini saya sampai di titik dimana saya harus meninggalkan tempat yang merupakan rumah ke dua bagi saya yaitu sekolah MTsN 1 KAPUAS, sekolah yang Hebat dan Bermartabat.Saya sangat bahagia bisa bersekolah di sini, semua pengajarnya ramah dan penuh dengan kesabaran banyak hal yang tak terlupakan dan menyenangkan yang saya dapatkan ketika bersekolah disini. Sekolah ini membantu saya untuk menjadi pribadi yang lebih baik dari sebelumnya. Walaupun saya harus meninggalkan sekolah terhebat ini tapi saya tidak akan pernah melupakan pesan ,kesan dan pengalaman selama bersekolah di sini 🤗"
+        },
+        {
+            "nama": "Muhammad Noor Tajalli Ma.",
+            "kelas": "9-8",
+            "ttl": "Martapura, 1 Mei 2006",
+            "img": "tajalli.jpg",
+            "alamat": "Pemuda km4,5 handel usang",
+            "noTelp": "085753494183",
+            "pesanKesan": "Ibu bapak guru disana sangat baik dan ramah,sabar dalam mendidik dan membimbing kami,pasilitasnya pun memadai"
+        },
+        {
+            "nama": "Cindy Oktavia R.Purwati ",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 03 Oktober 2006",
+            "img": "cindy.jpg",
+            "alamat": "Jln.Nusa Indah Gang I No.25 ",
+            "noTelp": "0895704805291",
+            "pesanKesan": "Saya sangat senang bisa bersekolah di sini,guru-gurunya ramah dan penuh dengan kesabaran.Banyak hal yang sudah saya pelajari, selain ilmu yang saya dapat,saya juga mendapatkan teman yang baik dan ramah."
+        },
+        {
+            "nama": "Muhammad Rozan Ibtisam",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 02.03.2006",
+            "img": "rozan.jpg",
+            "alamat": "Jln.Sakapurun GG 3 no.69",
+            "noTelp": "085754763272",
+            "pesanKesan": "Menyenangkan bertemu banyak teman baru dan pengalaman belajar yg sangat epic"
+        },
+        {
+            "nama": "Nabila Noviriani",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 6 November 2006",
+            "img": "nabila.jpg",
+            "alamat": "Jln Barito GG 7 c No.172",
+            "noTelp": "0895700194117",
+            "pesanKesan": "Kesan:Saya mendapatkan banyak ilmu yang bermanfaat,bisa bertemu banyak teman yang ramah,guru guru yang baik dan ramah dan saya menjadi pribadi yang lebih baik dari sebelumnya.<br>Pesan:harapan saya,sekolah ini terus berkembang,bisa meluluskan banyak murid yang berprestasi,dan semoga guru guru dan semua yang membantu saya selama di sekolah ini tetap sehat dan panjang umur."
+        },
+        {
+            "nama": "Nafiis Hidayatullah",
+            "kelas": "9-8",
+            "ttl": "Amuntai, 02 Maret 2006",
+            "img": "nafiis.jpg",
+            "alamat": "Ds.Tambun Raya RT.1, Basarang km.8",
+            "noTelp": "081257151574",
+            "pesanKesan": "Sangat menyenangkan karena bisa melihat teman yang pecicilan terjatuh saat lari-larian 😁"
+        },
+        {
+            "nama": "Rabiatullisa",
+            "kelas": "9-8",
+            "ttl": "10 - 9 - 2006",
+            "img": "rabiatullisa.jpg",
+            "alamat": "Jalan cilik Riwut gang 1 Tajuddin no 20",
+            "noTelp": "082358574419",
+            "pesanKesan": "Senang, banyak belajar hal baru, ilmu baru,  pengalaman baru dan menjadi pribadi yang lebih baik lagi"
+        },
+        {
+            "nama": "Rehan Al Bukhori",
+            "kelas": "9-8",
+            "ttl": "Kuala Kapuas, 08 Agustus 2006",
+            "img": "rehan.png",
+            "alamat": "Jln.barito Gg.6 no 60",
+            "noTelp": "083150569180",
+            "pesanKesan": "Selama di MTsN 1 Kapuas kami para murid didik dengan baik oleh bapak dan ibu guru."
+        },
+        {
+            "nama": "Saila Jamila",
+            "kelas": "9-8",
+            "ttl": "06-06-2006, Kuala Kapuas",
+            "img": "saila.jpg",
+            "alamat": "Jln.mahakam Gg.9A no 45 RT.06 RW.02",
+            "noTelp": "083150569174",
+            "pesanKesan": "Sekolah ini telah banyak memberikan pelajaran kepada saya,sekolah ini telah membentuk saya menjadi karakter yang jauh lebih baik dari pada sebelumnya.ini semua karena para guru yang selalu ada untuk membimbing saya, menunjukkan pada saya yang mana yang benar dan mana yang salah. Selain itu,teman teman juga sangat bermakna di hati saya.tanpa mereka saya bukanlah siapa siapa.saya yakin besok atau lusa saya akan sangat merindukan kebersamaan kita selama ini."
+        }
+    ]
 }

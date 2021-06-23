@@ -1,30 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Import Google Icon -->
-  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="materialize/css/materialize.min.css">
-    <!-- My CSS -->
-    <link rel="stylesheet" href="materialize/css/style.css">
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/logo/favicon.ico">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Daftar Guru</title>
-</head>
-<body>
-	
-<!-- Compiled and minified JavaScript -->
-<script src="materialize/js/materialize.min.js"></script>
-<script src="https://kit.fontawesome.com/edcd931486.js" crossorigin="anonymous"></script>
-<script src="materialize/js/jquery-3.6.0.min.js"></script>
-<script src="materialize/js/template.js"></script>
-<script>
-	tampilHalamanLengkap("guru");
-</script>
-<script src="materialize/js/script.js"></script>
-</body>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Bootstrap Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/logo/favicon.ico">
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="css/guru.css">
+
+		<title>Alumni MTsN 1 Kapuas Angkatan ke-24 | Daftar Guru</title>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="./">
+					<i class="bi bi-house-fill"></i>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item active mr-3">
+							<a class="nav-link" href="">Guru</a>
+						</li>
+						<li class="nav-item dropdown active mr-3">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Siswa
+							</a>
+							<div class="dropdown-menu mb-3" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="siswa/kelas91.html">Kelas 9-1</a>
+								<a class="dropdown-item" href="siswa/kelas92.html">Kelas 9-2</a>
+								<a class="dropdown-item" href="siswa/kelas93.html">Kelas 9-3</a>
+								<a class="dropdown-item" href="siswa/kelas94.html">Kelas 9-4</a>
+								<a class="dropdown-item" href="siswa/kelas95.html">Kelas 9-5</a>
+								<a class="dropdown-item" href="siswa/kelas96.html">Kelas 9-6</a>
+								<a class="dropdown-item" href="siswa/kelas97.html">Kelas 9-7</a>
+								<a class="dropdown-item" href="siswa/kelas98.html">Kelas 9-8</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<div class="input-group">
+								<input type="search" class="form-control" placeholder="Cari guru.." id="keyword"
+									autocomplete="off" autofocus>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Akhir Navbar -->
+
+		<!-- Daftar Guru -->
+		<div class="container" id="daftar-guru">
+			<div class="row text-center mt-5">
+				<div class="col">
+					<h1>Kepala Sekolah</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="row justify-content-center" id="kepala-sekolah"></div>
+			
+			<div class="row text-center mt-5">
+				<div class="col">
+					<h1>Staff</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="row justify-content-center" id="staff"></div>
+
+			<div class="row text-center mt-5">
+				<div class="col">
+					<h1>Wali Kelas</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="row justify-content-center" id="wali-kelas"></div>
+
+			<div class="row text-center mt-5">
+				<div class="col">
+					<h1>Guru BP/BK</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="row justify-content-center" id="guru-bp"></div>
+
+			<div class="row text-center mt-5">
+				<div class="col">
+					<h1>Pengajar</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="row justify-content-center" id="pengajar"></div>
+		</div>
+		<!-- Akhir Daftar Guru -->
+
+		<!-- Footer -->
+		<footer>
+			<div class="container-fluid bg-dark p-5 text-light">
+				<div class="row">
+					<div class="col">
+						<h3>Alumni MTsN 1 Kapuas</h3>
+						<p>Daftar Para Alumni MTsN 1 Kapuas Angkatan ke-24 Tahun 2021</p>
+						<p class="mb-0">Jika ada kesalahan penulisan nama atau menginginkan perubahan identitas silahkan
+							hubungi saya dengan mengklik link dibawah ini</p>
+						<a href="https://wa.me/6285248258322" target="_blank">
+							https://wa.me/6285248258322
+						</a>
+					</div>
+					<div class="col">
+						<p class="text-right">Copyright © 2021 ~ Muhamad Kemal Faza,</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Akhir Footer -->
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+		<!-- My Script -->
+		<script src="js/guru.js"></script>
+	</body>
+
 </html>

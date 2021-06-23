@@ -8,7 +8,7 @@ function tampilCard(kelas, keywords, classes) {
         $.getJSON('../js/siswa.json', function(data) {
 
             // Ambil data daftarsiswa dari JSON
-            let daftarSiswa = data.daftarSiswa;
+            let daftarSiswa = data;
             let html = ``;
 
             // Buat daftar siswa baru untuk menampung objek
@@ -84,7 +84,7 @@ function tampilCard(kelas, keywords, classes) {
         $.getJSON('../js/siswa.json', function(data) {
 
             // Ambil data daftarSiswa dari JSON
-            let daftarSiswa = data.daftarSiswa;
+            let daftarSiswa = data;
 
             // Cek kelas
             switch (kelas) {
@@ -219,9 +219,9 @@ function tampilBodySiswa(kelas) {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <!-- <li class="nav-item active mr-3">
-                            <a class="nav-link" href="../kegiatan.html">Kegiatan</a>
-                        </li> -->
+                        <li class="nav-item active mr-3">
+                            <a class="nav-link" href="../guru.html">Guru</a>
+                        </li>
                         <li class="nav-item dropdown active mr-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Siswa
