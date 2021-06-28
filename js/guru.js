@@ -1,41 +1,45 @@
 // Fungsi untuk menampilkan card guru
 function getGuru(keywords = null) { // Set parameter keywords ke null
 
-    // Ambil JSON yang berisi data guru
-    $.getJSON('js/guru.json', function(data) {
+	// Ambil JSON yang berisi data guru
+	$.getJSON('js/guru.json', function (data) {
 
-        // Deklarasikan variabel
-        let [html1, html2, html3, html4, html5] = ['', '', '', '', '']; // Deskripsikan 5 valiabel sekaligus
-        let daftarGuru = [];
-        let daftarWaliKelas = [];
-        let staff = ['pel.', 'administrasi', 'ka.', 'wakamad', 'perpustakaan', 'penjaga', 'satpam', 'cleaning']; // Jabatan para staff
-        
-        // Urutkan data berdasarkan nama
-        data.sort(function(a, b){
-            var x = a.nama.toLowerCase();
-            var y = b.nama.toLowerCase();
-            if (x < y) {return -1;}
-            if (x > y) {return 1;}
-            return 0;
-        });
+		// Deklarasikan variabel
+		let [html1, html2, html3, html4, html5] = ['', '', '', '', '']; // Deskripsikan 5 valiabel sekaligus
+		let daftarGuru = [];
+		let daftarWaliKelas = [];
+		let staff = ['pel.', 'administrasi', 'ka.', 'wakamad', 'perpustakaan', 'penjaga', 'satpam', 'cleaning']; // Jabatan para staff
 
-        // Looping data guur
-        $.each(data, function (i, guru) {
+		// Urutkan data berdasarkan nama
+		data.sort(function (a, b) {
+			var x = a.nama.toLowerCase();
+			var y = b.nama.toLowerCase();
+			if (x < y) {
+				return -1;
+			}
+			if (x > y) {
+				return 1;
+			}
+			return 0;
+		});
 
-            // Cek apakah user sedang mencari data guru
-            if (keywords) {
+		// Looping data guur
+		$.each(data, function (i, guru) {
 
-                // Jika iya
+			// Cek apakah user sedang mencari data guru
+			if (keywords) {
 
-                // Deklarasikan variabel
-                let nama = guru.nama.toLowerCase();
-                let keyword = keywords.toLowerCase();
+				// Jika iya
 
-                // Jika keyword yang dicari terdapat pada nama guru
-                if (nama.includes(keyword)) {
+				// Deklarasikan variabel
+				let nama = guru.nama.toLowerCase();
+				let keyword = keywords.toLowerCase();
 
-                    // Set html daftar-guru
-                    $('#daftar-guru').html(`
+				// Jika keyword yang dicari terdapat pada nama guru
+				if (nama.includes(keyword)) {
+
+					// Set html daftar-guru
+					$('#daftar-guru').html(`
                     <div class="row text-center mt-5">
                         <div class="col">
                             <h1>Daftar Guru</h1>
@@ -45,8 +49,8 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                     <div class="row justify-content-center" id="pengajar"></div>
                     `);
 
-                    // Tambahkan html card
-                    html5 += `
+					// Tambahkan html card
+					html5 += `
                         <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                             <div class="card">
                                 <img src="img/guru/${guru['image']}" class="card-img-top" alt="${guru['nama']}">
@@ -59,15 +63,15 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                         </div>
                     `;
 
-                    // Masukkan data guru ke dalam array baru
-                    daftarGuru.push(guru);
-                }
-            } else {
+					// Masukkan data guru ke dalam array baru
+					daftarGuru.push(guru);
+				}
+			} else {
 
-                // Jika tidak mencari
+				// Jika tidak mencari
 
-                // Set html daftar-guru
-                $('#daftar-guru').html(`
+				// Set html daftar-guru
+				$('#daftar-guru').html(`
                 <div class="row text-center mt-5">
                     <div class="col">
                         <h1>Kepala Sekolah</h1>
@@ -109,29 +113,33 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                 <div class="row justify-content-center" id="pengajar"></div>
                 `);
 
-                // Ambil jabatan guru
-                let jabatan = guru['jabatan'].toLowerCase();
+				// Ambil jabatan guru
+				let jabatan = guru['jabatan'].toLowerCase();
 
-                // Jika jabatannya adalah wali kelas
-                if (jabatan.includes('wali')) {
-                    // Masukkan data guru ke dalam array baru
-                    daftarWaliKelas.unshift(guru);
-                }
+				// Jika jabatannya adalah wali kelas
+				if (jabatan.includes('wali')) {
+					// Masukkan data guru ke dalam array baru
+					daftarWaliKelas.unshift(guru);
+				}
 
-                // Urutkan array baru yang berisi data wali kelas berdasarkan kelasnya
-                daftarWaliKelas.sort(function(a, b){
-                    var x = a.jabatan.toLowerCase();
-                    var y = b.jabatan.toLowerCase();
-                    if (x < y) {return -1;}
-                    if (x > y) {return 1;}
-                    return 0;
-                });
+				// Urutkan array baru yang berisi data wali kelas berdasarkan kelasnya
+				daftarWaliKelas.sort(function (a, b) {
+					var x = a.jabatan.toLowerCase();
+					var y = b.jabatan.toLowerCase();
+					if (x < y) {
+						return -1;
+					}
+					if (x > y) {
+						return 1;
+					}
+					return 0;
+				});
 
-                // Jika jabatannya adalah kepala sekolah
-                if (jabatan.includes('kepala sekolah')) {
+				// Jika jabatannya adalah kepala sekolah
+				if (jabatan.includes('kepala sekolah')) {
 
-                    // Tambahkan html card untuk kepala sekolah
-                    html1 += `
+					// Tambahkan html card untuk kepala sekolah
+					html1 += `
                         <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                             <div class="card">
                                 <img src="img/guru/${guru['image']}" class="card-img-top" alt="${guru['nama']}">
@@ -144,12 +152,12 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                         </div>
                     `;
 
-                    // Masukkan data guru ke dalam array baru
-                    daftarGuru.push(guru);
-                } else if (jabatan.includes('guru bp/bk')) { // Jika jabatannya adalah guru bp/bk
+					// Masukkan data guru ke dalam array baru
+					daftarGuru.push(guru);
+				} else if (jabatan.includes('guru bp/bk')) { // Jika jabatannya adalah guru bp/bk
 
-                    // Tambahkan html card untuk guru bp/bk
-                    html4 += `
+					// Tambahkan html card untuk guru bp/bk
+					html4 += `
                         <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                             <div class="card">
                                 <img src="img/guru/${guru['image']}" class="card-img-top" alt="${guru['nama']}">
@@ -162,12 +170,12 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                         </div>
                     `;
 
-                    // Masukkan data guru ke dalam array baru
-                    daftarGuru.push(guru);
-                } else if (jabatan == '') { // Jika tidak memiliki jabatan berarti ini adalah pengajar biasa
+					// Masukkan data guru ke dalam array baru
+					daftarGuru.push(guru);
+				} else if (jabatan == '') { // Jika tidak memiliki jabatan berarti ini adalah pengajar biasa
 
-                    // Tambahkan card untuk pengajar
-                    html5 += `
+					// Tambahkan card untuk pengajar
+					html5 += `
                         <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                             <div class="card">
                                 <img src="img/guru/${guru['image']}" class="card-img-top" alt="${guru['nama']}">
@@ -179,12 +187,12 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                             </div>
                         </div>
                     `;
-                    daftarGuru.push(guru);
-                }
-                if (guru.jabatan == 'Ka. Perpustakaan') { // Jika jabatan adalah kepala perpustakaan
+					daftarGuru.push(guru);
+				}
+				if (guru.jabatan == 'Ka. Perpustakaan') { // Jika jabatan adalah kepala perpustakaan
 
-                    // Maka tambahkan card untuk kepala perpustakaan
-                    html2 += `
+					// Maka tambahkan card untuk kepala perpustakaan
+					html2 += `
                             <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                                 <div class="card">
                                     <img src="img/guru/${guru['image']}" class="card-img-top" alt="${guru['nama']}">
@@ -196,16 +204,16 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                                 </div>
                             </div>
                         `;
-                } else { // Jika bukan kepala perpustakaan
+				} else { // Jika bukan kepala perpustakaan
 
-                    // Looping array stadd
-                    $.each(staff, function (i, data) {
+					// Looping array stadd
+					$.each(staff, function (i, data) {
 
-                        // Jika jabatannya ada didalam jabatan para staff
-                        if (jabatan.includes(data)) {
+						// Jika jabatannya ada didalam jabatan para staff
+						if (jabatan.includes(data)) {
 
-                            // Tambahkan html card untuk para staff
-                            html2 += `
+							// Tambahkan html card untuk para staff
+							html2 += `
                                 <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                                     <div class="card">
                                         <img src="img/guru/${guru['image']}" class="card-img-top" alt="${guru['nama']}">
@@ -217,18 +225,18 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                                     </div>
                                 </div>
                             `;
-                            daftarGuru.push(guru);
-                        }
-                    });
-                }
-            }
-        });
+							daftarGuru.push(guru);
+						}
+					});
+				}
+			}
+		});
 
-        // Looping array wali kelas
-        $.each(daftarWaliKelas, function (i, waliKelas) {
+		// Looping array wali kelas
+		$.each(daftarWaliKelas, function (i, waliKelas) {
 
-            // Tambahkan html card untuk wali kelas
-            html3 += `
+			// Tambahkan html card untuk wali kelas
+			html3 += `
                 <div class="col-md-4 mb-4 col-lg-3 col-sm-6">
                     <div class="card">
                         <img src="img/guru/${waliKelas['image']}" class="card-img-top" alt="${waliKelas['nama']}">
@@ -240,14 +248,14 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                     </div>
                 </div>
             `;
-            daftarGuru.push(waliKelas);
-        });
+			daftarGuru.push(waliKelas);
+		});
 
-        // Jika guru tidak ada maka tampilkan pemberitahuan
-        if (daftarGuru.length == 0) {
+		// Jika guru tidak ada maka tampilkan pemberitahuan
+		if (daftarGuru.length == 0) {
 
-            // Ubah html daftar-guru
-            $('#daftar-guru').html(`
+			// Ubah html daftar-guru
+			$('#daftar-guru').html(`
                 <div class="row text-center mt-5">
                     <div class="col">
                         <h1>Daftar Guru</h1>
@@ -257,7 +265,7 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                 <div class="row justify-content-center" id="pengajar"></div>
             `);
 
-            html5 += `
+			html5 += `
             <div class="col">
                 <div class="alert alert-danger text-center" role="alert">
                     <h4>Guru yang dicari tidak ditemukan!</h4>
@@ -265,23 +273,23 @@ function getGuru(keywords = null) { // Set parameter keywords ke null
                 </div>
             </div>
             `;
-        }
+		}
 
-        // Ubah html di tempat kepala sekolah
-        $('#kepala-sekolah').html(html1);
+		// Ubah html di tempat kepala sekolah
+		$('#kepala-sekolah').html(html1);
 
-        // Ubah html di tempat para staff
-        $('#staff').html(html2);
+		// Ubah html di tempat para staff
+		$('#staff').html(html2);
 
-        // Ubah html di tempat wali kelas
-        $('#wali-kelas').html(html3);
+		// Ubah html di tempat wali kelas
+		$('#wali-kelas').html(html3);
 
-        // Ubah html di tempat guru bp/bk
-        $('#guru-bp').html(html4);
+		// Ubah html di tempat guru bp/bk
+		$('#guru-bp').html(html4);
 
-        // Ubah html di tempat pengajar
-        $('#pengajar').html(html5);
-    });
+		// Ubah html di tempat pengajar
+		$('#pengajar').html(html5);
+	});
 };
 
 // Saat halaman dimuat tampilkan semua guru
@@ -289,6 +297,6 @@ $('body').on('load', getGuru())
 
 // Saat user mencari guru tampilkan guru yang dicari
 $('#keyword').on('input', function () {
-    getGuru($(this).val());
-    window.scrollTo(0, 0)
+	getGuru($(this).val());
+	window.scrollTo(0, 0)
 });
