@@ -2,10 +2,10 @@
 function tampilCard(kelas, keywords, classes) {
 
     // Jika classes bernilai false dan keyword berisi nilai maka jalankan perintah berikut
-    if ( !classes && keywords ) {
+    if (!classes && keywords) {
 
         // Ambil data JSON
-        $.getJSON('../js/siswa.json', function(data) {
+        $.getJSON('../js/siswa.json', function (data) {
 
             // Ambil data daftarsiswa dari JSON
             let daftarSiswa = data;
@@ -15,13 +15,13 @@ function tampilCard(kelas, keywords, classes) {
             let daftarSiswaNew = [];
 
             // Looping objek daftarsiswa
-            for ( let prop in daftarSiswa ) {
+            for (let prop in daftarSiswa) {
 
                 // Looping array properti objek daftarsiswa
-                $.each(daftarSiswa[prop], function(i, data) {
+                $.each(daftarSiswa[prop], function (i, data) {
 
                     // Jika bukan data guru maka jalankan perintah berikut
-                    if ( !data.posisi ) {
+                    if (!data.posisi) {
 
                         // Ambil properti nama dari objek data
                         // Ubah properti nama objek data menjadi huruf kecil dan ubah juga keyword menjadi huruf kecil
@@ -29,7 +29,7 @@ function tampilCard(kelas, keywords, classes) {
                         let keyword = keywords.toLowerCase();
 
                         // Jika terdapat karakter keyword didalam properti nama maka jalankan perintah berikut
-                        if ( nama.includes(keyword) ) {
+                        if (nama.includes(keyword)) {
 
                             // Masukkan data ke dalam array daftarSiswaNew
                             daftarSiswaNew.push(data);
@@ -52,10 +52,10 @@ function tampilCard(kelas, keywords, classes) {
                         }
                     }
                 })
-                
+
             }
 
-            if(daftarSiswaNew.length == 0) {
+            if (daftarSiswaNew.length == 0) {
                 html = `
                     <div class="col">
                         <div class="alert alert-danger text-center" role="alert">
@@ -71,17 +71,17 @@ function tampilCard(kelas, keywords, classes) {
 
             // Ubah judul
             $('#judul').html(`Daftar Siswa`);
-            
+
             // Jalankan fungsi modal
             ubahModal(daftarSiswaNew);
         })
         return;
 
-    // Jika keywords berisi string kosong atau keywords tidak ada maka jalankan perintah berikut
-    } else if ( keywords == "" || !keywords ) {
+        // Jika keywords berisi string kosong atau keywords tidak ada maka jalankan perintah berikut
+    } else if (keywords == "" || !keywords) {
 
         // Ambil data JSON
-        $.getJSON('../js/siswa.json', function(data) {
+        $.getJSON('../js/siswa.json', function (data) {
 
             // Ambil data daftarSiswa dari JSON
             let daftarSiswa = data;
@@ -115,7 +115,7 @@ function tampilCard(kelas, keywords, classes) {
                 case "staff":
                     daftarSiswa = daftarSiswa.staff;
                     break;
-            
+
                 default:
                     daftarSiswa = daftarSiswa.guru;
                     break;
@@ -125,16 +125,20 @@ function tampilCard(kelas, keywords, classes) {
             let html = ``;
 
             // Mengurutkan daftarSiswa berdasarkan nama
-            daftarSiswa.sort(function(a, b){
+            daftarSiswa.sort(function (a, b) {
                 var x = a.nama.toLowerCase();
                 var y = b.nama.toLowerCase();
-                if (x < y) {return -1;}
-                if (x > y) {return 1;}
+                if (x < y) {
+                    return -1;
+                }
+                if (x > y) {
+                    return 1;
+                }
                 return 0;
             });
 
             // Looping daftarSiswa
-            $.each(daftarSiswa, function(i, data) {
+            $.each(daftarSiswa, function (i, data) {
 
                 // Tambahkan html card ke dalam variabel html
                 html += `
@@ -172,13 +176,13 @@ function ubahModal(daftarSiswa) {
     let j = 0;
 
     // Looping daftarSiswa
-    for ( let i = 0; i < daftarSiswa.length; ++i ) {
+    for (let i = 0; i < daftarSiswa.length; ++i) {
 
         // Ambil semua tombol detail
         const modalBtn = document.querySelectorAll('.modal-trigger');
 
         // Beri event click pada setiap tombol
-        modalBtn[j].addEventListener('click', function() {
+        modalBtn[j].addEventListener('click', function () {
 
             // Buat variabel html dengan isi html dari modal-body
             let html = `
@@ -217,8 +221,8 @@ function tampilBodySiswa(kelas) {
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active mr-3">
                             <a class="nav-link" href="../guru.html">Guru</a>
                         </li>
@@ -311,7 +315,7 @@ function tampilBodySiswa(kelas) {
     tampilCard(kelas);
 
     // Beri event input ke elemen dengan id keyword
-    $('#keyword').on('input', function() {
+    $('#keyword').on('input', function () {
 
         // Jalankan fungsi menampilkan card siswa dan mengirimkan nilai dari yang diketikkan di input
         tampilCard(kelas, $(this).val(), false);

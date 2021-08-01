@@ -1,5 +1,4 @@
-console.log(window.innerWidth);
-if ( window.innerWidth > 1000 ) {
+if (window.innerWidth > 1000) {
     $('nav').css('background-color', 'transparent');
     $('nav').removeClass('navbar-dark');
     $('nav').addClass('navbar-light');
@@ -9,8 +8,8 @@ if ( window.innerWidth > 1000 ) {
     $('nav').addClass('navbar-dark');
 }
 
-$(window).on('resize', function() {
-    if ( window.innerWidth > 1000 ) {
+$(window).on('resize', function () {
+    if (window.innerWidth > 1000) {
         $('nav').css('background-color', 'transparent');
         $('nav').removeClass('navbar-dark');
         $('nav').addClass('navbar-light');
@@ -21,15 +20,15 @@ $(window).on('resize', function() {
     }
 });
 
-$(window).on('scroll', function() {
+$(window).on('scroll', function () {
     if (window.innerWidth < 1000) {
         return false;
     }
-    if ( window.scrollY != 0 ) {
+    if (window.scrollY != 0) {
         $('nav').removeClass('navbar-light');
         $('nav').addClass('navbar-dark');
         $('nav').css('background-color', '#00796b');
-    } else if ( window.scrollY == 0 ) {
+    } else if (window.scrollY == 0) {
         $('nav').removeClass('navbar-dark');
         $('nav').css('background-color', 'transparent');
         $('nav').addClass('navbar-light');
