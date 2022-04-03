@@ -189,9 +189,6 @@ function ubahModal(daftarSiswa) {
                 <ul class="list-group mb-3">
                     <li class="list-group-item"><strong>Nama : </strong>${daftarSiswa[i].nama}</li>
                     <li class="list-group-item"><strong>Kelas : </strong>${daftarSiswa[i].kelas}</li>
-                    <li class="list-group-item"><strong>TTL : </strong>${daftarSiswa[i].ttl}</li>
-                    <li class="list-group-item"><strong>Alamat : </strong>${daftarSiswa[i].alamat}</li>
-                    <li class="list-group-item"><strong>No Telp : </strong>${daftarSiswa[i].noTelp}</li>
                 </ul>
                 <blockquote class="blockquote">
                     <p class="mb-0"><strong>Pesan Kesan : </strong><br>\`\` ${daftarSiswa[i].pesanKesan} \`\`</p>
